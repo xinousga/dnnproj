@@ -1,0 +1,71 @@
+<!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+<div id="content">
+
+
+
+  <!-- HEADER: Holds title, subtitle and header images -->
+  <div id="header">
+
+    <div id="title">
+      <h1>°®ÖÜÄ©</h1>
+      <h2>in the city</h2>
+    </div>
+
+    <img src="images/bg/balloons.gif" alt="balloons" class="balloons" />
+    <img src="images/bg/header_left.jpg" alt="left slice" class="left" />
+    <img src="images/bg/header_right.jpg" alt="right slice" class="right" />
+
+  </div>
+
+
+  
+  <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+  <div id="mainMenu"><div id="LoginLinks">[USER]&nbsp;&nbsp;[LOGIN]</div>
+[HOUSEMENU]
+  </div>
+
+
+
+
+  <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+  <div id="page">
+  
+    <!-- 100 percent width column, aligned to the right -->
+    <div class="width100 floatleft">
+        <div id="ContentPane" runat="server" visible="false"></div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- FOOTER: Site footer for links, copyright, etc. -->
+<div id="footer">
+
+  <div id="width">
+  <span class="floatLeft">
+    [COPYRIGHT]&nbsp;<span class="grey">|</span>&nbsp;[TERMS]&nbsp;<span class="grey">|</span>&nbsp;[PRIVACY]&nbsp;<span class="grey">|</span>&nbsp;
+      design <a href="http://fullahead.org" title="Goto Fullahead">Fullahead</a> <span class="grey">|</span>adapted to <a href="http://www.dnncreative.com">DotNetNuke</a> by DNN Creative Magazine
+    </span><br />
+   <span class="floatLeft">[LINKS]</span>
+    
+  </div>
+
+</div>
+<div id="ControlPanel" class="clear" runat="server"></div>
+ <% If DotNetNuke.Security.PortalSecurity.IsInRoles(PortalSettings.AdministratorRoleName) %><div id="AdminMenu">[HOUSEMENU:3]</div><% End If %>
+   
+<!--
+
+Free Skin available from: http://www.dnncreative.com 
+ Adapted to DotNetNuke by Lee Sykes from DNN Creative Magazine
+ Providing DotNetNuke Tutorials, Reviews, Videos, MP3 Interviews to 
+ help you get the most from DNN.
+ ____________________________________________________________
+|                                                            |
+|    DESIGN + Pat Heard { http://fullahead.org }             |
+| COPYRIGHT + Free use if this notice is left in place       |
+|____________________________________________________________|
+
+-->

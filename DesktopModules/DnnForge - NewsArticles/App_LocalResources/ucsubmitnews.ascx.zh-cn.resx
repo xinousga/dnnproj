@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DetailsTab.Text">
+    <value>详细内容</value>
+  </data>
+  <data name="AppearanceTab.Text">
+    <value>外观(不能修改)</value>
+  </data>
+  <data name="LinkToTab.Text">
+    <value>链接到</value>
+  </data>
+  <data name="ArticleSummary.Text">
+    <value>文章摘要</value>
+  </data>
+  <data name="ArticleSummary.Description">
+    <value>输入文章的详细内容，包括标题（必需），类别（如果可选）和摘要文字（必需）。&lt;br&gt;一旦完成，你可以点击表单上面的按钮来保存。</value>
+  </data>
+  <data name="valTitle.ErrorMessage">
+    <value>摘要 -&gt; 标题是必需的</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>高级设置</value>
+  </data>
+  <data name="ArticleDetails.Text">
+    <value>文章详细内容</value>
+  </data>
+  <data name="ArticleDetails.Description">
+    <value>输入文章的主体（可选）&lt;br&gt;一旦完成，你可以点击表单上面的按钮来保存。</value>
+  </data>
+  <data name="Details.Text">
+    <value>详细内容</value>
+  </data>
+  <data name="DetailsHelp.Text">
+    <value>在这里输入文章的详细内容</value>
+  </data>
+  <data name="ArticleAppearance.Text">
+    <value>文章外观(不能修改)</value>
+  </data>
+  <data name="ArticleAppearance.Description">
+    <value>标记的你文章或者加上一个图像。&lt;br&gt;一旦完成，你可以点击表单上面的按钮来保存。</value>
+  </data>
+  <data name="ArticleLink.Text">
+    <value>文章链接</value>
+  </data>
+  <data name="ArticleLink.Description">
+    <value>随意地链接你的文章到其它资源&lt;br&gt;一旦完成，你可以点击表单上面的按钮来保存。</value>
+  </data>
+  <data name="ArticlePublishing.Text">
+    <value>文章发布</value>
+  </data>
+  <data name="ArticlePublishing.Description">
+    <value>随意地为你的文章指定一个发布/过期时间&lt;br&gt;一旦完成，你可以点击表单上面的按钮来保存。</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>发布日期和时间：</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>输入文章显示的开始时间。你可以用日期控件来选择一个时间。</value>
+  </data>
+  <data name="valStartDate.ErrorMessage">
+    <value>发布 -&gt; 无效的发布时间</value>
+  </data>
+  <data name="plEndDate.Text">
+    <value>期满日期和时间：</value>
+  </data>
+  <data name="plEndDate.Help">
+    <value>输入文章显示的结束时间。你可以用日期控件来选择一个时间。</value>
+  </data>
+  <data name="valEndDate.ErrorMessage">
+    <value>发布 -&gt; 无效的发布时间</value>
+  </data>
+  <data name="Delete.Text">
+    <value>你确定删除这个条目？</value>
+  </data>
+  <data name="PublishArticle.Text">
+    <value>发布</value>
+  </data>
+  <data name="ApproveArticle.Text">
+    <value>审批通过文章</value>
+  </data>
+  <data name="DeleteArticle.Text">
+    <value>删除文章</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>提交文章</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;文章管理&lt;/h1&gt;&lt;p&gt;用户可以在这里提交文章或者编辑文章。用户可以添加一个新文章，修改已有文章，删除一个文章，添加页面或者提交文章等待审批。&lt;/p&gt;</value>
+  </data>
+  <data name="Action.Text">
+    <value>行动</value>
+  </data>
+  <data name="ActionHelp.Text">
+    <value>在本节中，您可以执行的行动有关的内容。</value>
+  </data>
+  <data name="Attachment.Text">
+    <value>附件</value>
+  </data>
+  <data name="AwaitingApproval.Text">
+    <value>等待批准</value>
+  </data>
+  <data name="CategoriesHelp.Help">
+    <value>在这里选择文章的类别。</value>
+  </data>
+  <data name="cmdAddEditPages.Text">
+    <value>添加/编辑网页</value>
+  </data>
+  <data name="cmdPublish.Text">
+    <value>发布</value>
+  </data>
+  <data name="cmdSelectAuthor.Text">
+    <value>(改变作者)</value>
+  </data>
+  <data name="Create.Text">
+    <value>创建</value>
+  </data>
+  <data name="CreateHelp.Text">
+    <value>在本节中，您可以指定您的内容。</value>
+  </data>
+  <data name="Draft.Text">
+    <value>草稿</value>
+  </data>
+  <data name="Excerpt.Text">
+    <value>摘录</value>
+  </data>
+  <data name="NoAuthor.Text">
+    <value>没有作者</value>
+  </data>
+  <data name="Organize.Text">
+    <value>组织</value>
+  </data>
+  <data name="OrganizeHelp.Text">
+    <value>在本节中，您可以组织您的内容。</value>
+  </data>
+  <data name="plAuthor.Help">
+    <value>选择文章的作者。</value>
+  </data>
+  <data name="plAuthor.Text">
+    <value>作者:</value>
+  </data>
+  <data name="plBody.Help">
+    <value>输入您文章的正文。 </value>
+  </data>
+  <data name="plBody.Text">
+    <value>正文:</value>
+  </data>
+  <data name="plCategories.Text">
+    <value>类别:</value>
+  </data>
+  <data name="plFeatured.Help">
+    <value>选择标记的内容，以突出它。</value>
+  </data>
+  <data name="plFeatured.Text">
+    <value>推荐:</value>
+  </data>
+  <data name="plImage.Help">
+    <value>您可以选择一个与此文章相关的图像。</value>
+  </data>
+  <data name="plImage.Text">
+    <value>图像:</value>
+  </data>
+  <data name="plLink.Help">
+    <value>以一个网址/网页/文件链接文章。</value>
+  </data>
+  <data name="plLink.Text">
+    <value>链接:</value>
+  </data>
+  <data name="plNewWindow.Help">
+    <value>检查弹出的链接在一个新的窗口。</value>
+  </data>
+  <data name="plNewWindow.Text">
+    <value>新的窗口?</value>
+  </data>
+  <data name="plSecure.Help">
+    <value>如果文章是有保证的，完整的文章（除简易程序）在网站的选择中将只适用于角色设定。</value>
+  </data>
+  <data name="plSecure.Text">
+    <value>安全:</value>
+  </data>
+  <data name="plStatus.Help">
+    <value>选择内容的地位。</value>
+  </data>
+  <data name="plStatus.Text">
+    <value>状态:</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>在这里为文章输入一个标题。</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>标题:</value>
+  </data>
+  <data name="Publish.Text">
+    <value>发布</value>
+  </data>
+  <data name="Published.Text">
+    <value>发布</value>
+  </data>
+  <data name="PublishHelp.Text">
+    <value>在本节中，您可以控制如何和何时发布您的内容。</value>
+  </data>
+  <data name="valBody.ErrorMessage">
+    <value>正文是必需的</value>
+  </data>
+  <data name="valStartDateRequired.ErrorMessage">
+    <value>发布的日期和时间是必需的</value>
+  </data>
+</root>

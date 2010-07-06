@@ -1,0 +1,6 @@
+C:\DotNetNuke_Community_05.01.01_Install\bin\topcmm_123flashchat.dll
+C:\DotNetNuke_Community_05.01.01_Install\bin\topcmm_123flashchat.pdb
+C:\DotNetNuke_Community_05.01.01_Install\DesktopModules\topcmm_123flashchat\obj\Debug\ResolveAssemblyReference.cache
+C:\DotNetNuke_Community_05.01.01_Install\DesktopModules\topcmm_123flashchat\obj\Debug\topcmm_123flashchat.dll
+C:\DotNetNuke_Community_05.01.01_Install\DesktopModules\topcmm_123flashchat\obj\Debug\topcmm_123flashchat.pdb
+C:\DotNetNuke_Community_05.01.01_Install\bin\topcmm_123flashchat.xml

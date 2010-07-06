@@ -1,0 +1,723 @@
+/**************************************************************
+   AUTHOR:  Pat Heard (fullahead.org)
+   ADAPTED TO DOTNETNUKE: Lee Sykes (www.dnncreative.com)
+   PURPOSE: Styles the html elements
+
+ **************************************************************/
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  font: 400 0.8em verdana, arial, sans-serif;
+  line-height: 170%;
+
+  background: #666 url(images/bg/header.jpg) repeat-x top left;
+  color: #EEE;
+}
+
+/***** DNN Styles to override *****/
+/* text style used for most text rendered by modules */
+.ControlPanel
+{
+    line-height: 100%;
+    width: 720px;
+    margin:10px auto;
+    padding-bottom: 10px;
+    background-color: #067;
+    border: 1px solid #ccc;
+}
+
+.Normal, .NormalDisabled, .NormalBold, .NormalRed, h1, h2, h3, h4, h5, h6, .Head, blockquote
+{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    color:#EEE;
+}
+.NormalDisabled
+{
+    color: Silver;
+}
+.NormalBold
+{
+    font-weight: bold
+}
+.NormalRed
+{
+    font-weight: bold;
+    color: #f00;
+}
+h1, h2, h3, h4, h5, h6, .Head
+{
+    font-weight: 700;
+    font-family: "trebuchet ms", serif;
+    color: #FFF;
+}
+
+/* style admin bold text */
+.SubHead {
+    color: #8BE6FA;
+}
+
+/* admin links */
+A.CommandButton:link, A.CommandButton:visited
+{
+	color: #8BE6FA;
+}
+
+A.CommandButton:hover
+{
+	color: #fff;
+}
+
+A.CommandButton:active
+{
+    color: #8BE6FA
+}
+
+/* for dnn administration */
+.FileManager_Explorer, .FileManager_Item, .FileManager_AltItem {
+    background-color: #777;
+}
+.FileManagerTreeNodeSelected {
+    background-color: #339;
+}
+
+.DataGrid_Item {
+    background-color: #bbb;
+}
+/************************/
+
+h1 {   
+  clear: both;
+  font: 700 2.5em "trebuchet ms", serif;
+}
+
+h2 {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #9FF3FF;
+}
+
+h2 a:link {
+  color: #29E3FF;
+}
+
+h2 a:hover {
+  color: #FFF;
+}
+
+h3 {
+  font: 400 1.3em "trebuchet ms", serif;
+  color: #F8D766;
+}
+
+h4 {
+  font: 700 1.2em "trebuchet ms", serif;
+  color: #F39F01;
+}
+
+h5 {
+  font: 700 1.1em "trebuchet ms", serif;
+  color: #F17400;
+}
+
+h6 {
+  font: 700 1em "trebuchet ms", serif;
+  color: #FF4B33;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, dl {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+/* Done so the leftmost column aligns properly with the header.
+   If the leftmost column has class gradient applied to it, 
+   this class isn't required. */
+.leftColumn h1,
+.leftColumn h2, 
+.leftColumn h3,
+.leftColumn h4,
+.leftColumn h5,
+.leftColumn h6,
+.leftColumn p,
+.leftColumn dl {
+  padding-left: 0;
+}
+
+a:link {
+  color: #8BE6FA;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #8BE6FA;
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+b {
+  color: #FFF;
+}
+
+ol, ul {
+  margin: 10px 30px;
+  padding: 0 30px;
+}
+
+ol {
+  color: #FC0;
+}
+
+ol span {
+  color: #EEE;
+}
+
+ul {
+  list-style-image: url(images/bg/bullet.gif);
+}
+
+del {
+  color: #AAA;
+}
+
+code {
+  margin: 10px 15px;
+  padding: 10px;
+  display: block;
+  overflow: auto;
+  
+  font: 400 1em courier, monospace;
+  line-height: 120%;
+  white-space: pre;
+  
+  background: #444;
+}
+
+.leftColumn code {
+  margin-left: 0;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+
+dt {
+  font-weight: bold;
+  color: #FFB323;
+}
+
+dd {
+  margin-left: 0;
+  padding-left: 45px; 
+}
+
+.transform 
+{
+    text-transform: capitalize;
+}
+
+
+/**************************************************************
+   Blockquote and included icons
+ **************************************************************/
+
+blockquote {
+  margin: 10px 15px;
+  padding-left: 27px;
+  
+  background-color: #444;  
+  background-image: url(images/icons/quote.gif);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;  
+}
+
+blockquote.exclamation {
+  background-image: url(images/icons/exclamation.gif);
+}
+
+blockquote.stop {
+  background-image: url(images/icons/stop.gif);
+}
+
+blockquote.go {
+  background-image: url(images/icons/go.gif);
+}
+
+
+/**************************************************************
+   Images
+ **************************************************************/
+
+img.floatRight {
+  margin: 5px 0px 10px 15px;  
+}
+
+img.floatLeft {
+  margin: 5px 15px 10px 0px;
+}
+
+/* adjusted for Normal calss in DNN */
+.Normal a img {  
+  border: 2px solid #8BE6FA;
+}
+
+.Normal a:hover img {  
+  /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */
+  border: 2px solid #FFF !important;
+  border: 2px solid #8BE6FA;
+}
+
+
+/**************************************************************
+   AUTHOR:  Pat Heard (fullahead.org)
+   ADAPTED TO DOTNETNUKE: Lee Sykes (www.dnncreative.com)
+   PURPOSE: Controls the layout of the site and styles
+            the menus
+ **************************************************************/
+
+
+
+/**************************************************************
+   #content: Sets the width of the site.  Make changes here
+             to convert to a fixed width site.
+ **************************************************************/
+
+#content {  
+  height: 100%;
+  min-height: 100%;
+
+  text-align: left;
+}
+
+#content,
+#width {
+  /* max-width hack for IE since it doesn't understand the valid css property */
+  width: expression(document.body.clientWidth > 1000 ? "1000px" : "94%");  
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#content[id],
+#width[id] {
+  width: 94%;
+  height: auto;
+}
+
+
+
+
+/**************************************************************
+   #header: Holds the site title and header images
+ **************************************************************/
+
+#header {
+  position: relative;
+  height: 193px;
+  background: url(images/bg/header.jpg) repeat-x top left;
+}
+
+/* Holds the site title and subtitle */
+#header #title {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  left: 130px;
+
+  padding: 5px;
+  text-align: right;
+}
+
+#header h1 {
+  margin: 0;
+  padding: 0;
+
+  font: 700 4em "trebuchet ms", serif;
+  letter-spacing: -3px;
+  text-transform: lowercase;
+  color: #FFF;
+}
+
+#header h2 {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+
+  margin: 0;
+  padding: 0;
+
+  font: 700 1em "trebuchet ms", serif;
+  text-transform: lowercase;
+  color: #00F0EC;
+}
+
+
+/* Sets where the header images will go */
+#header img.left {
+  position: absolute;
+  z-index: 1;
+
+  top: 0;
+  left: 0;
+}
+
+#header img.right {
+  position: absolute;
+  z-index: 0;
+
+  top: 0;
+  right: 0;
+}
+
+#header img.balloons {
+  position: absolute;
+  z-index: 2;
+
+  top: 70px;
+  right: 400px;
+}
+
+#LoginLinks 
+{
+    float: left;
+    padding: 5px 0 0 5px;
+}
+
+/**************************************************************
+   #mainMenu: The top level site menu
+ **************************************************************/
+
+#mainMenu { 
+  float: left;
+  width: 100%;
+  clear: both; 
+  height: 3.2em; /* added to prevent content panes moving when hovering over menu, especially for submenu pages */
+}
+
+#mainMenu ul {
+  margin: 0;
+  padding: 0;
+  float: right; /* displays menu on rhs */
+}
+
+#mainMenu li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mainMenu li a {
+  float: left;
+  margin: 0 2px;
+  padding: 5px 0.5em;
+  font: 400 1.6em "trebuchet ms", serif;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+#HouseMenuNav a 
+{
+    color: #fff;
+}
+
+#mainMenu li a:hover, #HouseMenuNavCurrentItem a
+{
+  color: #65EBFF;
+  border-top: 5px solid #000;
+}
+
+#mainMenu li a.last {
+  margin-right: 0;
+}
+
+
+
+
+/**************************************************************
+   .sideMenu: The side bar menu
+ **************************************************************/
+
+
+#HouseMenuNav2 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: #555;
+  text-transform: capitalize;
+}
+
+#HouseMenuNav2 li {
+  display: inline;
+}
+
+#HouseMenuNav2 li a {
+  display: block;
+  margin: 0.2em 0;
+  text-decoration: none;
+  color: #FFF;
+  background: #555;
+  padding-left: 35px;
+  background: url(images/bg/bullet.gif) no-repeat 10px 0px;
+} 
+
+#HouseMenuNav2 li a:hover {  
+  color: #9FF3FF;
+  background: #5F5F5F url(images/bg/bullet.gif) no-repeat 10px 0px;
+}
+
+/* Submenu of active menu item */
+#HouseMenuNav2 li ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+/* admin menu */
+/* DNN admin menu */
+#AdminMenu {
+    position: absolute;
+    top: 50px;
+    right: -110px;
+    padding: 5px 0 5px 5px;
+    margin: 0;
+    background-color: #fff;
+    text-align: left;
+}
+#HouseMenuNav3 {
+  margin: 0;
+  padding: 5px 2px 2px 15px;
+  background: #777;
+}
+#HouseMenuNav3 li {
+ list-style-image: none;
+ list-style: none; 
+} 
+#HouseMenuNav3 li a {
+  text-decoration: none;
+} 
+#HouseMenuNav3 ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style-image: none;
+}
+
+
+/**************************************************************
+   #page: Holds the main page content.
+ **************************************************************/
+
+#page {
+  float: left;
+  width: 100%;
+  clear: both;
+  
+  padding-bottom: 4em;
+}
+
+
+
+
+/**************************************************************
+   #footer: The page footer - will stick to the bottom if not
+            enough content.
+ **************************************************************/
+
+#footer {
+  float: left;
+  width: 100%;
+  clear: both;
+  
+  margin-top: -3.8em;
+  background: #000 url(images/bg/footer.jpg) repeat-x top left;
+}
+
+/* Sets the width of the footer content */
+#footer #width {
+  position: relative;
+  z-index: 3;
+  font-size: 0.85em;
+  padding-top: 27px;
+}
+
+
+
+/**************************************************************
+   Width classes used by the site columns
+ **************************************************************/
+
+.width100 {
+  width: 100%;
+}
+
+.width75 {
+  width: 74%;
+}
+
+.width50 {
+  width: 49.7%;
+}
+
+.width33 {
+  width: 32.7%;
+}
+
+.width25 {
+  width: 24.7%;
+}
+
+
+
+/**************************************************************
+   Alignment classes
+ **************************************************************/
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+
+
+/**************************************************************
+   Generic display classes
+ **************************************************************/
+
+.clear {
+  clear: both;
+}
+
+.block {
+  display: block;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.green {
+  color: #A1FF45;
+}
+
+.red {
+  color: #EA1B00;
+}
+
+.grey {
+  color: #666;
+}
+
+.grey a {
+  color: #999;
+}
+
+.grey a:hover {
+  color: #EEE;
+}
+
+.gradient {
+  margin-bottom: 2em;
+  background: #555 url(images/bg/gradient.jpg) repeat-x bottom left; 
+}
+
+
+
+
+
+
+/* print media section */
+
+@media print
+{
+   
+/* 
+================================
+Print styles for DotNetNuke
+================================
+*/
+
+body {
+  font: 400 12pt verdana, arial, sans-serif;
+  color: #000;
+  background: #FFF;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 18pt;
+  border-bottom: 1px solid #999;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+h4, h5, h6 {
+  font-size: 12pt;
+}
+
+acronym {
+  border: 0;
+}
+
+a {
+  color: #00F;
+}
+
+/* Prints the URL after a link in CSS2 supporting browsers */
+a:link:after, 
+a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}
+
+
+/* Don't display these elements since they're not useful on paper .leftColumn,
+ */
+#header,
+#mainMenu,
+#HouseMenuNav2,
+#footer {
+  display: none;
+}
+
+#Content   {
+  margin: 0 8%;
+  padding: 0;
+}
+
+/* stack the columns on top of each other 100% width for printing */
+#Content, .width75, .width50, .width33, .width25   {
+  width: auto;
+}
+
+
+/* close @media print */
+}

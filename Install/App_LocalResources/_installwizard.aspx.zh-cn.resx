@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminUser.Text" xml:space="preserve">
+    <value>网站管理员</value>
+  </data>
+  <data name="AdminUserError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;管理员用户错误:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Auto.Text" xml:space="preserve">
+    <value>&lt;b&gt;Auto&lt;/b&gt; - "自动安装方式" 不使用安装向导，使用传统方式自动安装.</value>
+  </data>
+  <data name="ChooseDatabase.Text" xml:space="preserve">
+    <value>选择数据库:</value>
+  </data>
+  <data name="ChooseDbError.Text" xml:space="preserve">
+    <value>必须选择数据库类型</value>
+  </data>
+  <data name="ChooseInstall.Text" xml:space="preserve">
+    <value>&lt;h3&gt;选择安装方法:&lt;/h3&gt;</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>&lt;h3&gt;选择语言:&lt;/h3&gt;</value>
+  </data>
+  <data name="Complete.Text" xml:space="preserve">
+    <value>数据库安装成功</value>
+  </data>
+  <data name="CompleteDetail.Text" xml:space="preserve">
+    <value>&lt;p&gt;恭喜，DotNetNuke安装成功.&lt;/p&gt;</value>
+  </data>
+  <data name="CompleteTitle.Text" xml:space="preserve">
+    <value>祝贺</value>
+  </data>
+  <data name="Confirm.Text" xml:space="preserve">
+    <value>重复输入密码:</value>
+  </data>
+  <data name="ConfirmPassword.Text" xml:space="preserve">
+    <value>密码不一致.</value>
+  </data>
+  <data name="ConnectError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;连接错误:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="ConnectSuccess.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='green'&gt;连接成功&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="Containers.Text" xml:space="preserve">
+    <value>容器</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>数据库:</value>
+  </data>
+  <data name="DatabaseFile.Text" xml:space="preserve">
+    <value>文件名:</value>
+  </data>
+  <data name="DatabaseFileHelp.Text" xml:space="preserve">
+    <value>输入数据库文件名 (在App_Data文件夹中)</value>
+  </data>
+  <data name="DatabaseHelp.Text" xml:space="preserve">
+    <value>输入数据库名</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>Email地址:</value>
+  </data>
+  <data name="Failure.Text" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="FileCreate.Text" xml:space="preserve">
+    <value>创建文件</value>
+  </data>
+  <data name="FileDelete.Text" xml:space="preserve">
+    <value>删除文件</value>
+  </data>
+  <data name="Finished.Text" xml:space="preserve">
+    <value>完成（访问网站）</value>
+  </data>
+  <data name="FirstName.Text" xml:space="preserve">
+    <value>姓氏:</value>
+  </data>
+  <data name="FolderCreate.Text" xml:space="preserve">
+    <value>创建文件夹</value>
+  </data>
+  <data name="FolderDelete.Text" xml:space="preserve">
+    <value>删除文件夹</value>
+  </data>
+  <data name="Full.Text" xml:space="preserve">
+    <value>&lt;b&gt;Custom&lt;/b&gt; - 选择自定义安装方式，可以完全控制DNN的安装.</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="HostUserError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;主机用户错误:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Install.Error" xml:space="preserve">
+    <value>安装数据库时发生错误.</value>
+  </data>
+  <data name="Install.Text" xml:space="preserve">
+    <value>安装数据库脚本</value>
+  </data>
+  <data name="InstallComplete.Text" xml:space="preserve">
+    <value>完成数据库脚本安装</value>
+  </data>
+  <data name="InstallDatabase.Text" xml:space="preserve">
+    <value>正在安装数据库，版本- {0}</value>
+  </data>
+  <data name="Installed.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke安装完毕.&lt;/p&gt;</value>
+  </data>
+  <data name="Installing.Text" xml:space="preserve">
+    <value>正在安装数据库脚本 ...   </value>
+  </data>
+  <data name="InstallModuleError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;安装模块出错:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallPortalError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;安装网站出错:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallScript.Text" xml:space="preserve">
+    <value>升级数据库到 {0}</value>
+  </data>
+  <data name="Integrated.Text" xml:space="preserve">
+    <value>集成验证:</value>
+  </data>
+  <data name="IntegratedHelp.Text" xml:space="preserve">
+    <value>如果使用SQL Server的集成验证方式，请选中此项。SQL Server的集成验证方式,将使用Windows系统帐户访问数据库。如果你使用的是SQL Server Express，通常选择集成验证方式. 如果采用SQL Server验证方式，请提供用户名和密码，同时不用选中此项.</value>
+  </data>
+  <data name="InValidEmail.Text" xml:space="preserve">
+    <value>email地址无效.</value>
+  </data>
+  <data name="Languages.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LastName.Text" xml:space="preserve">
+    <value>名:</value>
+  </data>
+  <data name="MachineKey.Error" xml:space="preserve">
+    <value>Machine Key更新异常</value>
+  </data>
+  <data name="MinUserNamelength.Text" xml:space="preserve">
+    <value>用户名不能少于4个字符</value>
+  </data>
+  <data name="Modules.Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="NoContainers.Text" xml:space="preserve">
+    <value>没有可选的容器安装</value>
+  </data>
+  <data name="NoLanguages.Text" xml:space="preserve">
+    <value>没有可选的语言包安装.</value>
+  </data>
+  <data name="NoModules.Text" xml:space="preserve">
+    <value>没有可选的模块安装</value>
+  </data>
+  <data name="NoPassword.Text" xml:space="preserve">
+    <value>请提供该账号的密码</value>
+  </data>
+  <data name="NoSkins.Text" xml:space="preserve">
+    <value>没有可选的皮肤安装</value>
+  </data>
+  <data name="Oracle.Text" xml:space="preserve">
+    <value>Oracle数据库</value>
+  </data>
+  <data name="Owner.Text" xml:space="preserve">
+    <value>使用db Owner:</value>
+  </data>
+  <data name="OwnerHelp.Text" xml:space="preserve">
+    <value>如果你正使用的数据库帐户为dbo,请选中此项 - 如果没有选中，将使用指定的用户ID</value>
+  </data>
+  <data name="Page0.Title" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="Page1.Title" xml:space="preserve">
+    <value>文件权限</value>
+  </data>
+  <data name="PermissionsDetail.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke 在多处使用文件上传功能，例如内容、模块、皮肤等。这些功能需要修改文件权限设置以便DotNetNuke可以在站点中创建或删除文件。&lt;/p&gt;
+&lt;p&gt;当前页面检查目前的文件权限设置确保这些功能可以正常工作。&lt;/p&gt;</value>
+  </data>
+  <data name="Page2.Title" xml:space="preserve">
+    <value>数据库配置</value>
+  </data>
+  <data name="Page3.Title" xml:space="preserve">
+    <value>安装数据库</value>
+  </data>
+  <data name="Page4.Title" xml:space="preserve">
+    <value>主机帐户</value>
+  </data>
+  <data name="Page5.Title" xml:space="preserve">
+    <value>安装模块</value>
+  </data>
+  <data name="Page6.Title" xml:space="preserve">
+    <value>安装网站</value>
+  </data>
+  <data name="Page7.Title" xml:space="preserve">
+    <value>安装皮肤</value>
+  </data>
+  <data name="Page8.Title" xml:space="preserve">
+    <value>安装语言包</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="PasswordHelp.Text" xml:space="preserve">
+    <value>请输入数据库密码</value>
+  </data>
+  <data name="PasswordLength.Text" xml:space="preserve">
+    <value>数据库密码至少需要 {0} 个字符.</value>
+  </data>
+  <data name="PasswordUser.Text" xml:space="preserve">
+    <value>密码不能与用户名相同.</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>文件权限概述:</value>
+  </data>
+  <data name="PermissionsError.Text" xml:space="preserve">
+    <value>&lt;img alt="图片显示站点根目录必须设置ASPNET 或者 NT AUTHORITY/NETWORK SERVICE 账户拥有 读取、写入、修改权限。" src="..\403-3.gif" align="right" hspace="10"&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;您的站点访问权限检查出错。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+打开资源管理器，浏览站点根目录(默认为 C:\DotNetNuke )，右键单击文件夹并在弹出菜单选择共享和安全（主意：如果您使用的是 Windows XP，您需要 &lt;a href="http://whoozoo.co.uk/winxpFilePerms.htm" target="_blank"&gt; 启用简单文件共享 &lt;/a&gt; 才能显示此项)。选择安全选项卡，添加正确的用户并设置权限。 &lt;br/&gt;&lt;br/&gt;
+&lt;h3&gt;如果使用 Windows 2000 - IIS5&lt;/h3&gt;
+&lt;p&gt; {Server}\ASPNET 用户必须拥有站点虚目录 读取、写入和修改权限。&lt;/p&gt;
+&lt;h3&gt;如果使用 Windows 2003 - IIS6&lt;/h3&gt;
+&lt;p&gt; NT AUTHORITY\NETWORK SERVICE 用户必须有站点虚目录 读取、写入和修改权限。&lt;/p&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="PermissionsOk.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='green'&gt;网站通过权限检测.&lt;/font?&lt;/b&gt;</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>网站属性</value>
+  </data>
+  <data name="PortalTemplate.Text" xml:space="preserve">
+    <value>模版:</value>
+  </data>
+  <data name="PortalTitle.Text" xml:space="preserve">
+    <value>网站标题:</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="Qualifier.Text" xml:space="preserve">
+    <value>数据库前缀:</value>
+  </data>
+  <data name="QualifierHelp.Text" xml:space="preserve">
+   <value>输入一个数据库对象的前缀 - 避免出现数据库对象名称相同。</value>
+  </data>
+  <data name="ScriptError.Text" xml:space="preserve">
+    <value>查看 {0} 的更多信息</value>
+  </data>
+  <data name="Server.Text" xml:space="preserve">
+    <value>服务器:</value>
+  </data>
+  <data name="ServerHelp.Text" xml:space="preserve">
+    <value>输入数据库服务器名称或IP地址.  (如果使用Oracle数据库，输入SID)
+</value>
+  </data>
+  <data name="Skins.Text" xml:space="preserve">
+    <value>皮肤</value>
+  </data>
+  <data name="SQLServer.Text" xml:space="preserve">
+    <value>SQL Server 2000/2005数据库</value>
+  </data>
+  <data name="SQLServerXPress.Text" xml:space="preserve">
+    <value>SQL Server 2005 Express 文件</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="TestDB.Text" xml:space="preserve">
+    <value>测试数据库连接</value>
+  </data>
+  <data name="TestPerm.Text" xml:space="preserve">
+    <value>测试权限</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>DotNetNuke安装向导</value>
+  </data>
+  <data name="Typical.Text" xml:space="preserve">
+    <value>&lt;b&gt;Typical&lt;/b&gt;  - 典型安装方式为你提供通用的选择.</value>
+  </data>
+  <data name="Upgrade.Text" xml:space="preserve">
+    <value>&lt;p&gt; 安装版本为 {0} 的DotNetNuke应用程序成功。点击下一步更新到最新版本.&lt;/p&gt;</value>
+  </data>
+  <data name="UpgradeTitle.Text" xml:space="preserve">
+    <value>DotNetNuke升级向导 - 版本 {0}</value>
+  </data>
+  <data name="UserHelp.Text" xml:space="preserve">
+    <value>输入数据库用户ID</value>
+  </data>
+  <data name="UserId.Text" xml:space="preserve">
+    <value>用户ID:</value>
+  </data>
+  <data name="UserName.Text" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="WhatsNext.Text" xml:space="preserve">
+    <value>下一步呢</value>
+  </data>
+  <data name="DatabaseConfigDetail.Text">
+    <value>&lt;p&gt;此页面设置DotNetNuke使用的数据库配置。如果您是虚拟主机用户，主机提供商应已经给您提供了相应信息。&lt;/p&gt;
+&lt;p&gt;
+在 SQL Server 2005 中有两种方式.  SQLServer 2005 支持使用数据库文件。多数情况下您应该选择数据库项，但是如果您使用的是SQL Server 2005 Express，您就应该选择数据库文件项。
+&lt;/p&gt;</value>
+  </data>
+  <data name="DatabaseConfigTitle.Text">
+    <value>配置数据库连接</value>
+  </data>
+  <data name="DatabaseInstallDetail.Text">
+    <value>&lt;p&gt;本页面加载时数据库安装脚本应该已经启动。下一步按钮在数据库脚本安装结束前不可用。（大厨师：此页面请注意数据库安装以及最后升级到的数据库版本号是否和正在安装的DotNetNuke版本一致，如果不一致请刷新此页面）。p&gt;</value>
+  </data>
+  <data name="DatabaseInstallTitle.Text">
+    <value>运行数据库安装脚本</value>
+  </data>
+  <data name="HostUserDetail.Text">
+    <value>&lt;p&gt;
+当前页设置主机帐户的基本信息，主机帐户有权利管理当前数据库实例中建立的所有网站，请设置高安全度的用户名和密码，以防止黑客攻击,密码破解.&lt;/p&gt;</value>
+  </data>
+  <data name="HostUserTitle.Text">
+    <value>配置超级用户</value>
+  </data>
+  <data name="IntroDetail.Text">
+    <value>&lt;p&gt;欢迎使用 DotNetNuke 安装向导。 此安装向导将带您完成整个DotNetNuke程序。
+&lt;/p&gt;
+&lt;p&gt;您可以是使用上一步、下一步按钮在安装过程中前进后退。 在某些页面您还将看到第三种按钮 “测试..” ，测试按钮可在您进行下一步之间对您的配置进行检测，检查修改的设置是否生效。
+&lt;/p&gt;
+&lt;p&gt;第一步，选择安装方式和安装语言。
+&lt;/p&gt;
+
+</value>
+  </data>
+  <data name="IntroTitle.Text">
+    <value>DotNetNuke 安装向导 - 版本 {0}</value>
+  </data>
+  <data name="LanguagesDetail.Text">
+    <value>&lt;p&gt; DotNetNuke 支持完全本地化定制。在此页您可以选择安装所需语言。&lt;/p&gt;
+&lt;p&gt;安装完的语言包可以供你选择使用，但不直接做为默认语言.&lt;/p&gt;</value>
+  </data>
+  <data name="LanguagesTitle.Text">
+    <value>安装语言包</value>
+  </data>
+  <data name="ModulesDetail.Text">
+    <value>&lt;p&gt;DotNetNuke提供强大的扩展能力.可以在该系统中安装模块.
+&lt;/p&gt;
+&lt;p&gt;
+在该页面可以指定选择安装的模块.安装完后的模块可以添加到页面中.&lt;/p&gt;</value>
+  </data>
+  <data name="ModulesTitle.Text">
+    <value>安装可选模块</value>
+  </data>
+  <data name="NoPackages.Text">
+    <value>没有可选的身份验证系统需要安装。</value>
+  </data>
+  <data name="Page9.Title">
+    <value>安装站点</value>
+  </data>
+  <data name="PermissionsTitle.Text">
+    <value>检查文件访问权限</value>
+  </data>
+  <data name="PortalDetail.Text">
+    <value>&lt;p&gt;此页面您可以配置主机默认站点 (初始站点).&lt;/p&gt;
+&lt;p&gt;
+您需要输入网站管理员的用户名和密码。该用户拥有访问此站点的全部权限，向超级用户一样请自习选择一组安全的帐号、密码组合。&lt;/p&gt;</value>
+  </data>
+  <data name="SkinsDetail.Text">
+    <value>&lt;p&gt;DotNetNuke 有丰富的皮肤功能。本页您可以选择可选的皮服和容器安装 &lt;/p&gt;
+&lt;p&gt;
+安装一个皮肤和容器默认并不使用它们，但它们以后可以被使用。&lt;/p&gt;</value>
+  </data>
+  <data name="SkinsTitle.Text">
+    <value>安装可选的皮肤和容器</value>
+  </data>
+  <data name="AuthSystems.Text">
+    <value>Authentication Systems</value>
+  </data>
+  <data name="AuthSystemsDetail.Text">
+    <value>&lt;p&gt;DotNetNuke supports multiple authentication systems.  On this page you can choose the systems you wish to install.&lt;/p&gt;
+&lt;p&gt;Installing an Authentication System does not automatically enable it for each portal, but it makes the system available to a Portal Adminstrator.&lt;/p&gt;</value>
+  </data>
+  <data name="AuthSystemsTitle.Text">
+    <value>Install Authentication Systems</value>
+  </data>
+  <data name="EmailErrorMessage.Text">
+    <value>There has been an error trying to send the test email. The error is:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="EmailSentMessage.Text">
+    <value>Email Sent Successfully</value>
+  </data>
+  <data name="EmailTestMessageSubject.Text">
+    <value>SMTP Configuration Test</value>
+  </data>
+  <data name="EnableUpdate.Text">
+    <value>Do you want the software to display a visual indicator to notify you when updates are available?</value>
+  </data>
+  <data name="InstallAuthSystemError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Error Installing Authentication System(s):&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallContainerError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Error installing Container:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallLanguageError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Error Installing Language(s):&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallProviderError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Error Installing Provider:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallSkinError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Error installing Skin:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="No.Text">
+    <value>No</value>
+  </data>
+  <data name="Page10.Title">
+    <value>Install Portal</value>
+  </data>
+  <data name="Providers.Text">
+    <value>Providers</value>
+  </data>
+  <data name="ProvidersDetail.Text">
+    <value>&lt;p&gt;DotNetNuke users a provider model for extensions.  On this page you can choose the Providers to install.&lt;/p&gt;
+</value>
+  </data>
+  <data name="ProvidersTitle.Text">
+    <value>Install Providers</value>
+  </data>
+  <data name="SMTPAnonymous.Text">
+    <value>Anonymous</value>
+  </data>
+  <data name="SMTPAuthentication.Text">
+    <value>Authentication:</value>
+  </data>
+  <data name="SMTPBasic.Text">
+    <value>Basic</value>
+  </data>
+  <data name="SMTPEnableSSL.Text">
+    <value>Enable SSL:</value>
+  </data>
+  <data name="SMTPError.Text">
+    <value>&lt;b&gt;&lt;font color='red'&gt;SMTP Error(s):&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="SMTPNTLM.Text">
+    <value>NTLM</value>
+  </data>
+  <data name="SMTPPassword.Text">
+    <value>Password:</value>
+  </data>
+  <data name="SMTPServer.Text">
+    <value>Server:</value>
+  </data>
+  <data name="SMTPSettings.Text">
+    <value>SMTP Server Settings</value>
+  </data>
+  <data name="SMTPSettingsHelp.Text">
+    <value>You can configure and test your SMTP Server settings.</value>
+  </data>
+  <data name="SMTPSuccess.Text">
+    <value>&lt;b&gt;&lt;font color='green'&gt;SMTP Success:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="SMTPUsername.Text">
+    <value>Username:</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text">
+    <value>You Must Specify The Host Email Address</value>
+  </data>
+  <data name="TestSMTP.Text">
+    <value>Test SMTP Settings</value>
+  </data>
+  <data name="UpdateDetail.Text">
+    <value>This software can routinely check for the latest important updates for your website.  These updates can include security updates, critical updates and patches. (No information is collected that can be used to identify you or contact you without your explicit consent.)</value>
+  </data>
+  <data name="UpdateEmail.Text">
+    <value>Do you want to receive notifications by email regarding updates to the software?</value>
+  </data>
+  <data name="UpdateTitle.Text">
+    <value>Update Service - Help protect the Integrity of your Website</value>
+  </data>
+  <data name="Yes.Text">
+    <value>Yes</value>
+  </data>
+</root>

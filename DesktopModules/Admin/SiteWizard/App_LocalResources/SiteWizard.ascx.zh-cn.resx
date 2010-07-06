@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Template.Help" xml:space="preserve">
+    <value>在此通过网站模板创建站点。请先选中复选框开启模板然后从列表中选择要使用的模板，当选择使用模板创建网站请选择如何处理重复的模块 (模板中包含的模块同样存在于页面中)。</value>
+  </data>
+  <data name="TemplateDetail.Text" xml:space="preserve">
+    <value>通过下面的模板创建站点</value>
+  </data>
+  <data name="MergeDetail.Text" xml:space="preserve">
+    <value>请选择如何处理重复的模块 (模板中包含的模块同样存在于页面中)。</value>
+  </data>
+  <data name="Ignore.Text" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="Replace.Text" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="Merge.Text" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="MergeWarning.Text" xml:space="preserve">
+    <value>&lt;p class="NormalRed"&gt;注意: 如果选择 "替换", 页面上模块的内容将会被模板中相同模块替换！&lt;/p&gt;</value>
+  </data>
+  <data name="TemplateRequired.Text" xml:space="preserve">
+    <value>必须首先选定模板。</value>
+  </data>
+  <data name="InvalidTemplate.Text" xml:space="preserve">
+    <value>{0} 不是有效的站点模板文件</value>
+  </data>
+  <data name="Skin.Help" xml:space="preserve">
+    <value>选择默认皮肤，这个皮肤将会被应用于站点内的所有页面，但您仍然可以修改页面属性选择其它皮肤覆盖默认设置。
+</value>
+  </data>
+  <data name="Details.Title" xml:space="preserve">
+    <value>添加网站信息</value>
+  </data>
+  <data name="lblPortalName.Text" xml:space="preserve">
+    <value>名称/标题:</value>
+  </data>
+  <data name="lblPortalName.Help" xml:space="preserve">
+    <value>网站名称将会显示在浏览器标题栏</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>站点描述:</value>
+  </data>
+  <data name="lblDescription.Help" xml:space="preserve">
+    <value>输入网站简介</value>
+  </data>
+  <data name="lblKeyWords.Text" xml:space="preserve">
+    <value>关键字:</value>
+  </data>
+  <data name="lblKeyWords.Help" xml:space="preserve">
+    <value>输入关键字, 用逗号分隔</value>
+  </data>
+  <data name="Details.Help" xml:space="preserve">
+    <value>&lt;p&gt;在此提供站点的基本信息。您可以设置站点名并选择性的提供站点描述和关键字，这些将会帮助网站被搜索引擎收录索引。关键词请用逗号分隔。&lt;/p&gt;&lt;p&gt;如果您使用的皮肤支持Logo(通常Logo在左上角)，请在此选择logo图片，如果图片不存在于站点目录请先从本地上传。&lt;/p&gt;
+</value>
+  </data>
+  <data name="lblLogo.Text" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="lblLogo.Help" xml:space="preserve">
+    <value>选择Logo</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>站点配置向导</value>
+  </data>
+  <data name="Container.Help" xml:space="preserve">
+    <value>选择默认容器，这个容器将会被应用于站点内的所有模块，但您仍然可以修改模块属性选择其它容器覆盖默认设置。</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于站点配置向导&lt;/h1&gt;&lt;p&gt;管理员可以使用便捷的向导来设置站点的常用功能。&lt;/p&gt;</value>
+  </data>
+  <data name="IncludeAll.Text" xml:space="preserve">
+    <value>显示所有容器:</value>
+  </data>
+  <data name="Complete.Help" xml:space="preserve">
+    <value>&lt;p&gt;网站配置成功.&lt;/p&gt;
+&lt;p&gt;如果您更改了站点皮肤，当离开此页时新皮肤才会生效.&lt;/p&gt;</value>
+  </data>
+  <data name="Complete.Title" xml:space="preserve">
+    <value>站点配置成功</value>
+  </data>
+  <data name="Container.Title" xml:space="preserve">
+    <value>选择站点的默认容器</value>
+  </data>
+  <data name="Finish.Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>网站配置向导为管理员提供了一个设置网站常用功能更便捷的方法. 您可以通过页面底部的下一步/上一步按钮来导航。 当搜集到足够的信息，完成按钮将会显示，点击即可完成设置向导。</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>站点配置向导</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="Skin.Title" xml:space="preserve">
+    <value>选择站点皮肤</value>
+  </data>
+  <data name="Template.Title" xml:space="preserve">
+    <value>选择网站模板</value>
+  </data>
+  <data name="EditOnly.Text" xml:space="preserve">
+    <value>此模块只对拥有编辑权限的用户开放，请联系站点管理员如果您觉得应有此权限。</value>
+  </data>
+</root>

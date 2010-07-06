@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleSettings.Text" xml:space="preserve">
+    <value>模块设置</value>
+  </data>
+  <data name="plTitle.Text" xml:space="preserve">
+    <value>模块标题:</value>
+  </data>
+  <data name="Security.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="plTab.Text" xml:space="preserve">
+    <value>移动到:</value>
+  </data>
+  <data name="plHeader.Help" xml:space="preserve">
+    <value>输入插入到模块顶部的文本</value>
+  </data>
+  <data name="plFooter.Help" xml:space="preserve">
+    <value>输入插入到模块底部的文本</value>
+  </data>
+  <data name="plAlign.Text" xml:space="preserve">
+    <value>对齐:</value>
+  </data>
+  <data name="plBorder.Text" xml:space="preserve">
+    <value>边框:</value>
+  </data>
+  <data name="plModuleContainer.Text" xml:space="preserve">
+    <value>模块容器:</value>
+  </data>
+  <data name="plCacheTime.Text" xml:space="preserve">
+    <value>缓存时间(秒):</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>输入这个模块开始显示的日期</value>
+  </data>
+  <data name="plAllModules.Text" xml:space="preserve">
+    <value>应用到所有模块?</value>
+  </data>
+  <data name="GeneralDetails.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="ControlTitle_module.Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="plDisplayTitle.Text" xml:space="preserve">
+    <value>显示容器?</value>
+  </data>
+  <data name="plDisplayPrint.Text" xml:space="preserve">
+    <value>允许打印?</value>
+  </data>
+  <data name="valCacheTime.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;缓存时间无效</value>
+  </data>
+  <data name="plFriendlyName.Help" xml:space="preserve">
+    <value>显示模块名称</value>
+  </data>
+  <data name="InheritPermissions.Text" xml:space="preserve">
+    <value>继承所在页面的访问权限</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;模块设置&lt;/h1&gt;&lt;p&gt;管理员可对当前页面的模块进行设置。您可定制模块的内容，访问权限和显示方式。&lt;/p&gt;</value>
+  </data>
+  <data name="ModuleSettingsHelp.Text" xml:space="preserve">
+    <value>在此设置模块的基本属性和访问权限。（所有模块这部分的设置都是使用相同模式）</value>
+  </data>
+  <data name="PageSettings.Text" xml:space="preserve">
+    <value>显示设置</value>
+  </data>
+  <data name="PageSettingsHelp.Text" xml:space="preserve">
+    <value>在此设置模块在页面中的显示特性。</value>
+  </data>
+  <data name="plAlign.Help" xml:space="preserve">
+    <value>选择对齐方式</value>
+  </data>
+  <data name="plAllModules.Help" xml:space="preserve">
+    <value>是否对站点中所有已存在的模块采用与这个模块相同的显示设置。</value>
+  </data>
+  <data name="plAllTabs.Help" xml:space="preserve">
+    <value>是否要把这个模块显示在网站所有页面的相同位置。</value>
+  </data>
+  <data name="plAllTabs.Text" xml:space="preserve">
+    <value>在所有页面显示?</value>
+  </data>
+  <data name="plBorder.Help" xml:space="preserve">
+    <value>设置模块边框宽度</value>
+  </data>
+  <data name="plCacheTime.Help" xml:space="preserve">
+    <value>输入这个模块保存在缓存中的时间</value>
+  </data>
+  <data name="plColor.Help" xml:space="preserve">
+    <value>输入模块背景颜色，例如 #ececec</value>
+  </data>
+  <data name="plColor.Text" xml:space="preserve">
+    <value>背景颜色:</value>
+  </data>
+  <data name="plDefault.Help" xml:space="preserve">
+    <value>是否将这个模块的显示设置作为新添加模块的默认设置。</value>
+  </data>
+  <data name="plDefault.Text" xml:space="preserve">
+    <value>作为默认显示设置?</value>
+  </data>
+  <data name="plDisplayPrint.Help" xml:space="preserve">
+    <value>是否允许模块打印功能</value>
+  </data>
+  <data name="plDisplaySyndicate.Help" xml:space="preserve">
+    <value>是否开启模块RSS聚合功能</value>
+  </data>
+  <data name="plDisplaySyndicate.Text" xml:space="preserve">
+    <value>开启RSS聚合?</value>
+  </data>
+  <data name="plDisplayTitle.Help" xml:space="preserve">
+    <value>是否显示模块容器。</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>请输入模块显示截止日期，在这个日期之后模块将不可见，您可以通过日历选择日期。</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>截止日期:</value>
+  </data>
+  <data name="plFooter.Text" xml:space="preserve">
+    <value>模块底部文本:</value>
+  </data>
+  <data name="plFriendlyName.Text" xml:space="preserve">
+    <value>模块名</value>
+  </data>
+  <data name="plHeader.Text" xml:space="preserve">
+    <value>模块顶部文本:</value>
+  </data>
+  <data name="plIcon.Help" xml:space="preserve">
+    <value>选择一个小图标，用来和标题一同显示。</value>
+  </data>
+  <data name="plIcon.Text" xml:space="preserve">
+    <value>小图标:</value>
+  </data>
+  <data name="plModuleContainer.Help" xml:space="preserve">
+    <value>选择模块的容器，即模块的外观</value>
+  </data>
+  <data name="plNewTabs.Help" xml:space="preserve">
+    <value>选中此项将只能添加模块到新页面。</value>
+  </data>
+  <data name="plNewTabs.Text" xml:space="preserve">
+    <value>只添加到新页面?</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>通过下面的选项选择模块浏览和编辑访问权限。选中从页面继承访问权限表明从当前页面继承模块的浏览和编辑权限。 </value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>访问权限:</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>起始日期:</value>
+  </data>
+  <data name="plTab.Help" xml:space="preserve">
+    <value>移动这个模块到其它页面</value>
+  </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>输入模块标题，标题将会显示在所选容器的顶部，如果所选容器支持标题显示。</value>
+  </data>
+  <data name="plVisibility.Help" xml:space="preserve">
+    <value>为这个模块设定默认的可见属性，例如可选最小化或展开</value>
+  </data>
+  <data name="plVisibility.Text" xml:space="preserve">
+    <value>可见属性:</value>
+  </data>
+  <data name="plWebSlice.Help" xml:space="preserve">
+    <value>对这个模块开启IE8源剪辑(WebSlice)功能</value>
+  </data>
+  <data name="plWebSlice.Text" xml:space="preserve">
+    <value>开启源剪辑(WebSlice)?</value>
+  </data>
+  <data name="plWebSliceExpiry.Help" xml:space="preserve">
+    <value>输入源剪辑截止日期，如果为空将会使用模块截止日期。</value>
+  </data>
+  <data name="plWebSliceExpiry.Text" xml:space="preserve">
+    <value>源剪辑截止日期</value>
+  </data>
+  <data name="plWebSliceTitle.Help" xml:space="preserve">
+    <value>输入源剪辑标题，如果为空将会使用模块标题。</value>
+  </data>
+  <data name="plWebSliceTitle.Text" xml:space="preserve">
+    <value>源剪辑标题</value>
+  </data>
+  <data name="plWebSliceTTL.Help" xml:space="preserve">
+    <value>输入源剪辑生存时间(TTL)以分钟为单位， 如果留空将会使用模块缓存时间。</value>
+  </data>
+  <data name="plWebSliceTTL.Text" xml:space="preserve">
+    <value>源剪辑生存时间:</value>
+  </data>
+  <data name="SpecificSettings.Text" xml:space="preserve">
+    <value>模块专属设置</value>
+  </data>
+  <data name="SpecificSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行针对此模块的特别设置</value>
+  </data>
+  <data name="valBorder.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;无效的边框设置(必须是0到9之间的数字)</value>
+  </data>
+  <data name="valEndDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;截止日期无效</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;截止日期不能早于起始日期</value>
+  </data>
+  <data name="valStartDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;无效的起始日期</value>
+  </data>
+  <data name="valWebSliceExpiry.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;无效的截止日期</value>
+  </data>
+  <data name="valWebSliceTTL.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;无效的生存时间(TTL)设置 - 生存时间值必须为整数</value>
+  </data>
+</root>

@@ -1,0 +1,44 @@
+﻿/*-------- design style --------*/
+
+.m_s_wrap_main{display:table;min-width:100px; margin:0 auto;}
+.m_s_wrap_sub{display:table-row}
+
+.m_template_style{display:table-cell}
+
+.m_top_space{height:34px;}
+.m_lang_pad{padding:7px 0 0 25px;float:left;}
+
+.m_logo_top_left{padding:0; margin:0; background:url(images/logo_top_left.png) no-repeat top left; height:23px;}
+.m_logo_top_right{padding:0; margin:0; background:url(images/logo_top_right.png) no-repeat top right;}
+.m_logo_top_bg{padding:0; margin:0 39px 0 27px; background:#FFF url(images/logo_top_bg.png) repeat-x top;height:23px;}
+.m_logo_left{padding:0; background:url(images/logo_left.png) repeat-y top left;}
+.m_logo_right{padding:0; background:url(images/logo_right.png) repeat-y top right;}
+.m_logo_pad{background:#FFF; margin: 0 19px 0 7px; padding:0 0 10px 10px;height:100%;}
+
+.m_s_logo{float:left;}
+.m_s_banner{background:#aaa;width:50%;float:right;}
+
+.m_menu_bg{padding:0 0 0 6px;  margin: 0 21px 0 9px; background:url(images/menu_bg.png) top left;}
+.m_menu_left{padding:0; margin:0; background:url(images/menu_left.png) repeat-y  top left;}
+.m_menu_right{margin:0; background:url(images/menu_right.png) repeat-y top right; }
+
+.m_center_bg{padding:0; margin:0;clear:both;}
+.m_left_bg{padding:0; margin:0; background:url(images/left_bg.png) repeat-y top left;}
+.m_right_bg{padding:0; margin:0; background:url(images/right_bg.png) repeat-y top right;}
+.m_content_pad{padding:3px 3px 3px 3px; margin: 0 19px 0 7px; background:#FFF url(images/center_bg.png) repeat-x bottom left;}
+.m_lm_content_pad{padding:0px 22px 0 0px; margin: 0 19px 0 7px; background:#FFF url(images/center_bg.png) repeat-x bottom left;}
+.m_content_width{padding-top:5px; min-height:0px;}
+
+
+.m_bot_left{padding:0; margin:0; background:url(images/bot_left.png) no-repeat top left;}
+.m_bot_right{padding:0; margin:0; background:url(images/bot_right.png) no-repeat top right; padding:0 39px 0 27px;}
+.m_bot_bg{padding:0; margin:0; background:url(images/bot_bg.png) repeat-x top left; height:41px;}
+
+.m_bot_pad{margin-bottom:20px;padding:0 30px 0 20px;}
+
+
+.m_clear_float{clear:both; line-height:0; font-size:0; height:0;}
+
+/*-------- design style --------*/
+.c_head_blue h2.c_title, .c_head_blue h2.c_title input {color:#61A3D5;}
+ .c2_actions{float:left;}

@@ -1,0 +1,22 @@
+/*========================================================+
+|  Winter Theme Styles                                    |
++========================================================*/
+
+.fullWidthWinter {
+  border-bottom:none;
+}
+
+.BottomDivWinter {
+  background:url(graphics/winter_footer_bg.png) center no-repeat;
+  height:152px;
+  width:980px;
+  margin:0 auto;
+}
+
+.BottomDivBgWinter {
+    background:url(graphics/winter_footer_repeat_bg.png) repeat-x;
+    }
+
+.footerWinter {
+  padding-top:120px !important;
+}

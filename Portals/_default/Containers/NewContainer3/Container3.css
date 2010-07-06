@@ -1,0 +1,41 @@
+﻿/*-------- design style --------*/
+
+.m3_s_wrap_main{display:table;min-width:100px; margin:0 auto;}
+.m3_s_wrap_sub{display:table-row}
+
+.m3_template_style{display:table-cell}
+
+.m3_top_space{height:34px;}
+.m3_lang_pad{padding:7px 0 0 25px;float:left;}
+
+.m3_logo_top_left{padding:0; margin:0; background:url(images3/logo_top_left.jpg) no-repeat top left; height:24px;}
+.m3_logo_top_right{padding:0; margin:0; background:url(images3/logo_top_right.jpg) no-repeat top right;}
+.m3_logo_top_bg{padding:0;margin:0 24px 0 24px; background:#FFF url(images3/logo_top_bg.jpg) repeat-x top;height:24px;}
+.m3_logo_left{padding:0; background:url(images3/logo_left.jpg) repeat-y top left;}
+.m3_logo_right{padding:0; background:url(images3/logo_right.jpg) repeat-y top right;}
+.m3_logo_pad{background:#FFF; margin: 0 19px 0 7px; padding:0 0 10px 10px;height:100%;}
+
+.m3_s_logo{float:left;}
+.m3_s_banner{background:#aaa;width:50%;float:right;}
+
+.m3_center_bg{padding:0; margin:0;clear:both;}
+.m3_left_bg{padding:0; margin:0; background:url(images3/left_bg.jpg) repeat-y top left;}
+.m3_right_bg{padding:0; margin:0; background:url(images3/right_bg.jpg) repeat-y top right;}
+.m3_content_pad{padding:3px 3px 3px 3px; margin: 0 12px 0 12px; background:#FFF url(images3/center_bg.jpg) repeat-x bottom left;}
+.m3_lm_content_pad{padding:0px 22px 0 0px; margin: 0 12px 0 12px; background:#FFF url(images3/center_bg.jpg) repeat-x bottom left;}
+.m3_content_width{padding-top:5px; min-height:0px;}
+
+
+.m3_bot_left{padding:0; margin:0; background:url(images3/bot_left.jpg) no-repeat top left;height:24px;}
+.m3_bot_right{padding:0; margin:0; background:url(images3/bot_right.jpg) no-repeat top right; }
+.m3_bot_bg{padding:0; margin:0 24px 0 24px ; background:url(images3/bot_bg.jpg) repeat-x top left; height:24px;}
+
+
+
+.m3_bot_pad{margin-bottom:20px;padding:0 30px 0 20px;}
+
+
+.m3_clear_float{clear:both; line-height:0; font-size:0; height:0;}
+
+/*-------- design style --------*/
+.c_head_blue h2.c_title, .c_head_blue h2.c_title input {color:#61A3D5;}

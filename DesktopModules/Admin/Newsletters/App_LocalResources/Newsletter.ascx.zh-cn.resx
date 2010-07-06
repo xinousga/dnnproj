@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>基础设置</value>
+  </data>
+  <data name="BasicSettingsDescription.Text" xml:space="preserve">
+    <value>在此设置发件人,收件人,邮件主题和内容。</value>
+  </data>
+  <data name="plAddressees.Text" xml:space="preserve">
+    <value>邮件列表</value>
+  </data>
+  <data name="plRoles.Text" xml:space="preserve">
+    <value>用户角色</value>
+  </data>
+  <data name="plRoles.Help" xml:space="preserve">
+    <value>选择接收此邮件的用户角色， 例如，"管理员"或"已注册用户"</value>
+  </data>
+  <data name="plLanguages.Text" xml:space="preserve">
+    <value>语言过滤器</value>
+  </data>
+  <data name="plLanguages.Help" xml:space="preserve">
+    <value>语言过滤器将依据用户资料中的语言设置筛选出使用指定语言的用户</value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>附加邮件地址</value>
+  </data>
+  <data name="plEmail.Help" xml:space="preserve">
+    <value>在此手动添加邮件地址，以分号分隔</value>
+  </data>
+  <data name="plFrom.Text" xml:space="preserve">
+    <value>发件人</value>
+  </data>
+  <data name="plFrom.Help" xml:space="preserve">
+    <value>请输入发件人邮件地址</value>
+  </data>
+  <data name="plReplyTo.Text" xml:space="preserve">
+    <value>回件人</value>
+  </data>
+  <data name="plReplyTo.Help" xml:space="preserve">
+    <value>请输入回件人邮件地址</value>
+  </data>
+  <data name="revEmailAddress.ErrorMessage" xml:space="preserve">
+    <value>电子邮件地址无效!</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>输入邮件主题</value>
+  </data>
+  <data name="Message.Text" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="MessageDescription.Text" xml:space="preserve">
+    <value>在此编辑邮件内容。</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>再此配置发送信息的高级设置</value>
+  </data>
+  <data name="plAttachment.Text" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="plAttachment.Help" xml:space="preserve">
+    <value>为此邮件选择附件</value>
+  </data>
+  <data name="plPriority.Text" xml:space="preserve">
+    <value>优先权</value>
+  </data>
+  <data name="plPriority.Help" xml:space="preserve">
+    <value>选择此邮件的优先权</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="High.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Low.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="plReplaceTokens.Text" xml:space="preserve">
+    <value>替换标签</value>
+  </data>
+  <data name="plReplaceTokens.Help" xml:space="preserve">
+    <value>在主题和邮件内容中可以包含[标签]用于显示系统信息，用户信息，或时间。 如果替换标签功能开启，发送邮件时将标签将会被替换成所对应的值。注意:如果发送模式是BCC用户信息相关的标签将不会被替换</value>
+  </data>
+  <data name="plNoDuplicates.Text" xml:space="preserve">
+    <value>过滤重复邮件地址</value>
+  </data>
+  <data name="plNoDuplicates.Help" xml:space="preserve">
+    <value>开启此项将过滤掉邮件列表中的重复邮件地址</value>
+  </data>
+  <data name="SendTo.Text" xml:space="preserve">
+    <value>TO: 单独发送邮件到每个不同的邮件地址 ( 可个人化 )</value>
+  </data>
+  <data name="SendBCC.Text" xml:space="preserve">
+    <value>BCC: 只发送一封邮件以密送(BCC)的形式发送邮件列表 ( 非个人化 )</value>
+  </data>
+  <data name="SendRelay.Text" xml:space="preserve">
+    <value>Relay:单独发送邮件到每个不同的邮件地址 ( 可个人化 ) 通过指定的中继转发服务器发送</value>
+  </data>
+  <data name="plRelayAddress.Text" xml:space="preserve">
+    <value>中继转发地址</value>
+  </data>
+  <data name="plSendMethod.Help" xml:space="preserve">
+    <value>选择邮件发送方式</value>
+  </data>
+  <data name="plSendMethod.Text" xml:space="preserve">
+    <value>发送方式</value>
+  </data>
+  <data name="plSendAction.Text" xml:space="preserve">
+    <value>执行方式</value>
+  </data>
+  <data name="plSendAction.Help" xml:space="preserve">
+    <value>选择发送邮件的执行方式。 同步发送 - 邮件将会立即被发送，但在发送过程中不能对网站进行其它操作直到发送完毕。异步发送 - 邮件将在后台进程中发送，在发送过程中不影响您对网站进行其它操作。</value>
+  </data>
+  <data name="Synchronous.Text" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="Asynchronous.Text" xml:space="preserve">
+    <value>异步</value>
+  </data>
+  <data name="cmdSend.Text" xml:space="preserve">
+    <value>发送邮件</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>邮件群发</value>
+  </data>
+  <data name="MessageSent.Text" xml:space="preserve">
+    <value>邮件已发送 (异步模式). 请检查邮件发送报告却认发送结果。</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于邮件群发&lt;/h1&gt;
+&lt;p&gt;在此进行邮件群发到选中的用户角色并且可以手动添加邮件地址。在多语言的站点将会显示语言过滤器，您可以选择发送指定的语言内容。&lt;/p&gt;
+&lt;p&gt;您可以指定发件人邮件地址（默认将使用您个人DNN帐号中的邮件地址）并且可以指定回复邮件地址。此外邮件内容格式（纯文本text, 或富文本html）的使用，将取决于您所选择使用的文本编辑器。&lt;/p&gt;
+&lt;p&gt;在主题和邮件内容中可以包含[标签]用于显示系统信息，用户信息，或时间。 如果替换标签功能开启，发送邮件时将标签将会被替换成所对应的值。 另外您还可以选择添加附件，和选择邮件发送方式。&lt;/p&gt;
+&lt;p&gt;您可以选择三种不同的邮件发送方式&lt;strong&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;TO&lt;/strong&gt; 单独发送邮件到每个不同的邮件地址，发送时替换所有有效的标签&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;BCC&lt;/strong&gt; 只发送一封邮件到发件人邮件地址, 其它邮件将会以密送(BCC)的形式发送，所有和用户相关的标签将不会被替换&lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;RELAY&lt;/strong&gt; 和第一种方式相似, 但是所有的邮件将会被发送到指定的中继转送邮件地址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;同步发送 - 邮件将会立即被发送，但在发送过程中不能对网站进行其它操作直到发送完毕。异步发送 - 邮件将在后台进程中发送，在发送过程中不影响您对网站进行其它操作。 邮件群发发送报告将会被发送到发件人邮件地址。&lt;/p&gt;</value>
+  </data>
+  <data name="Heading.Text" xml:space="preserve">
+    <value>亲爱的</value>
+  </data>
+  <data name="MessageValidation.Text" xml:space="preserve">
+    <value>您必须输入主题和内容</value>
+  </data>
+  <data name="MessagesSentCount.Text" xml:space="preserve">
+    <value>{0} 封邮件发送成功</value>
+  </data>
+  <data name="NoMessagesSent.Text" xml:space="preserve">
+    <value>没有邮件送出，请查看站点事件纪录是否有任何异常发生。</value>
+  </data>
+  <data name="cmdPreview.Text" xml:space="preserve">
+    <value>预览邮件</value>
+  </data>
+</root>

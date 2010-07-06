@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_topcmm_123flashchat] DROP CONSTRAINT [FK_{objectQualifier}topcmm_123flashchat_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_topcmm_123flashchat] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_topcmm_123flashchat]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_topcmm_123flashchat].[IX_{objectQualifier}YourCompany_topcmm_123flashchat]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_topcmm_123flashchat]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_Gettopcmm_123flashchats]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_Gettopcmm_123flashchat]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_Addtopcmm_123flashchat]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_Updatetopcmm_123flashchat]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_Deletetopcmm_123flashchat]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="EmailTemplates.Text">
+		<value>Email Templates</value>
+	</data>
+	<data name="EmailTemplatesDescription.Text">
+		<value>In this section, you can customize the emails that are sent by this module.</value>
+	</data>
+	<data name="Name.Text">
+		<value>Name</value>
+	</data>
+	<data name="Name.Help">
+		<value>Select a Template to edit.</value>
+	</data>
+	<data name="Subject.Text">
+		<value>Subject</value>
+	</data>
+	<data name="Subject.Help">
+		<value>Subject of the email.</value>
+	</data>
+	<data name="valSubject.Text">
+		<value>&lt;br&gt;You Must Enter a Valid Subject</value>
+	</data>
+	<data name="Template.Text">
+		<value>Template</value>
+	</data>
+	<data name="TemplateHelp.Text">
+		<value>Enter the template for the email here.</value>
+	</data>
+	<data name="valTemplate.ErrorMessage">
+		<value>Template Text Is Required</value>
+	</data>
+	<data name="EmailTemplateHelp.Text">
+		<value>Email Template Help</value>
+	</data>
+	<data name="TemplateArticleHelpDescription.Text">
+		<value>In this section, you can view the tags for customizing emails for articles (ArticleSubmission, ArticleApproval).</value>
+	</data>
+	<data name="TemplateCommentHelpDescription.Text">
+		<value>In this section, you can view the tags for customizing emails for comments (CommentNotification).</value>
+	</data>
+	<data name="UserName.Text">
+		<value>Displays the username of article's author</value>
+	</data>
+	<data name="FirstName.Text">
+		<value>Displays the first name of article's author</value>
+	</data>
+	<data name="LastName.Text">
+		<value>Displays the last name of article's author</value>
+	</data>
+	<data name="FullName.Text">
+		<value>Displays the surname of article's author</value>
+	</data>
+	<data name="PortalName.Text">
+		<value>Displays the name of the portal</value>
+	</data>
+	<data name="PostDate.Text">
+		<value>Displays the date and time the article was posted</value>
+	</data>
+	<data name="Title.Text">
+		<value>Displays the title of the article</value>
+	</data>
+	<data name="Summary.Text">
+		<value>Displays the summary of the article</value>
+	</data>
+	<data name="Link.Text">
+		<value>Displays the link to access the article</value>
+	</data>
+	<data name="CommentUserName.Text">
+		<value>Displays the username of comment's author</value>
+	</data>
+	<data name="CommentFirstName.Text">
+		<value>Displays the first name of comment's author</value>
+	</data>
+	<data name="CommentLastName.Text">
+		<value>Displays the last name of comment's author</value>
+	</data>
+	<data name="CommentFullName.Text">
+		<value>Displays the full name of comment's author</value>
+	</data>
+	<data name="CommentPostDate.Text">
+		<value>Displays the date and time the comment was posted</value>
+	</data>
+	<data name="Comment.Text">
+		<value>Displays the details of the comment</value>
+	</data>
+	<data name="CommentLink.Text">
+		<value>Displays the link to access the comment</value>
+	</data>
+	<data name="ControlTitle_emailtemplates.Text">
+		<value>Edit Email Templates</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;About Email Templates&lt;/h1&gt;&lt;p&gt;The module allows you to customize the emails that are sent from this module.&lt;/p&gt;</value>
+	</data>
+</root>

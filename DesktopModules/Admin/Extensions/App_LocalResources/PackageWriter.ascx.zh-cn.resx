@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于扩展包生成器&lt;/h1&gt;&lt;p&gt;允许您创建安装包.&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_packagewriter.Text" xml:space="preserve">
+    <value>创建扩展包</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>安装向导将会打包所有必要的的文件生成扩展包， 以便在其它DotNetNuke系统安装</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>创建扩展包</value>
+  </data>
+  <data name="plBasePath.Help" xml:space="preserve">
+    <value>打包文件所在的文件夹</value>
+  </data>
+  <data name="plBasePath.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="plBinFolder.Help" xml:space="preserve">
+    <value>扩展包程序集 (dll) 所在的文件夹</value>
+  </data>
+  <data name="plBinFolder.Text" xml:space="preserve">
+    <value>程序集文件夹</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ChooseFiles.Help" xml:space="preserve">
+    <value>请在此选择扩展包所包含的文件。安装向导会检测并列出所需文件， 但是您可以根据需要修改列表添加或者删除文件。另外您可以选择"包含源文件"项，以决定是否包含源文件。</value>
+  </data>
+  <data name="ChooseFiles.Title" xml:space="preserve">
+    <value>选择要包含的文件</value>
+  </data>
+  <data name="cmdGetFiles.Text" xml:space="preserve">
+    <value>刷新文件列表</value>
+  </data>
+  <data name="chkIncludeSource.Text" xml:space="preserve">
+    <value>包含源文件:</value>
+  </data>
+  <data name="ChooseAssemblies.Help" xml:space="preserve">
+    <value>在此选择运行此扩展所需的程序集(dll)，如果在扩展包目录包含项目文件，安装向导将会尝试读取项目文件并列出所需的程序集，但您仍然可以根据需要在列表中添加或删除程序集。</value>
+  </data>
+  <data name="ChooseAssemblies.Title" xml:space="preserve">
+    <value>选择要包含的程序集</value>
+  </data>
+  <data name="cmdGetAssemblies.Text" xml:space="preserve">
+    <value>刷新列表</value>
+  </data>
+  <data name="Complete.Text" xml:space="preserve">
+    <value>完成扩展包 (zip):</value>
+  </data>
+  <data name="FinalStep.Help" xml:space="preserve">
+    <value>最后一步是生成扩展包， 要生成一个.dnn声明文件的副本请选中"创建声明文件"项 - 文件将会生成在安装目录。声明文件在被加入安装包的同时也会存入数据库&lt;br/&gt;&lt;br/&gt;  
+生成扩展包请选择"创建安装包"项。安装包将会生成在主机用户目录/portals/_default</value>
+  </data>
+  <data name="FinalStep.Title" xml:space="preserve">
+    <value>生成扩展包</value>
+  </data>
+  <data name="Manifest.Text" xml:space="preserve">
+    <value>仅声明文件 (dnn):</value>
+  </data>
+  <data name="plManifestName.Help" xml:space="preserve">
+    <value>输入声明文件的文件名，格式: filename.dnn</value>
+  </data>
+  <data name="plManifestName.Text" xml:space="preserve">
+    <value>声明文件文件名:</value>
+  </data>
+  <data name="LogTitle.Text" xml:space="preserve">
+    <value>扩展包创建记录</value>
+  </data>
+  <data name="plArchiveName.Help" xml:space="preserve">
+    <value>输入扩展包文件名，格式: filename.zip</value>
+  </data>
+  <data name="plArchiveName.Text" xml:space="preserve">
+    <value>扩展包文件名:</value>
+  </data>
+  <data name="WriterResults.Help" xml:space="preserve">
+    <value>下面显示的为扩展包创建结果.</value>
+  </data>
+  <data name="WriterResults.Title" xml:space="preserve">
+    <value>扩展包创建结果</value>
+  </data>
+  <data name="CreateManifest.Help" xml:space="preserve">
+    <value>基于您的选择安装向导为此扩展包创建了.dnn声明文件。您可以在下面的文本框中编辑此声明文件然后再生成安装包。</value>
+  </data>
+  <data name="CreateManifest.Title" xml:space="preserve">
+    <value>创建声明文件</value>
+  </data>
+  <data name="plManifest.Help" xml:space="preserve">
+    <value>选中此项建立.dnn声明文件.</value>
+  </data>
+  <data name="plManifest.Text" xml:space="preserve">
+    <value>创建声明文件:</value>
+  </data>
+  <data name="plPackage.Help" xml:space="preserve">
+    <value>选中此项生成扩展包(zip)文件</value>
+  </data>
+  <data name="plPackage.Text" xml:space="preserve">
+    <value>创建扩展包:</value>
+  </data>
+  <data name="plReviewManifest.Help" xml:space="preserve">
+    <value>选择此项将会在生成扩展包前检查.dnn声明文件</value>
+  </data>
+  <data name="plReviewManifest.Text" xml:space="preserve">
+    <value>检查.dnn声明文件:</value>
+  </data>
+  <data name="plUseManifest.Help" xml:space="preserve">
+    <value>选择此项使用扩展现有的声明文件。</value>
+  </data>
+  <data name="plUseManifest.Text" xml:space="preserve">
+    <value>使用现有.dnn声明文件:</value>
+  </data>
+  <data name="plChooseManifest.Help" xml:space="preserve">
+    <value>如果您选择使用之前创建的.dnn声明文件，那么请选择相应的文件。</value>
+  </data>
+  <data name="plChooseManifest.Text" xml:space="preserve">
+    <value>选择声明文件:</value>
+  </data>
+  <data name="NoFileName.Text" xml:space="preserve">
+    <value>您必须提供扩展包文件名。</value>
+  </data>
+  <data name="ManifestHelp.Text" xml:space="preserve">
+    <value>&lt;p&gt;安装向导将会为此扩展创建.dnn声明文件。您有以下几个选择。如果您已经通过安装向导或手动创建了.dnn声明文件，您可以选择"使用现有的声明文件"，然后从下拉菜单选择系统找到的文件。&lt;/p&gt;
+&lt;p&gt;另外您可以选择在安装向导进行到最后一步时检查.dnn声明文件，可以在生成zip扩展包前对声明文件进行调整。&lt;/p&gt;</value>
+  </data>
+  <data name="InvalidPackageName.Text" xml:space="preserve">
+    <value>无效扩展包名 - 扩展包名必须是".zip"为后缀的文件名.</value>
+  </data>
+  <data name="InvalidManifestExtension.Text" xml:space="preserve">
+    <value>无效声明文件类型 - 声明文件后缀必须是".dnn".</value>
+  </data>
+</root>

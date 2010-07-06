@@ -1,0 +1,118 @@
+﻿/* styling and positioning of RadMenu template */
+
+div.RadPanelBar .rpItem
+{
+    position: static;
+    overflow: visible;
+}
+
+div.RadPanelBar .rpTemplate
+{
+    position: absolute;
+    z-index: 1;
+}
+
+div.RadPanelBar .rpSlide .rpTemplate
+{
+    position: static;
+    z-index: auto;
+}
+
+div.RadMenu
+{
+    position: absolute;
+    top: -24px;
+    left: 120px;
+}
+
+div.RadMenu .rmRootGroup
+{
+    border: 0;
+    background: none;
+}
+
+div.RadMenu .rmItem
+{
+    background: none;
+}
+
+div.RadMenu .rootItem,
+div.RadMenu .rootItem .rmText
+{  
+    background:transparent;
+    border: 0;
+    padding: 0 !important;
+    color: #4fb50b;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+/* styling of template contents */
+
+
+div.RadPanelBar .rpFirst .rpTemplate
+{
+    background: #F4F3F4;
+}
+
+.rpTemplate .productList
+{
+    padding: 0;
+    width: 662px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.rpTemplate .productList:after
+{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    height: 0;
+    clear: both;
+}
+
+.rpTemplate .productList li
+{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    width: 220px;
+    margin: 30px 0 0;
+    padding: 0;
+    border-right: 1px solid #bec7cb;
+}
+
+.rpTemplate .productList li.last
+{
+    border-right-width: 0;
+}
+
+.rpTemplate .productList li div
+{
+    font: normal 12px Arial,sans-serif;
+    text-decoration: underline;
+    color: #333;
+}
+.ExpandedCssClass .rpText
+    {
+	color: #0066FF;
+	font-family: 隶书;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.tabsContainer {
+height:72px;
+text-align:center;
+width:355px;
+}
+
+.contentContainer {
+cursor:default;
+min-height:175px;
+width:355px;
+}

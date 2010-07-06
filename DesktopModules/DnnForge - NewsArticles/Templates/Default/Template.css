@@ -1,0 +1,48 @@
+/* News Articles Custom Styles */
+.articleTitle { font-size : 14px; font-weight : bolder; color : #006600; }
+.articleTable { background-color: black; margin: 0px; }
+.articleTopCell { background-color: #336699; color: white; font-weight: bold; padding: 6px; height: 25px; }
+.articleTopCell .NormalBold { color: #FFF; }
+.articleContentCell { color: black; padding: 6px; background-color: #FEFEFE; }
+.articleTextCell { color: black; padding: 6px; background-color: #FFFFCC; }
+.articleIconCell { background-color: #D0D0D0; width: 20px; }
+.articleFooterCell { color: #FFFFFF; padding: 3px; background-color: #336699; height: 25px; }
+.articleFooterCell .NormalBold { color: #FFF; }
+.featuredTopCell { background-color: #336699; color: white; font-weight: bold; padding: 6px; height: 25px; }
+
+A.Normal.MenuTop:link {
+    text-decoration:    underline;
+}
+
+A.Normal.MenuTop:visited  {
+    text-decoration:    underline;
+}
+
+A.Normal.MenuTop:active   {
+    text-decoration:    underline;
+}
+
+A.Normal.MenuTop:hover    {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:link {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:visited  {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:active   {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:hover    {
+    text-decoration:    underline;
+    color: #ff0000;
+}

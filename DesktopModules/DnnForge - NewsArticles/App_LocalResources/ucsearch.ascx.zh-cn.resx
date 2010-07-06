@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Category.Text">
+    <value>类别：</value>
+  </data>
+  <data name="AllCategories.Text">
+    <value>-- 所有类别 --</value>
+  </data>
+  <data name="Author.Text">
+    <value>作者：</value>
+  </data>
+  <data name="AllAuthors.Text">
+    <value>-- 所有作者 --</value>
+  </data>
+  <data name="StartDate.Text">
+    <value>开始日期：</value>
+  </data>
+  <data name="EndDate.Text">
+    <value>结束日期：</value>
+  </data>
+  <data name="Keywords.Text">
+    <value>关键字：</value>
+  </data>
+  <data name="Options.Text">
+    <value>选项：</value>
+  </data>
+  <data name="Search.Text">
+    <value>搜索</value>
+  </data>
+  <data name="NoArticles.Text">
+    <value>&lt;br&gt;没有找到文章。</value>
+  </data>
+  <data name="Title.Text">
+    <value>标题</value>
+  </data>
+  <data name="NumberOfViews.Text">
+    <value>查看次数</value>
+  </data>
+  <data name="Paging.Text">
+    <value>传呼 - </value>
+  </data>
+  <data name="Page.Text">
+    <value>页面:</value>
+  </data>
+  <data name="PreviousPage.Text">
+    <value>上一页</value>
+  </data>
+  <data name="NextPage.Text">
+    <value>下一页</value>
+  </data>
+  <data name="ControlTitle_search.Text">
+    <value>搜索</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;关于搜索&lt;/h1&gt;&lt;p&gt;允许你搜索新闻文章。&lt;/p&gt;</value>
+  </data>
+</root>

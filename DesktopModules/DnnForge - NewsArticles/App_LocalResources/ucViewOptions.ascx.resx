@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version">
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="ArticleSettings.Text">
+<value>Article Settings</value>
+</data>
+<data name="ArticleSettingsHelp.Text">
+<value>In this section, you can set up the settings that control the Article module.</value>
+</data>
+<data name="BasicSettings.Text">
+<value>Basic Settings</value>
+</data>
+<data name="EnableImages.Text">
+<value>Allow Images?</value>
+</data>
+<data name="EnableImagesHelp.Text">
+<value>Check to allow images to be associated with articles.</value>
+</data>
+<data name="EnableComments.Text">
+<value>Allow Comments?</value>
+</data>
+<data name="EnableCommentsHelp.Text">
+<value>Check to allow comments to be posted with articles.</value>
+</data>
+<data name="EnableRatings.Text">
+<value>Allow Ratings?</value>
+</data>
+<data name="EnableRatingsHelp.Text">
+<value>Check to allow ratings to be posted with articles.</value>
+</data>
+<data name="EnableAnonymousComments.Text">
+<value>Allow Anonymous Comments?</value>
+</data>
+<data name="EnableAnonymousCommentsHelp.Text">
+<value>Check to allow comments to be posted by anonymous users.</value>
+</data>
+<data name="EnableAnonymousRatings.Text">
+<value>Allow Anonymous Ratings?</value>
+</data>
+<data name="EnableAnonymousRatingsHelp.Text">
+<value>Check to allow ratings to be posted by anonymous users.</value>
+</data>
+<data name="EnableCoreSearch.Text">
+<value>Allow Core Search Integration?</value>
+</data>
+<data name="EnableCoreSearchHelp.Text">
+<value>Check to allow core search integration for articles.</value>
+</data>
+<data name="EnableSyndication.Text">
+<value>Allow Syndication?</value>
+</data>
+<data name="EnableSyndicationHelp.Text">
+<value>Check to allow syndication of articles.</value>
+</data>
+<data name="EnableSyndicationHtml.Text">
+<value>Allow Html in Syndication?</value>
+</data>
+<data name="EnableSyndicationHtmlHelp.Text">
+<value>Check to allow html tags in syndication.</value>
+</data>
+<data name="EnableNotificationPing.Text">
+<value>Enable Notification Ping?</value>
+</data>
+<data name="EnableNotificationPingHelp.Text">
+<value>Check to notify weblogs.com (when created or updated).</value>
+</data>
+<data name="EnableAutoTrackback.Text">
+<value>Auto Trackback?</value>
+</data>
+<data name="EnableAutoTrackbackHelp.Text">
+<value>Check to scan articles for links when published and attempt to notify any linked sites.</value>
+</data>
+<data name="EnableIncomingTrackback.Text">
+<value>Enable Incoming Trackback?</value>
+</data>
+<data name="EnableIncomingTrackbackHelp.Text">
+<value>Check to allow incoming trackback/pings as new comments.</value>
+</data>
+<data name="LaunchLinks.Text">
+<value>Launch Links?</value>
+</data>
+<data name="LaunchLinksHelp.Text">
+<value>Check to launch links into page by itself (no other modules loaded).</value>
+</data>
+<data name="BubbleFeaturedArticles.Text">
+<value>Featured Articles to Top?</value>
+</data>
+<data name="BubbleFeaturedArticlesHelp.Text">
+<value>Check to bring featured articles to the top of the listing.</value>
+</data>
+<data name="plDisplayType.Text">
+<value>User Display Mode</value>
+</data>
+<data name="plDisplayType.Help">
+<value>Set the display mode for any occurance of a user.</value>
+</data>
+<data name="UserName.Text">
+<value>Username</value>
+</data>
+<data name="FirstName.Text">
+<value>First Name</value>
+</data>
+<data name="LastName.Text">
+<value>Last Name</value>
+</data>
+<data name="FullName.Text">
+<value>Full Name</value>
+</data>
+<data name="ArticlePageSize.Text">
+<value>Article Page Size</value>
+</data>
+<data name="ArticlePageSizeHelp.Text">
+<value>Allows you to specify the default number of articles to page.</value>
+</data>
+<data name="EnableSEOTitle.Text">
+<value>Enable SEO Title?</value>
+</data>
+<data name="EnableSEOTitleHelp.Text">
+<value>Check to enable SEO Title.</value>
+</data>
+<data name="SEOTitle.Text">
+<value>SEO Title</value>
+</data>
+<data name="SEOTitleHelp.Text">
+<value>Allows you to specify a specific title format when viewing an article.</value>
+</data>
+<data name="SEO1.Text">
+<value>[ARTICLETITLE]</value>
+</data>
+<data name="SEO2.Text">
+<value>[ARTICLETITLE] > [SITETITLE]</value>
+</data>
+<data name="SEO3.Text">
+<value>[ARTICLETITLE] > [SITETITLE] > [PAGETITLE]</value>
+</data>
+<data name="SEO4.Text">
+<value>[SITETITLE] > [ARTICLETITLE]</value>
+</data>
+<data name="SEO5.Text">
+<value>[PAGETITLE] > [ARTICLETITLE]</value>
+</data>
+<data name="NoRestriction.Text">
+<value>No Restriction</value>
+</data>
+<data name="1.Text">
+<value>1</value>
+</data>
+<data name="2.Text">
+<value>2</value>
+</data>
+<data name="3.Text">
+<value>3</value>
+</data>
+<data name="4.Text">
+<value>4</value>
+</data>
+<data name="5.Text">
+<value>5</value>
+</data>
+<data name="10.Text">
+<value>10</value>
+</data>
+<data name="15.Text">
+<value>15</value>
+</data>
+<data name="20.Text">
+<value>20</value>
+</data>
+<data name="50.Text">
+<value>50</value>
+</data>
+<data name="Template.Text">
+<value>Article Template</value>
+</data>
+<data name="TemplateHelp.Text">
+<value>Allows you to specify the template for displaying articles.</value>
+</data>
+<data name="TextEditorWidth.Text">
+<value>Text Editor Width</value>
+</data>
+<data name="TextEditorWidth.Help">
+<value>Enter the width of the text editor e.g. 100%, 400.</value>
+</data>
+<data name="TimeZone.Text">
+<value>Server TimeZone</value>
+</data>
+<data name="TimeZone.Help">
+<value>Enter the time zone of the server.</value>
+</data>
+<data name="valTextEditorWidth.ErrorMessage">
+<value>&lt;br&gt;Required</value>
+</data>
+<data name="valTextEditorWidthIsValid.ErrorMessage">
+<value>&lt;br&gt;Must be a valid value, e.g. 100%, 400</value>
+</data>
+<data name="TextEditorHeight.Text">
+<value>Text Editor Height</value>
+</data>
+<data name="TextEditorHeight.Help">
+<value>Enter the height of the text editor e.g. 100%, 400.</value>
+</data>
+<data name="valTextEditorHeight.ErrorMessage">
+<value>&lt;br&gt;Required</value>
+</data>
+<data name="valTextEditorHeightIsValid.ErrorMessage">
+<value>&lt;br&gt;Must be a valid value, e.g. 100%, 400</value>
+</data>
+<data name="AllCategories.Text">
+<value>All Categories</value>
+</data>
+<data name="FilterSettings.Text">
+<value>Filter Settings</value>
+</data>
+<data name="MaxArticles.Text">
+<value>Max Articles</value>
+</data>
+<data name="MaxArticles.Help">
+<value>Enter the maximum number of articles to return in current articles.</value>
+</data>
+<data name="valMaxArticles.ErrorMessage">
+<value>Required</value>
+</data>
+<data name="valMaxArticlesIsValid.ErrorMessage">
+<value>Must be a valid value, e.g. 10, 20</value>
+</data>
+<data name="Categories.Text">
+<value>Category Filter</value>
+</data>
+<data name="CategoriesHelp.Text">
+<value>Specify categories to only show articles from those categories.</value>
+</data>
+<data name="MatchAny.Text">
+<value>Match Any</value>
+</data>
+<data name="MatchAll.Text">
+<value>Match All</value>
+</data>
+<data name="ShowFeaturedOnly.Text">
+<value>Show Featured Only?</value>
+</data>
+<data name="ShowFeaturedOnlyHelp.Text">
+<value>Only show articles matched as 'Featured'.</value>
+</data>
+<data name="ShowNotFeaturedOnly.Text">
+<value>Show Not Featured Only?</value>
+</data>
+<data name="ShowNotFeaturedOnlyHelp.Text">
+<value>Only show articles not matched as 'Featured'.</value>
+</data>
+<data name="Author.Text">
+<value>Author</value>
+</data>
+<data name="Author.Help">
+<value>Optionally filter by author.</value>
+</data>
+<data name="SelectAuthor.Text">
+<value>-- All Authors --</value>
+</data>
+<data name="cmdSelectAuthor.Text">
+<value>Select Author</value>
+</data>
+<data name="SecuritySettings.Text">
+<value>Security Settings</value>
+</data>
+<data name="SecureArticles.Text">
+<value>Roles to view Secured Articles</value>
+</data>
+<data name="SecureArticlesHelp.Text">
+<value>Specify roles that are allowed to view secured articles.</value>
+</data>
+<data name="SecureUrl.Text">
+<value>Secure Url</value>
+</data>
+<data name="SecureUrl.Help">
+<value>Enter the url to redirect non-secured users.</value>
+</data>
+<data name="SubmitRoles.Text">
+<value>Roles allowed to Submit</value>
+</data>
+<data name="SubmitRolesHelp.Text">
+<value>Specify roles that are allowed to submit articles.</value>
+</data>
+<data name="ApprovalRoles.Text">
+<value>Roles allowed to Approve</value>
+</data>
+<data name="ApprovalRolesHelp.Text">
+<value>Specify roles that are allowed to approve articles.</value>
+</data>
+<data name="NotificationSettings.Text">
+<value>Notification Settings</value>
+</data>
+<data name="NotifySubmission.Text">
+<value>Notify Approvers on Submission</value>
+</data>
+<data name="NotifySubmissionHelp.Text">
+<value>Notify users in the approval role of an article submission.</value>
+</data>
+<data name="NotifySubmissionEmail.Text">
+<value>Notify Email Address on Submission</value>
+</data>
+<data name="NotifySubmissionEmailHelp.Text">
+<value>Notify this email address of an article submission.</value>
+</data>
+<data name="NotifyApproval.Text">
+<value>Notify Owner on Approval</value>
+</data>
+<data name="NotifyApprovalHelp.Text">
+<value>Notify owner of the article on approval.</value>
+</data>
+<data name="NotifyComment.Text">
+<value>Notify Owner on Comment</value>
+</data>
+<data name="NotifyCommentHelp.Text">
+<value>Notify owner of the article when a comment is posted.</value>
+</data>
+<data name="ControlTitle_admin.Text">
+<value>Main Options</value>
+</data>
+<data name="ModuleHelp.Text">
+<value>&lt;h1&gt;Main Options&lt;/h1&gt;&lt;p&gt;This module allows administrators to set options for the News Articles module.&lt;/p&gt;</value>
+</data>
+</root>

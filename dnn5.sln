@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dnn5", "http://localhost/dnn5", "{82EC7126-86B0-4E5E-A772-AAEED8F42C38}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/dnn5"
+		Debug.AspNetCompiler.PhysicalPath = "..\dnn5\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dnn5\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dnn5"
+		Release.AspNetCompiler.PhysicalPath = "..\dnn5\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dnn5\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\Inetpub\wwwroot\dnn5\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82EC7126-86B0-4E5E-A772-AAEED8F42C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EC7126-86B0-4E5E-A772-AAEED8F42C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

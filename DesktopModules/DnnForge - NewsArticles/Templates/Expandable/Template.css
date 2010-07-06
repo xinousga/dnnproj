@@ -1,0 +1,37 @@
+
+A.Normal.MenuTop:link {
+    text-decoration:    underline;
+}
+
+A.Normal.MenuTop:visited  {
+    text-decoration:    underline;
+}
+
+A.Normal.MenuTop:active   {
+    text-decoration:    underline;
+}
+
+A.Normal.MenuTop:hover    {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:link {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:visited  {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:active   {
+    text-decoration:    underline;
+    color: #ff0000;
+}
+
+A.Normal.MenuTopSelected:hover    {
+    text-decoration:    underline;
+    color: #ff0000;
+}

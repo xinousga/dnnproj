@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行本页面的基本设置</value>
+  </data>
+  <data name="TabName.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="TabNameHelp.Text" xml:space="preserve">
+    <value>在此输入页面的名称，名称将在菜单中显示。</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="TitleHelp.Text" xml:space="preserve">
+    <value>在此输入页面标题，标题将显示在浏览器的标题栏</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="DescriptionHelp.Text" xml:space="preserve">
+    <value>输入对此页面的描述。</value>
+  </data>
+  <data name="ParentTab.Text" xml:space="preserve">
+    <value>父页面</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>链接 URL</value>
+  </data>
+  <data name="UrlHelp.Text" xml:space="preserve">
+    <value>如果希望在菜单上点击此页连接到其它资源(外部网页，站点上的其它页面或文件)，则可在此设置链接。请注意，此项为可选。</value>
+  </data>
+  <data name="Copy.Text" xml:space="preserve">
+    <value>复制页面</value>
+  </data>
+  <data name="CopyModules.Text" xml:space="preserve">
+    <value>复制模块从页面</value>
+  </data>
+  <data name="CopyModulesHelp.Text" xml:space="preserve">
+    <value>选择要复制的页面，选择页面后即可选择此页面中要复制的模块。</value>
+  </data>
+  <data name="CopyContent.Text" xml:space="preserve">
+    <value>指定模块</value>
+  </data>
+  <data name="CopyContentHelp.Text" xml:space="preserve">
+    <value>选择要复制的模块并输入模块标题，此外指定要创建一个同类型的新模块（没有内容），或复制模块连同内容，还是引用现存的模块（共享内容）。</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行本页面的高级设置</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>显示特性</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>小图标</value>
+  </data>
+  <data name="IconHelp.Text" xml:space="preserve">
+    <value>选择显示在菜单中的图标。</value>
+  </data>
+  <data name="TabSkin.Text" xml:space="preserve">
+    <value>页面皮肤</value>
+  </data>
+  <data name="TabSkinHelp.Text" xml:space="preserve">
+    <value>选中的皮肤将应用于此页面。</value>
+  </data>
+  <data name="TabContainer.Text" xml:space="preserve">
+    <value>页面容器</value>
+  </data>
+  <data name="TabContainerHelp.Text" xml:space="preserve">
+    <value>选中的容器将应用于此页面的所有模块。</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>禁止访问</value>
+  </data>
+  <data name="DisabledHelp.Text" xml:space="preserve">
+    <value>被设置为禁止访问的页面将不能被用户访问，通常应用于那些不想马上发布的页面。</value>
+  </data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+    <value>安全设定</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>访问权限</value>
+  </data>
+  <data name="PermissionsHelp.Text" xml:space="preserve">
+    <value>选择可以访问和管理此页面的安全角色和指定的用户。</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>其它设置</value>
+  </data>
+  <data name="KeyWords.Text" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="KeyWordsHelp.Text" xml:space="preserve">
+    <value>输入和本页相关的关键字(以逗号分隔)，搜索引擎将使用这些关键字来对页面进行索引。</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>开始日期：</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>输入开始显示此页面的日期，您可以从日历中选择日期。</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>截止日期：</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>输入截止显示此页面的日期，您可以从日历中选择日期，留空为无截止日期。</value>
+  </data>
+  <data name="SubmitToGoogle.Text" xml:space="preserve">
+    <value>提交此页面到Google</value>
+  </data>
+  <data name="ControlTitle_tab.Text" xml:space="preserve">
+    <value>页面设置</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>编辑页面</value>
+  </data>
+  <data name="valTabName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;页面名称为必添项</value>
+  </data>
+  <data name="DeleteSpecialPage.Text" xml:space="preserve">
+    <value>站点设置中被设定为首页，封面页，登录页，用户页的页面不能删除，如果站点内只有一个页面，此页也不能删除。</value>
+  </data>
+  <data name="valStartDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;开始日期无效</value>
+  </data>
+  <data name="valEndDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;截止日期无效</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于页面管理&lt;/h1&gt;&lt;p&gt;在此管理站点中的页面。管理员可以添加、编辑、删除页面，并修改页面在菜单中的顺序。&lt;/p&gt;</value>
+  </data>
+  <data name="PageDetails.Text" xml:space="preserve">
+    <value>页面信息</value>
+  </data>
+  <data name="RefreshInterval.Text" xml:space="preserve">
+    <value>刷新间隔 (秒)</value>
+  </data>
+  <data name="RefreshInterval.Help" xml:space="preserve">
+    <value>输入页面自动刷新的间隔时间. (例如:输入"60" 表示1分钟, 或输入空值禁用自动刷新.)</value>
+  </data>
+  <data name="PageHeadText.Text" xml:space="preserve">
+    <value>页头标签</value>
+  </data>
+  <data name="PageHeadText.Help" xml:space="preserve">
+    <value>输入标签(例如 META标签) 它将显示在此页html源码的&lt;HEAD&gt;中</value>
+  </data>
+  <data name="DefaultTemplate.Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ModuleCopy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="ModuleNew.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="ModuleReference.Text" xml:space="preserve">
+    <value>引用</value>
+  </data>
+  <data name="cmdCopyPerm.Text" xml:space="preserve">
+    <value>复制访问权限</value>
+  </data>
+  <data name="cmdCopySkin.Text" xml:space="preserve">
+    <value>复制设计</value>
+  </data>
+  <data name="ExceededQuota.Text" xml:space="preserve">
+    <value>加上这一页，页面数将超过这个网站的页面配额. 请洽您的主机供应商，以增加页面配额.</value>
+  </data>
+  <data name="plCopyPerm.Help" xml:space="preserve">
+    <value>复制当前选择的访问权限到此页面的所有子页面。</value>
+  </data>
+  <data name="plCopyPerm.Text" xml:space="preserve">
+    <value>复制权限到子页面:</value>
+  </data>
+  <data name="plCopySkin.Help" xml:space="preserve">
+    <value>复制当前选择的设计（包括皮肤和容器）到此页面的所有子页面。</value>
+  </data>
+  <data name="plCopySkin.Text" xml:space="preserve">
+    <value>复制设计到子页面:</value>
+  </data>
+  <data name="Menu.Text" xml:space="preserve">
+    <value>在菜单中显示</value>
+  </data>
+  <data name="MenuHelp.Text" xml:space="preserve">
+    <value>选择是否在导航菜单中显示此页，如果页面不显示在菜单中，仍然可以通过页面链接访问该页面。</value>
+  </data>
+  <data name="plSecure.Help" xml:space="preserve">
+    <value>指定是否强制此页面使用安全链接(SSL), 只有在网站设置中启用了SSL安全链接此项才会有效。</value>
+  </data>
+  <data name="plSecure.Text" xml:space="preserve">
+    <value>使用安全链接(SSL)?</value>
+  </data>
+  <data name="plFolder.Help" xml:space="preserve">
+    <value>请选择要使用的模板文件夹</value>
+  </data>
+  <data name="plFolder.Text" xml:space="preserve">
+    <value>模板文件夹:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>选择页面模板来创建此页面。</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>页面模板:</value>
+  </data>
+  <data name="Root.Text" xml:space="preserve">
+    <value>根目录</value>
+  </data>
+  <data name="DesignCopied.Text" xml:space="preserve">
+    <value>显示特性复制成功</value>
+  </data>
+  <data name="DesignCopyError.Text" xml:space="preserve">
+    <value>复制显示特性发生错误</value>
+  </data>
+  <data name="InsertAfter.Text" xml:space="preserve">
+    <value>后面</value>
+  </data>
+  <data name="InsertAtEnd.Text" xml:space="preserve">
+    <value>末尾</value>
+  </data>
+  <data name="InsertBefore.Text" xml:space="preserve">
+    <value>前面</value>
+  </data>
+  <data name="InsertPosition.Help" xml:space="preserve">
+    <value>插入此页面到选定页面的前面或后面，此外还可选择插入到选中页面同级菜单的末尾。</value>
+  </data>
+  <data name="InsertPosition.Text" xml:space="preserve">
+    <value>插入到页面:</value>
+  </data>
+  <data name="InvalidTabName.Text" xml:space="preserve">
+    <value>无效页面名称</value>
+  </data>
+  <data name="ParentTab.Help" xml:space="preserve">
+    <value>选择此页面的父页面,在菜单中此页面将显示在父页面下。</value>
+  </data>
+  <data name="PermissionCopyError.Text" xml:space="preserve">
+    <value>复制访问权限发生错误</value>
+  </data>
+  <data name="PermissionsCopied.Text" xml:space="preserve">
+    <value>访问权限复制成功</value>
+  </data>
+  <data name="TabExists.Text" xml:space="preserve">
+    <value>已有同级的其它页面使用此名称。</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;截止日期必须比开始日期晚</value>
+  </data>
+  <data name="plPermanentRedirect.Help" xml:space="preserve">
+    <value>选中此项如果您希望通知客户端此页已经永久转移，这将允许搜索引擎修改收录的链接直接连到新的页面或文件，如果链接类型为'无'则会忽略此项。</value>
+  </data>
+  <data name="plPermanentRedirect.Text" xml:space="preserve">
+    <value>永久转向?</value>
+  </data>
+</root>

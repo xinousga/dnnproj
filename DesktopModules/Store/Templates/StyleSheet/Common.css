@@ -1,0 +1,37 @@
+/* ===============*/
+/* General layout */
+/* ===============*/
+
+.ProductEditMasterTABLE,
+.ProductEditSpecialOfferTABLE,
+#grdCategories,
+.CatalogSettingsFeaturedProductList,
+.CatalogSettingsPopularProductList,
+.CatalogSettingsNewProductListTABLE,
+.CatalogSettingsMasterTABLE,
+.CatalogSettingsCategoryProductList,
+.CatalogSettingsProductDetails,
+.AddressEditMasterTABLE { width:100%; border:0; }
+.AddressEditMasterTABLERightCell { width:35% }
+.AddressEditMasterTABLERLeftCell { width:65% }
+.ReviewListMasterTABLE { width:100%; }
+.ReviewEditMasterTABLE { width:80% }
+.ReviewEditMasterTABLELeftCell { width:33% }
+.ReviewEditMasterTABLERightCell { width:67% }
+.ProductListMasterTABLE { width:100%; }
+.ProductDetailMasterTABLE { width:100%; }
+.CustomerProfileMasterTABLE { width:100%; }
+.CustomerOrdersMasterTABLE { width:100%; text-align:left; }
+.CustomerOrdersDetailMasterTABLE { width:100%; }
+.CustomerCartMasterTABLE { width:100%; }
+.CheckoutMasterTABLE { width:100%; }
+.CategorySettingsMasterTABLE { width:100%; }
+.CategorySettingsMasterTABLERightCell { }
+.CategorySettingsMasterTABLELeftCell { }
+.Store-DataGrid { text-align:center; width:100%; border:0; }
+.CartDetailsMasterTABLE .Store-DataGrid { width:100%; border:0; }
+.CartDetailsMasterTABLE { width:100%; border:0; }
+.Store-CommandDetails .Normal { text-align:left; border:0; }
+.Store-CommandDetails .NormalBold { text-align:left; border:0; }
+.Store-checkout-Entity { }
+table.StoreAdmin div.Help {width:150px; white-space:normal;}

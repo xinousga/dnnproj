@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="resmimetype">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+<value>1.3</value>
+</resheader>
+<resheader name="reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="LatestArticlesHelp.Text">
+<value>In this section, you can adjust the settings for the "Latest Articles" module.</value>
+</data>
+<data name="Articles.Text">
+<value>Latest Articles Settings</value>
+</data>
+<data name="BasicSettings.Text">
+<value>Basic Settings</value>
+</data>
+<data name="Tab.Text">
+<value>Article Page</value>
+</data>
+<data name="Tab.Help">
+<value>Set the article page to link to.</value>
+</data>
+<data name="Module.Text">
+<value>Article Module</value>
+</data>
+<data name="Module.Help">
+<value>Set the article module to link to.</value>
+</data>
+<data name="Categories.Text">
+<value>Article Categories</value>
+</data>
+<data name="Categories.Help">
+<value>Select categories to display.</value>
+</data>
+<data name="AllCategories.Text">
+<value>All Categories</value>
+</data>
+<data name="MatchAny.Text">
+<value>Match Any</value>
+</data>
+<data name="MatchAll.Text">
+<value>Match All</value>
+</data>
+<data name="Count.Text">
+<value>Number of Articles</value>
+</data>
+<data name="Count.Help">
+<value>Number of articles to display.</value>
+</data>
+<data name="MaxAge.Text">
+<value>Max Age</value>
+</data>
+<data name="MaxAge.Help">
+<value>Maximum age of articles (days), leave blank for no filter.</value>
+</data>
+<data name="MaxAge2.Help">
+<value>(days), leave blank for no filter.</value>
+</data>
+<data name="SortBy.Text">
+<value>Sort By</value>
+</data>
+<data name="SortByHelp.Text">
+<value>Select field to sort articles by.</value>
+</data>
+<data name="SortDirection.Text">
+<value>Sort Direction</value>
+</data>
+<data name="SortDirection.Help">
+<value>Select direction for sort.</value>
+</data>
+<data name="Ascending.Text">
+<value>Ascending</value>
+</data>
+<data name="Descending.Text">
+<value>Descending</value>
+</data>
+<data name="PublishDate.Text">
+<value>Publish Date</value>
+</data>
+<data name="LastUpdate.Text">
+<value>Last Update</value>
+</data>
+<data name="HighestRated.Text">
+<value>Highest Rated</value>
+</data>
+<data name="MostCommented.Text">
+<value>Most Commented</value>
+</data>
+<data name="MostViewed.Text">
+<value>Most Viewed</value>
+</data>
+<data name="SortTitle.Text">
+<value>Title</value>
+</data>
+<data name="LaunchLinks.Text">
+<value>Launch Links?</value>
+</data>
+<data name="LaunchLinksHelp.Text">
+<value>Check to launch links into page by itself (no other modules loaded).</value>
+</data>
+<data name="FeaturedOnly.Text">
+<value>Featured Only</value>
+</data>
+<data name="FeaturedOnlyHelp.Text">
+<value>Show Featured Articles Only.</value>
+</data>
+<data name="NotFeaturedOnly.Text">
+<value>Not Featured Only</value>
+</data>
+<data name="NotFeaturedOnlyHelp.Text">
+<value>Show Articles that are not featured only.</value>
+</data>
+<data name="AuthorFilter.Text">
+<value>Author</value>
+</data>
+<data name="AuthorFilter.Help">
+<value>Optionally filter by author.</value>
+</data>
+<data name="cmdSelectAuthor.Text">
+<value>Select Author</value>
+</data>
+<data name="AllAuthors.Text">
+<value>-- All Authors --</value>
+</data>
+<data name="plLayoutMode.Text">
+<value>Layout Mode</value>
+</data>
+<data name="plLayoutMode.Help">
+<value>Select a layout mode for displaying latest articles.</value>
+</data>
+<data name="Simple.Text">
+<value>Simple</value>
+</data>
+<data name="Advanced.Text">
+<value>Advanced</value>
+</data>
+<data name="HtmlHeader.Text">
+<value>HTML Header</value>
+</data>
+<data name="HtmlHeader.Help">
+<value>Enter the header html for the latest articles module.</value>
+</data>
+<data name="HtmlBody.Text">
+<value>HTML Body</value>
+</data>
+<data name="HtmlBody.Help">
+<value>Enter the body html for the latest articles module.</value>
+</data>
+<data name="HtmlFooter.Text">
+<value>HTML Footer</value>
+</data>
+<data name="HtmlFooter.Help">
+<value>Enter the footer html for the latest articles module.</value>
+</data>
+<data name="plItemsPerRow.Text">
+<value>Items Per Row</value>
+</data>
+<data name="plItemsPerRow.Help">
+<value>Enter the number of items to display per row.</value>
+</data>
+<data name="valItemsPerRow.ErrorMessage">
+<value>&lt;br&gt;Items Per Row Is Required.</value>
+</data>
+<data name="valItemsPerRowIsNumber.ErrorMessage">
+<value>&lt;br&gt;Items Per Row Must Be A Number</value>
+</data>
+<data name="TemplateHelp.Text">
+	<value>Template Help</value>
+</data>
+<data name="TemplateHelpDescription.Text">
+	<value>In this section, you can view the tags for customizing the latest articles template.</value>
+</data>
+<data name="ArticleID.Text">
+	<value>The ID of the article</value>
+</data>
+<data name="ArticleLink.Text">
+	<value>The link to the actual article</value>
+</data>
+<data name="Author.Text">
+	<value>The name of the author based on the configuration settings.</value>
+</data>
+<data name="AuthorEmail.Text">
+	<value>The email of the author</value>
+</data>
+<data name="AuthorUserName.Text">
+	<value>The username of the author</value>
+</data>
+<data name="AuthorFirstName.Text">
+	<value>The first name of the author</value>
+</data>
+<data name="AuthorLastName.Text">
+	<value>The last name of the author</value>
+</data>
+<data name="AuthorFullName.Text">
+	<value>The full name of the author</value>
+</data>
+<data name="AuthorID.Text">
+	<value>The ID of the author</value>
+</data>
+<data name="CategoriesToken.Text">
+	<value>Comma delimited list of categories hyperlinked</value>
+</data>
+<data name="CommentLink.Text">
+	<value>The link to the comment section of the article.</value>
+</data>
+<data name="CreateDate.Text">
+	<value>The creation date of the article</value>
+</data>
+<data name="CreateDateXXX.Text">
+	<value>The creation date of the article, the XXX can be replaced with a date format expression</value>
+</data>
+<data name="CreateTime.Text">
+	<value>The creation time of the article</value>
+</data>
+<data name="CommentCount.Text">
+	<value>The comment count of the article</value>
+</data>
+<data name="Details.Text">
+	<value>Displays the details of the current page.</value>
+</data>
+<data name="EditToken.Text">
+	<value>Displays a edit link to authorised users.</value>
+</data>
+<data name="HasCategories.Text">
+	<value>Allows the option to show a section of html if an article has categories.</value>
+</data>
+<data name="HasCommentsEnabled.Text">
+	<value>Allows the option to show a section of html if an article has comments enabled.</value>
+</data>
+<data name="HasLink.Text">
+	<value>Allows the option to show a section of html if an article has a link.</value>
+</data>
+<data name="HasMoreDetail.Text">
+	<value>Allows the option to show a section of html if an article has more detail.</value>
+</data>
+<data name="HasMultiplePages.Text">
+	<value>Allows the option to show a section of html if an article has multiple pages.</value>
+</data>
+<data name="HasRatingsEnabled.Text">
+	<value>Allows the option to show a section of html if an article has ratings enabled.</value>
+</data>
+<data name="Image.Text">
+	<value>The image of the article, displays nothing if no image selected.</value>
+</data>
+<data name="ImageLink.Text">
+	<value>The link to the image of the article, displays nothing if no image selected.</value>
+</data>
+<data name="ImageThumb.Text">
+	<value>The image of the article (thumbnailed to a width of XXX), displays nothing if no image selected.</value>
+</data>
+<data name="ImageThumbLink.Text">
+	<value>The link to the article image (thumbnailed to a width of XXX), displays nothing if no image selected.</value>
+</data>
+<data name="Link.Text">
+	<value>The link to the article, url, another page or file.</value>
+</data>
+<data name="LinkTarget.Text">
+	<value>The target of the link based on launch links.</value>
+</data>
+<data name="ModuleID.Text">
+	<value>The module ID of the article module.</value>
+</data>
+<data name="PageCount.Text">
+	<value>The number of pages within an article.</value>
+</data>
+<data name="PageText.Text">
+	<value>The detail of the article.</value>
+</data>
+<data name="Print.Text">
+	<value>The link to print an article.</value>
+</data>
+<data name="PublishDateTag.Text">
+	<value>The publish date of the article</value>
+</data>
+<data name="PublishDateXXX.Text">
+	<value>The publish date of the article, the XXX can be replaced with a date format expression</value>
+</data>
+<data name="PublishTime.Text">
+	<value>The publish time of the article</value>
+</data>
+<data name="PublishEndDate.Text">
+	<value>The publish end date of the article</value>
+</data>
+<data name="PublishEndTime.Text">
+	<value>The publish end time of the article</value>
+</data>
+<data name="Rating.Text">
+	<value>The rating of the article</value>
+</data>
+<data name="RatingCount.Text">
+	<value>The number of the ratings on an article</value>
+</data>
+<data name="RatingDetail.Text">
+	<value>The actual rating value of an article</value>
+</data>
+<data name="RssLink.Text">
+	<value>The link to the rss feed</value>
+</data>
+<data name="PagesList.Text">
+	<value>A list of pages within the article hyperlinked. If there is only 1 page, token is blank.</value>
+</data>
+<data name="Summary.Text">
+	<value>The summary of the article</value>
+</data>
+<data name="SummaryXXX.Text">
+	<value>The summary of the article restricted by number of characters, e.g. replace XXX with 50 to restrict to 50 chars.</value>
+</data>
+<data name="Title.Text">
+	<value>The title of the article</value>
+</data>
+<data name="UpdateDate.Text">
+	<value>The last update date of the article</value>
+</data>
+<data name="UpdateDateXXX.Text">
+	<value>The last update date of the article, the XXX can be replaced with a date format expression</value>
+</data>
+<data name="UpdateTime.Text">
+	<value>The last update time of the article</value>
+</data>
+<data name="ViewCount.Text">
+	<value>The view count for the article</value>
+</data>
+<data name="ControlTitle_options.Text">
+	<value>Latest Articles Options</value>
+</data>
+<data name="ModuleHelp.Text">
+<value>&lt;h1&gt;Latest Articles Options&lt;/h1&gt;&lt;p&gt;This module allows you to choose from the various admin options.&lt;/p&gt;</value>
+</data>
+</root>

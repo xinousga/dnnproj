@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdPostComment.Text">
+    <value>发表评论</value>
+  </data>
+  <data name="PostComment.Text">
+    <value>发表评论</value>
+  </data>
+  <data name="PostCommentDescription.Text">
+    <value>在这里，你可以发表评论</value>
+  </data>
+  <data name="Name.Text">
+    <value>名称</value>
+  </data>
+  <data name="Name.Help">
+    <value>为这个评论起一个名称</value>
+  </data>
+  <data name="valName.ErrorMessage">
+    <value>&lt;br&gt;你必须输入一个名称。</value>
+  </data>
+  <data name="Email.Text">
+    <value>邮件</value>
+  </data>
+  <data name="Email.Help">
+    <value>为这个评论输入一个邮件地址</value>
+  </data>
+  <data name="valEmail.ErrorMessage">
+    <value>&lt;br&gt;你必须输入一个邮件地址。</value>
+  </data>
+  <data name="Website.Text">
+    <value>URL</value>
+  </data>
+  <data name="Website.Help">
+    <value>为这个评论输入一个网址</value>
+  </data>
+  <data name="Rating.Text">
+    <value>级别</value>
+  </data>
+  <data name="Rating.Help">
+    <value>为这个文章输入一个级别</value>
+  </data>
+  <data name="valRating.ErrorMessage">
+    <value>&lt;br&gt;你必须输入一个级别。</value>
+  </data>
+  <data name="Comment.Text">
+    <value>评论</value>
+  </data>
+  <data name="Comment.Help">
+    <value>在这里输入文章的评论。</value>
+  </data>
+  <data name="valComment.ErrorMessage">
+    <value>页面正文是必须的。</value>
+  </data>
+  <data name="NotifyMe.Text">
+    <value>通知我</value>
+  </data>
+  <data name="NotifyMe.Help">
+    <value>有跟随评论时用邮件通知我</value>
+  </data>
+  <data name="ControlTitle_postcomment.Text">
+    <value>发表评论</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;关于发表评论&lt;/h1&gt;&lt;p&gt;这个模块允许用户输入对文章的评论和级别。&lt;/p&gt;</value>
+  </data>
+  <data name="Captcha.Help">
+    <value>输入安全代码</value>
+  </data>
+  <data name="Captcha.Text">
+    <value>安全代码</value>
+  </data>
+  <data name="CaptchaText.Text">
+    <value>将上面显示的代码输入下面的框中</value>
+  </data>
+  <data name="InvalidCaptcha.Text">
+    <value>不正确的安全代码</value>
+  </data>
+  <data name="RequiresApproval.Text">
+    <value>您的评论已报审核，当评论得到批准后，您会收到一封电子邮件通知。</value>
+  </data>
+  <data name="ReturnToArticle.Text">
+    <value>点击&lt;a href="{0}"&gt;这里&lt;/a&gt;返回。</value>
+  </data>
+</root>

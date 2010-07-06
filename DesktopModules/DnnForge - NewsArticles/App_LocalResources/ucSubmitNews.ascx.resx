@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version">
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="SummaryTab.Text">
+<value>Summary</value>
+</data>
+<data name="DetailsTab.Text">
+<value>Details</value>
+</data>
+<data name="AppearanceTab.Text">
+<value>Appearance</value>
+</data>
+<data name="LinkToTab.Text">
+<value>Link to</value>
+</data>
+<data name="PublishingTab.Text">
+<value>Publishing</value>
+</data>
+
+<data name="ArticleSummary.Text">
+<value>Article Summary</value>
+</data>
+<data name="ArticleSummary.Description">
+<value>Enter the details of your article including title (required), categories (if applicable) and summary text (required).&lt;br&gt;Once complete, you can save your article via the buttons above the form.</value>
+</data>
+<data name="Title.Text">
+<value>Title</value>
+</data>
+<data name="TitleHelp.Text">
+<value>Enter a title for the article here.</value>
+</data>
+<data name="valTitle.ErrorMessage">
+<value>Summary -> Title is Required</value>
+</data>
+<data name="Summary.Text">
+<value>Summary</value>
+</data>
+<data name="SummaryHelp.Text">
+<value>Enter a summary for the article here.</value>
+</data>
+<data name="valSummary.ErrorMessage">
+<value>Summary -> Summary is Required</value>
+</data>
+<data name="Author.Text">
+<value>Author:</value>
+</data>
+<data name="Author.Help">
+<value>Select author for the article.</value>
+</data>
+<data name="cmdSelectAuthor.Text">
+<value>(Change Author)</value>
+</data>
+<data name="NoAuthor.Text">
+<value>No Author</value>
+</data>
+<data name="Categories.Text">
+<value>Categories</value>
+</data>
+<data name="CategoriesHelp.Text">
+<value>Select categories for the article here.</value>
+</data>
+<data name="AdvancedSettings.Text">
+<value>Advanced Settings</value>
+</data>
+
+<data name="ArticleDetails.Text">
+<value>Article Details</value>
+</data>
+<data name="ArticleDetails.Description">
+<value>Enter the main body of your article (optional).&lt;br&gt;Once complete, you can save your article via the buttons above the form.</value>
+</data>
+<data name="Details.Text">
+<value>Details</value>
+</data>
+<data name="DetailsHelp.Text">
+<value>Enter the body of your article here.</value>
+</data>
+
+<data name="ArticleAppearance.Text">
+<value>Article Appearance</value>
+</data>
+<data name="ArticleAppearance.Description">
+<value>Mark your article as featured or to be associated with an image.&lt;br&gt;Once complete, you can save your article via the buttons above the form.</value>
+</data>
+<data name="Image.Text">
+<value>Image</value>
+</data>
+<data name="ImageHelp.Text">
+<value>You can choose an image to associate with this article.</value>
+</data>
+<data name="Featured.Text">
+<value>Featured</value>
+</data>
+<data name="FeaturedHelp.Text">
+<value>If the page is featured it appears first in the article listing until it expires.</value>
+</data>
+<data name="Secure.Text">
+<value>Secure</value>
+</data>
+<data name="SecureHelp.Text">
+<value>If the article is secured, the complete article (except for summary) will only be available to the roles configured in admin options.</value>
+</data>
+<data name="ArticleLink.Text">
+<value>Article Link</value>
+</data>
+<data name="ArticleLink.Description">
+<value>Optionally link your article to another resource.&lt;br&gt;Once complete, you can save your article via the buttons above the form.</value>
+</data>
+<data name="NewWindow.Text">
+<value>New Window</value>
+</data>
+<data name="NewWindowHelp.Text">
+<value>Check to launch the link in a new window.</value>
+</data>
+<data name="ArticlePublishing.Text">
+<value>Article Publishing</value>
+</data>
+<data name="ArticlePublishing.Description">
+<value>Optionally specify a date &amp; time to publish/expire your article.&lt;br&gt;Once complete, you can save your article via the buttons above the form.</value>
+</data>
+<data name="plStartDate.Text">
+<value>Publish Time &amp; Date:</value>
+</data>
+<data name="plStartDate.Help">
+<value>Enter the start date for displaying this article. You may use the Calendar to pick a date.</value>
+</data>
+<data name="valStartDate.ErrorMessage">
+<value>Publishing -> Publish Time &amp; Date is Invalid</value>
+</data>
+<data name="valPublishDateRequired.ErrorMessage">
+<value>Publishing -> Publish Time &amp; Date is Required</value>
+</data>
+<data name="plEndDate.Text">
+<value>Expiry Time &amp; Date:</value>
+</data>
+<data name="plEndDate.Help">
+<value>Enter the end date for displaying this article. You may use the Calendar to pick a date.</value>
+</data>
+<data name="valEndDate.ErrorMessage">
+<value>Publishing -> Expiry Time &amp; Date is Invalid</value>
+</data>
+<data name="Delete.Text">
+<value>Are You Sure You Wish To Delete This Item ?</value>
+</data>
+<data name="SaveArticle.Text">
+<value>Save Article</value>
+</data>
+<data name="PublishArticle.Text">
+<value>Publish Article</value>
+</data>
+<data name="UnpublishArticle.Text">
+<value>Unpublish Article</value>
+</data>
+<data name="ApproveArticle.Text">
+<value>Approve Article</value>
+</data>
+<data name="RejectArticle.Text">
+<value>Reject Article</value>
+</data>
+<data name="AddEditPages.Text">
+<value>Add/Edit Pages</value>
+</data>
+<data name="DeleteArticle.Text">
+<value>Delete Article</value>
+</data>
+<data name="ControlTitle_edit.Text">
+<value>Submit Article</value>
+</data>
+<data name="ModuleHelp.Text">
+<value>&lt;h1&gt;Article Management&lt;/h1&gt;&lt;p&gt;Users allowed to submit articles can submit or edit an article on this page. This module allows you to create a new article, modify an existing article, delete an article, add pages to an article or submit an article for approval.&lt;/p&gt;</value>
+</data>
+</root>

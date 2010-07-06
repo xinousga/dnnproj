@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="footer.text" xml:space="preserve">
+    <value>详细的错误修复和功能改善列表请参考 &lt;a target="_blank" href="http://support.dotnetnuke.com/project/ChangeLog.aspx?PROJID=2"&gt;官方更新记录&lt;/a&gt;.    </value>
+  </data>
+  <data name="header.text" xml:space="preserve">
+    <value>下面是各个版本的更新记录摘要，详细信息请参考  &lt;a target="_blank" href="http://support.dotnetnuke.com/project/ChangeLog.aspx?PROJID=2"&gt;官方更新记录&lt;/a&gt;.</value>
+  </data>
+  <data name="WhatsNew.04.09.00" xml:space="preserve">
+    <value>&lt;h3 class="SubSubHead"&gt;主要更新&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Fixed issues with the URL Rewriter.&amp;#160; There were several issues which could result in unreachable pages using friendly URLs.&amp;#160; We have added in validation logic to prevent pages from being created which would violate folder naming standards or which would result in two pages receiving the same Human Friendly URL.&lt;/li&gt;
+    &lt;li&gt;Fixed longstanding issue in the file based caching provider.&amp;#160; There was invalid logic in the caching provider which prevented it from working correctly.&amp;#160; The provider has been re-written to resolve the problem and provide a stable platform for web-farm scenarios.&lt;/li&gt;
+    &lt;li&gt;Fixed several dictionary errors.&amp;#160; These errors mostly occurred under heavy load or were otherwise intermittent.&amp;#160; Dictionary usage was evaluated throughout DNN and updated to utilize thread-safe approaches for updating and caching the dictionary.&lt;/li&gt;
+    &lt;li&gt;Fixed an issue that prevented users in certain locales from adding modules to div based panes.&lt;/li&gt;
+    &lt;li&gt;Added a new default skin that is more contemporary&lt;/li&gt;
+    &lt;li&gt;Added a new default template that removes much of the clutter and unnecessary information.&lt;/li&gt;
+    &lt;li&gt;Added a new Text skin object that allows you to add localized text to your skin.&lt;/li&gt;
+    &lt;li&gt;Added a new Styles skin object that allows you to insert additional stylesheets into the page header.&amp;#160; Stylesheets can be optionally included using IE Conditional Comments.&lt;/li&gt;
+    &lt;li&gt;Enhanced the Search skin object to include the option to display a dropdown list of web/site search options.&lt;/li&gt;
+    &lt;li&gt;Enhanced the Update Notification Service to display information on new language packs that are available for locales which are currently installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Security Fixes&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span class="NormalRed"&gt;Critical &lt;/span&gt;- &lt;a target="_blank" href="http://www.dotnetnuke.com/News/SecurityPolicy/Securitybulletinno21/tabid/1174/Default.aspx"&gt;Authentication blindspot in User functions&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span class="NormalRed"&gt;Critical &lt;/span&gt;- &lt;a target="_blank" href="http://www.dotnetnuke.com/Community/Blogs/tabid/825/EntryID/1987/Default.aspx"&gt;Validation failure in Repository Module&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span class="NormalRed"&gt;Critical &lt;/span&gt;- &lt;a target="_blank" href="http://www.dotnetnuke.com/News/SecurityPolicy/Securitybulletinno23/tabid/1176/Default.aspx"&gt;Validation failure when loading skins&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span class="Normal"&gt;Low &lt;/span&gt;- &lt;a target="_blank" href="http://www.dotnetnuke.com/News/SecurityPolicy/Securitybulletinno22/tabid/1175/Default.aspx"&gt;Information leakage in Install Wizard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Updated Modules/Providers&lt;/h3&gt;
+&lt;p&gt;The following modules and providers have been updated in the 4.9.0 packages.&amp;#160; Please see the specific project pages for notes on what bugs or enhancements were corrected with each release.&lt;/p&gt;
+&lt;h4 class="SubSubHead"&gt;Modules&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleDocuments/tabid/826/Default.aspx"&gt;Documents 04.01.00&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleEvents/tabid/833/Default.aspx"&gt;Events 04.00.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleHelp/tabid/850/Default.aspx"&gt;Help 03.00.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;HTML 04.08.01&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleLinks/tabid/857/Default.aspx"&gt;Links 04.00.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleNews/tabid/847/Default.aspx"&gt;NewsFeeds 04.00.00&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleRepository/tabid/830/Default.aspx"&gt;Repository 03.01.15 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleSurvey/tabid/837/Default.aspx"&gt;Survey 04.50.00&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleUserDefinedTable/tabid/877/Default.aspx"&gt;UserDefinedTable 03.05.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleWiki/tabid/848/Default.aspx"&gt;Wiki 04.01.00 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 class="SubSubHead"&gt;Providers&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ProviderFCKeditor/tabid/934/Default.aspx"&gt;FCK Html Editor Provider 02.00.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ProviderAuthentication/tabid/840/Default.aspx"&gt;AD Authentication Provider 01.00.04&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</value>
+  </data>
+  <data name="notestitle.text" xml:space="preserve">
+    <value>{0} 更新记录</value>
+  </data>
+  <data name="WhatsNew.04.09.01" xml:space="preserve">
+    <value>&lt;h3 class="SubSubHead"&gt;主要更新&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Fixed issue with the cache which was preventing proper operation of the 
+	scheduler.&lt;/li&gt;
+    &lt;li&gt;Fixed issue with web crawlers which could cause thrashing in the cache&lt;/li&gt;
+    &lt;li&gt;Fixed issue with the EventQueue to remove events that result in an 
+	error.&amp;nbsp; This prevents an event from filling the event log with errors.&lt;/li&gt;
+    &lt;li&gt;Fixed issue with the RoleController.GetUserRoles method which introduced 
+	a breaking change in 4.9.0.&lt;/li&gt;
+    &lt;li&gt;Added a new column to the version table to distinguish between Community 
+	Edition and Professional Edition installs&lt;/li&gt;
+    &lt;li&gt;Added a new feature for logging server restarts in a web farm 
+	environment.&lt;/li&gt;
+    &lt;li&gt;Added a new admin Dashboard page.&amp;nbsp; The dashboard provides a single 
+	page where hosts can view an overall snapshot of their site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Security Fixes&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span class="NormalRed"&gt;Critical &lt;/span&gt;- &lt;a target="_blank" href="http://www.dotnetnuke.com/News/SecurityPolicy/Securitybulletinno24/tabid/1188/Default.aspx"&gt;
+	User can access additional roles for which they do not have permissions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Updated Modules/Providers&lt;/h3&gt;
+&lt;p&gt;The following modules and providers have been updated in the 4.9.1 packages.&amp;#160; Please see the specific project pages for notes on what bugs or enhancements were corrected with each release.&lt;/p&gt;
+&lt;h4 class="SubSubHead"&gt;Modules&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ModuleDocuments/tabid/826/Default.aspx"&gt;
+	Survey 04.60.00&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 class="SubSubHead"&gt;Providers&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+	&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ProviderAuthentication/tabid/840/Default.aspx"&gt;
+	AD Authentication Provider 01.00.05&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="WhatsNew.05.00.00" xml:space="preserve">
+    <value>&lt;h3 class="SubSubHead"&gt;主要更新&lt;/h3&gt;
+&lt;ul &gt;
+	&lt;li&gt;
+	Added &lt;a href="http://jquery.com/" target="_blank"&gt;jQuery&lt;/a&gt; support 
+	to the core platform.&amp;#160; jQuery will now be distributed as part of the 
+	DotNetNuke installation and will be available for use by module developers.&lt;/li&gt;
+	&lt;li&gt;
+	Added support for Internet Explorer 8 Web Slices.&amp;#160; Administrators can 
+	configure any module to use IE8 Web Slices including the ability to set 
+	time-to-live and expiration values.&lt;/li&gt;
+	&lt;li&gt;
+	Removed distinction between admin modules and pages and normal pages.&amp;#160; This 
+	allows administrators to easily delegate access to any portion of the 
+	application to any group of users.&lt;/li&gt;
+	&lt;li&gt;
+	Updated the installation services to support manifest files for all 
+	extension types.&amp;#160; Now skins, containers, providers and modules are all first 
+	class citizens that can be installed and uninstalled.&lt;/li&gt;
+	&lt;li&gt;
+	Expanded XHTML, WCAG and ADA compliance.&lt;/li&gt;
+	&lt;li&gt;
+	Refactored core to improve support for Unit Testing.&amp;#160; Refactored several 
+	core classes to use interfaces and added a simple component factory to 
+	provide dependency injection support.&amp;#160;&lt;/li&gt;
+	&lt;li&gt;
+	Added ability to deny permissions in the permissions grid.&amp;#160; This new feature 
+	extends the permission framework to give administrators greater flexibility 
+	in defining permissions.&lt;/li&gt;
+	&lt;li&gt;
+	Added Widget framework.&amp;#160; The new Widget framework allows you to quickly add 
+	JavaScript/html widgets to your site with very little effort.&amp;#160; The framework 
+	supports the use of a simple object tag based representation which means you 
+	don’t have to know JavaScript in order to add the widgets.&lt;/li&gt;
+	&lt;li&gt;
+	Added new Object notation for using skin objects in Skins.&amp;#160; Skin designers 
+	will no longer need to include separate XML files when creating and 
+	packaging skins.&amp;#160; No more funky “[SKINOBJECT]” tags littering your html.&amp;#160; 
+	This significantly simplifies the process of creating skins and further 
+	opens up skin development to a broader group of designers.&amp;#160; If you include a 
+	simple JavaScript reference in your HTML skin, you can even get a full 
+	WYSIWYG experience when designing your skin.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class="SubSubHead"&gt;Security Fixes&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Includes a rollup of all 4.x security fixes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Updated Modules/Providers&lt;/h3&gt;
+&lt;p&gt;The following modules and providers have been updated in the 5.0.0 packages.&amp;#160; Please see the specific project pages for notes on what bugs or enhancements were corrected with each release.&lt;/p&gt;
+&lt;h4 class="SubSubHead"&gt;Providers&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+	&lt;a target="_blank" href="http://www.dotnetnuke.com/Products/Development/Forge/ProviderAuthentication/tabid/840/Default.aspx"&gt;
+	AD Authentication Provider 05.00.0&lt;/a&gt;&lt;a href="http://www.dotnetnuke.com/Products/Development/Forge/ProviderAuthentication/tabid/840/Default.aspx"&gt;0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+In addition to these highlights there are literally hundreds of bug fixes in 
+this release.&lt;/p&gt;</value>
+  </data>
+  <data name="WhatsNew.04.09.02" xml:space="preserve">
+    <value>&lt;h3 class="SubSubHead"&gt;主要更新&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Added the ability to perform permanent redirect from an existing page 
+	using the page settings screen.&lt;/li&gt;
+	&lt;li&gt;Fixed issue with the permanent forms authentication cookie which cause 
+	problems in SSO environments.&lt;/li&gt;
+	&lt;li&gt;Fixed issue which required a workaround to import page templates into a 
+	portal&lt;/li&gt;
+	&lt;li&gt;Fixed a caching issue which prevented modules from being properly cached 
+	if they used a specific caching method overload&lt;/li&gt;
+	&lt;li&gt;Fixed issue which resulted in an error installing the Broadcast Polling 
+	Provider&lt;/li&gt;
+	&lt;li&gt;Fixed tab redirect issue which allowed a user to directly navigate to a 
+	tab which was supposed to redirect to another URL&lt;/li&gt;
+	&lt;li&gt;Fixed a continuous redirect issue which occurred when trying to upgrade 
+	from early 4.x releases to 4.9.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Security Fixes&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Updated Modules/Providers&lt;/h3&gt;
+&lt;p&gt;The following modules and providers have been updated in the 4.9.2 packages.&amp;nbsp; 
+Please see the specific project pages for notes on what bugs or enhancements 
+were corrected with each release.&lt;/p&gt;
+&lt;h4 class="SubSubHead"&gt;Modules&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 class="SubSubHead"&gt;Providers&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;FckEditor Provider 2.0.3&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="WhatsNew.05.00.01" xml:space="preserve">
+    <value>&lt;h3 class="SubSubHead"&gt;主要更新&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Added the ability to automatically update user roles without requiring 
+	the user to logout and log back in.&lt;/li&gt;
+	&lt;li&gt;Changed the user deletion code to use a soft-delete rather than removing 
+	the user record.&amp;nbsp; This ensures that modules like the Forums behave 
+	correctly for a previously &amp;quot;deleted&amp;quot; user.&lt;/li&gt;
+	&lt;li&gt;Added IP logging to the User&amp;#39;s table to capture the last IP address from 
+	which a user logged in. &lt;/li&gt;
+	&lt;li&gt;Fixed breaking change with case sensitivity in the name of skin panes.&amp;nbsp; 
+	This fix restores the case-insensitivity of previous DotNetNuke releases.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change with ModuleId in DotNetNuke 5.0 which changed 
+	ModuleId to a readonly value.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change in CBO.FillDictionary to restore previous 
+	behavior.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change which prevented legacy skins from being installed 
+	when using the auto-install option.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change which prevented updated DLLs from being replaced 
+	when repairing a module installation.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change in HumanFriendlyUrls which prevented querystrings 
+	from being properly read when using HumanFriendlyUrls&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change in legacy modules which would not store a zip file 
+	which was not designated as a resource file.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change in legacy modules which ignored zip directories.&amp;nbsp; 
+	DNN 5 changed this behavior.&lt;/li&gt;
+	&lt;li&gt;Fixed breaking change in default.css which resulted in changes to 
+	existing skin layouts.&lt;/li&gt;
+	&lt;li&gt;Fixed issue with roles module which prevented users from delegating role 
+	administration to a non-admin user.&lt;/li&gt;
+	&lt;li&gt;Fixed issue which prevented some users from logging out due to the 
+	inability of the system to detect their country.&lt;/li&gt;
+	&lt;li&gt;Fixed issue with Module Action Menu which prevented it from opening 
+	links in new windows.&lt;/li&gt;
+	&lt;li&gt;Fixed issue that results in an error when the Cache logs an error under 
+	the new CACHE_ERROR event type&lt;/li&gt;
+	&lt;li&gt;Fixed a packaging issue with FCKEditor which caused the LinkEditor to 
+	cause an unhandled exception.&lt;/li&gt;
+	&lt;li&gt;Fixed an issue which resulted in the system not being able to display 
+	the portalaliases screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Security Fixes&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fixed version nformation leakage issue in the install wizard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class="SubSubHead"&gt;Updated Modules/Providers&lt;/h3&gt;
+&lt;p&gt;The following modules and providers have been updated in the 5.0.1 packages.&amp;nbsp; 
+Please see the specific project pages for notes on what bugs or enhancements 
+were corrected with each release.&lt;/p&gt;
+&lt;h4 class="SubSubHead"&gt;Modules&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt;Forms and List 05.00.00&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 class="SubSubHead"&gt;Providers&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt;FckHtmlEditorProvider 2.0.3 &lt;/li&gt;
+	&lt;li&gt;AD Provider 05.00.01&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+</root>

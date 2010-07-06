@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login_chat.aspx.cs" Inherits="YourCompany.Modules.topcmm_123flashchat.login_chat" %>

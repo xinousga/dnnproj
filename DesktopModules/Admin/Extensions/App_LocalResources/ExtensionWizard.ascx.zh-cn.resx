@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ControlTitle_newextension.Text" xml:space="preserve">
+    <value>创建新扩展</value>
+  </data>
+  <data name="Core.Text" xml:space="preserve">
+    <value>核心语言包</value>
+  </data>
+  <data name="DuplicateName.Text" xml:space="preserve">
+    <value>此名称 - {0} - 已存在.  请提供另一个名字.</value>
+  </data>
+  <data name="IntroductionHelp.Text" xml:space="preserve">
+    <value>第一步， 请提供一个唯一的扩展名 - 这里建议您使用以下格式: "公司名.扩展名" 这样在用户安装模块时可以避免潜在的重名问题。 此外请提供扩展的别名，描述和版本（默认为0.0.0）</value>
+  </data>
+  <data name="Introduction_All.Help" xml:space="preserve">
+    <value>在此创建新扩展。按提步骤示输入信息， 请选择要创建的扩展类型。</value>
+  </data>
+  <data name="Introduction_All.Title" xml:space="preserve">
+    <value>创建新扩展</value>
+  </data>
+  <data name="Introduction_Container.Help" xml:space="preserve">
+    <value>在此创建容器包，请按提步骤示输入信息。</value>
+  </data>
+  <data name="Introduction_Container.Title" xml:space="preserve">
+    <value>创建新容器扩展包</value>
+  </data>
+  <data name="Introduction_LanguagePack.Help" xml:space="preserve">
+    <value>在此创建语言包，请按提步骤示输入信息。选择语言包类型，核心语言包(系统文件翻译)，或扩展语言包(针对扩展模块的翻译)， 在下一步您可以选择语言和扩展模块。</value>
+  </data>
+  <data name="Introduction_LanguagePack.Title" xml:space="preserve">
+    <value>创建新语言包</value>
+  </data>
+  <data name="Introduction_Module.Help" xml:space="preserve">
+    <value>在此创建模块定义，请按提步骤示输入信息。</value>
+  </data>
+  <data name="Introduction_Module.Title" xml:space="preserve">
+    <value>创建新模块</value>
+  </data>
+  <data name="Introduction_Skin.Help" xml:space="preserve">
+    <value>在此创建皮肤包，请按提步骤示输入信息。</value>
+  </data>
+  <data name="Introduction_Skin.Title" xml:space="preserve">
+    <value>创建新皮肤包</value>
+  </data>
+  <data name="OwnerInfo.Help" xml:space="preserve">
+    <value>在最后一步，您可以选择性的提供此扩展开发者的信息，如果您准备推广或销售此模块这将是很有用的信息。</value>
+  </data>
+  <data name="OwnerInfo.Title" xml:space="preserve">
+    <value>开发者信息</value>
+  </data>
+  <data name="Package.Text" xml:space="preserve">
+    <value>扩展模块语言包</value>
+  </data>
+  <data name="PackageType.Error" xml:space="preserve">
+    <value>您比须选择语言包类型</value>
+  </data>
+  <data name="plExtensionType.Help" xml:space="preserve">
+    <value>选择要创建的扩展类型</value>
+  </data>
+  <data name="plExtensionType.Text" xml:space="preserve">
+    <value>选择扩展类型:</value>
+  </data>
+  <data name="plPackageType.Help" xml:space="preserve">
+    <value>选择这是一个核心语言包或扩展模块语言包.</value>
+  </data>
+  <data name="plPackageType.Text" xml:space="preserve">
+    <value>选择语言包类型:</value>
+  </data>
+  <data name="Specific_CoreLanguagePack.Help" xml:space="preserve">
+    <value>在这一步请提供语言包特定信息.</value>
+  </data>
+  <data name="Specific_CoreLanguagePack.Title" xml:space="preserve">
+    <value>语言包特定信息</value>
+  </data>
+  <data name="Specific_Module.Help" xml:space="preserve">
+    <value>在这一步请提供模块特定信息.</value>
+  </data>
+  <data name="Specific_Module.Title" xml:space="preserve">
+    <value>模块特定信息</value>
+  </data>
+  <data name="Specific_ExtensionLanguagePack.Help" xml:space="preserve">
+    <value>在这一步请提供语言包特定信息.</value>
+  </data>
+  <data name="Specific_ExtensionLanguagePack.Title" xml:space="preserve">
+    <value>语言包特定信息</value>
+  </data>
+</root>

@@ -1,0 +1,78 @@
+#Body {
+ background-color:#000;
+}
+.TopDiv {
+	background:url(graphics/BorderedTopMidnight_bg.png) top no-repeat;
+}
+.breadcrumb-div {
+	background-color:#171717;
+	border:none;
+	border-bottom:#1C1C1C 1px solid;
+}
+
+#GreytnessMidnight #dnn_dnnSEARCH_txtSearch.NormalTextBox  {
+background:none;
+background-color:#000;
+border:#333 1px solid;
+color:#FFF;
+}
+.contentWrapper {
+	background:url(graphics/BorderedContentMidnight_bg.png) top center repeat-y;
+}
+.BottomDiv {
+	background:url(graphics/BorderedBottomMidnight_bg.png) bottom no-repeat;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#FFF;
+}
+#GreytnessMidnight p, #GreytnessMidnight .Normal, #GreytnessMidnight .normal,#GreytnessMidnight a.CommandButton, #GreytnessMidnight .Head, #GreytnessMidnight .SubHead, #GreytnessMidnight .NormalBold, #GreytnessMidnight .NormalTextBox, #GreytnessMidnight label, #GreytnessMidnight .DataGrid_Item, #GreytnessMidnight .DataGrid_Header, #GreytnessMidnight a {
+	color:#F1F1F1;
+}
+#GreytnessMidnight input.NormalTextBox,#GreytnessMidnight textarea.Normal, #GreytnessMidnight textarea.NormalTextBox, #GreytnessMidnight select.NormalTextBox {
+	color:#000;
+}
+.FCKImageGalleryContainer {color:#000}
+.breadcrumb, .breadcrumbdiv {color: #999 !important;}
+#GreytnessMidnight .FileManager_Explorer, #GreytnessMidnight .FileManager_Explorer .SubHead, #GreytnessMidnight .FileManager_FileList .Normal, #GreytnessMidnight .PagingTable .Normal {
+	color:#000;
+}
+#GreytnessMidnight .LanguagesContent span.NormalBold, #GreytnessMidnight .LanguagesContent span.Normal, #GreytnessMidnight .dashboardPanel, #GreytnessMidnight .dashboardPanel .SubHead, #GreytnessMidnight .dashboardPanel .Head {
+	color:#000;
+}
+#GreytnessMidnight .LanguagesContent .DNNTree span.NormalBold, #GreytnessMidnight .LanguagesContent .DNNTree span.Normal {
+	color:#FFF;
+}
+#GreytnessMidnight .WizardText {
+	color:#FFF;
+}
+.fullWidth {
+	border-bottom:none;
+}
+
+#GreytnessMidnight .footer, #GreytnessMidnight .footer a, #GreytnessMidnight #dnn_dnnUSER_cmdRegister, #GreytnessMidnight #dnn_dnnLOGIN_cmdLogin  {color: #999;}
+
+#GreytnessMidnight .menu-bg {
+background-color:#222;
+border-bottom:1px solid #333;
+border-top:1px solid #333;
+}
+#GreytnessMidnight #nav a {
+background:url("graphics/menu_divide_midnight.gif") no-repeat scroll right center #222;
+color:#FFF;
+}
+#GreytnessMidnight #nav a:hover {
+	background:#333 none;
+}
+
+#GreytnessMidnight #nav li li a {
+border-right:1px solid #555;
+	border-bottom:#555 1px solid;
+	background:#222 none;}
+
+#GreytnessMidnight #nav li ul {
+	border-top:#555 1px solid;
+	border-left:1px solid #555}
+	
+#GreytnessMidnight .designBy, #GreytnessMidnight .designBy a, #GreytnessMidnight .designBy a {
+	color: #686868 ;
+}

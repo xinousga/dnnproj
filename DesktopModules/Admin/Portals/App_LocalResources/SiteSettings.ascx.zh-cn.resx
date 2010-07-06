@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行站点基本设置</value>
+  </data>
+  <data name="SiteDetails.Text" xml:space="preserve">
+    <value>站点信息</value>
+  </data>
+  <data name="plPortalName.Text" xml:space="preserve">
+    <value>标题:</value>
+  </data>
+  <data name="plPortalName.Help" xml:space="preserve">
+    <value>请输入站点标题，标题将会显示在浏览器的标题栏。</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>站点描述:</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>请输入站点描述.</value>
+  </data>
+  <data name="plKeyWords.Text" xml:space="preserve">
+    <value>关键字:</value>
+  </data>
+  <data name="plKeyWords.Help" xml:space="preserve">
+    <value>输入用逗号分割的关键字. 关键字将会被添加到html页面中的MetaData这将会帮助您的网站被搜索引擎收录。</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>站点标识码 (GUID):</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>可以用来标识此站点的全局唯一码(GUID)</value>
+  </data>
+  <data name="Marketing.Text" xml:space="preserve">
+    <value>站点推广</value>
+  </data>
+  <data name="plSearchEngine.Text" xml:space="preserve">
+    <value>搜索引擎:</value>
+  </data>
+  <data name="plSearchEngine.Help" xml:space="preserve">
+    <value>提交站点到选中的搜索引擎。</value>
+  </data>
+  <data name="cmdSearchEngine.Text" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="plSiteMap.Text" xml:space="preserve">
+    <value>站点地图:</value>
+  </data>
+  <data name="plSiteMap.Help" xml:space="preserve">
+    <value>提交站点地图到Google以优化搜索. 点提交以获得Google网站管理员工具账号,并验证您是否拥有此站点( 使用下边的验证选项).一旦验证，可以在站点地图(Sitemaps)页面选择添加站点地图,并且粘贴显在站点地图的链接。</value>
+  </data>
+  <data name="cmdSiteMap.Text" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="plVerification.Text" xml:space="preserve">
+    <value>Google验证:</value>
+  </data>
+  <data name="plVerification.Help" xml:space="preserve">
+    <value>当注册Google网站管理员工具，需要验证您是否为站点所有者. 从Google验证页面选择上传HTML文件，在DNN验证框中输入刚刚显示的验证文件，(例如 google53c0cef435b2b81e.html) 然后点击创建，返回到Google验证。</value>
+  </data>
+  <data name="cmdVerification.Text" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="plBanners.Text" xml:space="preserve">
+    <value>横幅广告:</value>
+  </data>
+  <data name="plBanners.Help" xml:space="preserve">
+    <value>显示在此网站上显示的横幅广告类型.</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="plLogo.Text" xml:space="preserve">
+    <value>站点标志 (Logo):</value>
+  </data>
+  <data name="plLogo.Help" xml:space="preserve">
+    <value>如果皮肤支持, 站点标志将会显示在页面。</value>
+  </data>
+  <data name="plPortalSkin.Text" xml:space="preserve">
+    <value>默认皮肤:</value>
+  </data>
+  <data name="plPortalSkin.Help" xml:space="preserve">
+    <value>选中的皮肤将会被应用于站点内的所有页面， 在页面设置选用不同的皮肤将会覆盖默认设置。</value>
+  </data>
+  <data name="plPortalContainer.Text" xml:space="preserve">
+    <value>默认容器:</value>
+  </data>
+  <data name="plPortalContainer.Help" xml:space="preserve">
+    <value>选中的容器将会被应用于站点内的所有模块， 在页面设置或模块设置中选用不同的容器将会覆盖默认设置。</value>
+  </data>
+  <data name="plAdminSkin.Text" xml:space="preserve">
+    <value>编辑模式皮肤:</value>
+  </data>
+  <data name="plAdminSkin.Help" xml:space="preserve">
+    <value>此站点所有模块的编辑模式(ctl=)所在的页面将会默认应用此皮肤</value>
+  </data>
+  <data name="plAdminContainer.Text" xml:space="preserve">
+    <value>编辑模式容器:</value>
+  </data>
+  <data name="plAdminContainer.Help" xml:space="preserve">
+    <value>此站点所有模块的编辑模式(ctl=)将会默认应用此容器。</value>
+  </data>
+  <data name="plBackground.Text" xml:space="preserve">
+    <value>页面背景:</value>
+  </data>
+  <data name="plBackground.Help" xml:space="preserve">
+    <value>选中的图片将会作为背景应用于所有页面，但是如果皮肤中已设置页面背景将会覆盖此选项。</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行站点高级设置</value>
+  </data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+    <value>安全设置</value>
+  </data>
+  <data name="plUserRegistration.Text" xml:space="preserve">
+    <value>会员模式:</value>
+  </data>
+  <data name="plUserRegistration.Help" xml:space="preserve">
+    <value>选择此站点的会员模式。禁止注册模式，关闭注册会员功能。私有会员模式，注册申请需要管理员批准后才能成为正式会员。公开会员模式，用户可随意注册成为会员。验证会员模式，用户注册后需要点击邮件内的激活链接才可成为正式会员。</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>禁止注册</value>
+  </data>
+  <data name="Private.Text" xml:space="preserve">
+    <value>私有会员</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>公开会员</value>
+  </data>
+  <data name="Verified.Text" xml:space="preserve">
+    <value>验证会员</value>
+  </data>
+  <data name="Pages.Text" xml:space="preserve">
+    <value>页面管理</value>
+  </data>
+  <data name="plSplashTabId.Text" xml:space="preserve">
+    <value>封面页:</value>
+  </data>
+  <data name="plSplashTabId.Help" xml:space="preserve">
+    <value>选择站点的封面页，这将是访问站点首先看到的页面，如不指定将直接进入首页.</value>
+  </data>
+  <data name="plHomeTabId.Text" xml:space="preserve">
+    <value>首页:</value>
+  </data>
+  <data name="plHomeTabId.Help" xml:space="preserve">
+    <value>选择站点首页.</value>
+  </data>
+  <data name="plLoginTabId.Text" xml:space="preserve">
+    <value>登录页:</value>
+  </data>
+  <data name="plLoginTabId.Help" xml:space="preserve">
+    <value>选择站点登录页面。</value>
+  </data>
+  <data name="plUserTabId.Text" xml:space="preserve">
+    <value>用户页:</value>
+  </data>
+  <data name="plUserTabId.Help" xml:space="preserve">
+    <value>选择用户页.</value>
+  </data>
+  <data name="Payment.Text" xml:space="preserve">
+    <value>支付设置</value>
+  </data>
+  <data name="plCurrency.Text" xml:space="preserve">
+    <value>货币:</value>
+  </data>
+  <data name="plCurrency.Help" xml:space="preserve">
+    <value>此站点所使用的货币.</value>
+  </data>
+  <data name="plProcessor.Text" xml:space="preserve">
+    <value>支付接口:</value>
+  </data>
+  <data name="plProcessor.Help" xml:space="preserve">
+    <value>选择支付接口用以处理站内付款。</value>
+  </data>
+  <data name="ProcessorWebSite.Text" xml:space="preserve">
+    <value>访问支付接口网站</value>
+  </data>
+  <data name="plUserId.Text" xml:space="preserve">
+    <value>支付接口帐号:</value>
+  </data>
+  <data name="plUserId.Help" xml:space="preserve">
+    <value>输入支付接口的用户帐号</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>支付接口密码:</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>输入支付接口帐号密码</value>
+  </data>
+  <data name="Usability.Text" xml:space="preserve">
+    <value>可用性设置</value>
+  </data>
+  <data name="plInlineEditor.Text" xml:space="preserve">
+    <value>启用即时编辑器?</value>
+  </data>
+  <data name="plInlineEditor.Help" xml:space="preserve">
+    <value>如过启用即时编辑器，将可在页面内直接编辑Texe/Html模块的内容，不需要进入编辑模式。</value>
+  </data>
+  <data name="plControlPanelMode.Text" xml:space="preserve">
+    <value>控制面板模式:</value>
+  </data>
+  <data name="plControlPanelMode.Help" xml:space="preserve">
+    <value>选择默认控制面板模式，编辑模式中可对页面中的模块进行配置。</value>
+  </data>
+  <data name="ControlPanelModeView.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="ControlPanelModeEdit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="plControlPanelVisibility.Text" xml:space="preserve">
+    <value>控制面板显示方式:</value>
+  </data>
+  <data name="plControlPanelVisibility.Help" xml:space="preserve">
+    <value>选择控制面板默认的显示方式，最大化或最小化.</value>
+  </data>
+  <data name="ControlPanelVisibilityMinimized.Text" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="ControlPanelVisibilityMaximized.Text" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="plControlPanelSecurity.Text" xml:space="preserve">
+    <value>控制面板权限:</value>
+  </data>
+  <data name="plControlPanelSecurity.Help" xml:space="preserve">
+    <value>选择是否拥有模块编辑权限的用户可以看到控制面板， 或必须用页面编辑权限的用户才可以看到控制面板。</value>
+  </data>
+  <data name="ControlPanelSecurityTab.Text" xml:space="preserve">
+    <value>页面编辑者</value>
+  </data>
+  <data name="ControlPanelSecurityModule.Text" xml:space="preserve">
+    <value>模块编辑者</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>其它设置</value>
+  </data>
+  <data name="plFooterText.Text" xml:space="preserve">
+    <value>版权:</value>
+  </data>
+  <data name="plFooterText.Help" xml:space="preserve">
+    <value>如果皮肤支持，此版权信息将会显示在页面。</value>
+  </data>
+  <data name="Site.Text" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="plAdministrator.Text" xml:space="preserve">
+    <value>站点管理员:</value>
+  </data>
+  <data name="plAdministrator.Help" xml:space="preserve">
+    <value>选择此站点的管理员，站点相关通知将会发送到指定管理员的电子邮件。例如，新用户注册通知，邮件群发报告。</value>
+  </data>
+  <data name="plDefaultLanguage.Text" xml:space="preserve">
+    <value>默认语言:</value>
+  </data>
+  <data name="plDefaultLanguage.Help" xml:space="preserve">
+    <value>站点默认语言。</value>
+  </data>
+  <data name="plTimeZone.Text" xml:space="preserve">
+    <value>站点时区:</value>
+  </data>
+  <data name="plTimeZone.Help" xml:space="preserve">
+    <value>站点所在地区的时区.</value>
+  </data>
+  <data name="HostSettings.Text" xml:space="preserve">
+    <value>主机设置</value>
+  </data>
+  <data name="plPortalAlias.Text" xml:space="preserve">
+    <value>站点别名:</value>
+  </data>
+  <data name="plPortalAlias.Help" xml:space="preserve">
+    <value>站点别名是用来访问站点的链接。</value>
+  </data>
+  <data name="plExpiryDate.Text" xml:space="preserve">
+    <value>截止日期:</value>
+  </data>
+  <data name="plExpiryDate.Help" xml:space="preserve">
+    <value>站点托管服务截止日期．</value>
+  </data>
+  <data name="plHostFee.Text" xml:space="preserve">
+    <value>站点托管服务月费:</value>
+  </data>
+  <data name="plHostFee.Help" xml:space="preserve">
+    <value>托管此站点所需的月费</value>
+  </data>
+  <data name="plHostSpace.Text" xml:space="preserve">
+    <value>站点空间:</value>
+  </data>
+  <data name="plHostSpace.Help" xml:space="preserve">
+    <value>此站点可用的空间，输入０为不限制使用空间。</value>
+  </data>
+  <data name="plSiteLogHistory.Text" xml:space="preserve">
+    <value>站点日志记录 (天):</value>
+  </data>
+  <data name="plSiteLogHistory.Help" xml:space="preserve">
+    <value>站点日志记录所保留的天数</value>
+  </data>
+  <data name="plDesktopModules.Text" xml:space="preserve">
+    <value>高级模块:</value>
+  </data>
+  <data name="plDesktopModules.Help" xml:space="preserve">
+    <value>只有指定的站点才可以使用高级模块。</value>
+  </data>
+  <data name="StylesheetEditor.Text" xml:space="preserve">
+    <value>样式表编辑器</value>
+  </data>
+  <data name="SaveStyleSheet.Text" xml:space="preserve">
+    <value>保存样式表</value>
+  </data>
+  <data name="RestoreDefaultStyleSheet.Text" xml:space="preserve">
+    <value>恢复默认样式表</value>
+  </data>
+  <data name="LoginInstructions.Text" xml:space="preserve">
+    <value>登录指示</value>
+  </data>
+  <data name="RegistrationInstructions.Text" xml:space="preserve">
+    <value>注册指示</value>
+  </data>
+  <data name="NewUserSignupMessage.Text" xml:space="preserve">
+    <value>新用户注册信息</value>
+  </data>
+  <data name="DeleteMessage.Text" xml:space="preserve">
+    <value>请确定要删除此站点?</value>
+  </data>
+  <data name="SubmitGoogle.Text" xml:space="preserve">
+    <value>提交站点到Google</value>
+  </data>
+  <data name="plHomeDirectory.Text" xml:space="preserve">
+    <value>站点目录:</value>
+  </data>
+  <data name="plHomeDirectory.Help" xml:space="preserve">
+    <value>所有和站点相关的文件将会上传到此目录。例如站点专署的皮肤, favicon.ico，在文件管理器上传的文件... 等等。</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>站点设置</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>编辑站点</value>
+  </data>
+  <data name="SkinUpload.Text" xml:space="preserve">
+    <value>上传皮肤扩展包</value>
+  </data>
+  <data name="ContainerUpload.Text" xml:space="preserve">
+    <value>上传容器扩展包</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于站点设置&lt;/h1&gt;&lt;p&gt;您可在此根据业务需求配置站点，这里包含了所有针对站点可配置的选项。&lt;/p&gt;</value>
+  </data>
+  <data name="RestoreCCSMessage.Text" xml:space="preserve">
+    <value>请确认恢复默认样式表，所有当前样式将会丢失。</value>
+  </data>
+  <data name="valHostFee.Error" xml:space="preserve">
+    <value>无效的费用!</value>
+  </data>
+  <data name="plPageQuota.Help" xml:space="preserve">
+    <value>指定站点可创建的最大页面数.</value>
+  </data>
+  <data name="plPageQuota.Text" xml:space="preserve">
+    <value>页面配额:</value>
+  </data>
+  <data name="plUserQuota.Help" xml:space="preserve">
+    <value>在此指定站点允许最大用户数.</value>
+  </data>
+  <data name="plUserQuota.Text" xml:space="preserve">
+    <value>用户限额:</value>
+  </data>
+  <data name="SSLSettings.Text" xml:space="preserve">
+    <value>SSL 设置</value>
+  </data>
+  <data name="plSSLEnabled.Text" xml:space="preserve">
+    <value>启用SSL?</value>
+  </data>
+  <data name="plSSLEnabled.Help" xml:space="preserve">
+    <value>指定此站点是否已安装SSL证书。</value>
+  </data>
+  <data name="plSSLEnforced.Text" xml:space="preserve">
+    <value>强制使用SSL?</value>
+  </data>
+  <data name="plSSLEnforced.Help" xml:space="preserve">
+    <value>当选中此项，在页面设置中只有启用＂使用安全链接＂的页面才可以通过SSL(HTTPS)访问</value>
+  </data>
+  <data name="plSSLURL.Text" xml:space="preserve">
+    <value>SSL链接:</value>
+  </data>
+  <data name="plSSLURL.Help" xml:space="preserve">
+    <value>可选择指定一个用于此站点安全连接(SSL)的链接地址。此选项仅在您没有为标准站点链接安装SSL证书时才需要，例如在共享主机时，主机服务商可能会提供共享SSL链接.</value>
+  </data>
+  <data name="plSTDURL.Text" xml:space="preserve">
+    <value>标准链接:</value>
+  </data>
+  <data name="plSTDURL.Help" xml:space="preserve">
+    <value>如果上面指定了SSL链接，您还需要指定一个用于非安全连接的标准链接。</value>
+  </data>
+  <data name="lblBanners.Text" xml:space="preserve">
+    <value>&lt;br&gt;主机服务商已预设横幅广告选项，不可在此更改</value>
+  </data>
+  <data name="AddAllModules.Text" xml:space="preserve">
+    <value>添加所有模块</value>
+  </data>
+  <data name="AddModule.Text" xml:space="preserve">
+    <value>添加模块</value>
+  </data>
+  <data name="ctlDesktopModules_Available.Text" xml:space="preserve">
+    <value>可用模块</value>
+  </data>
+  <data name="ctlDesktopModules_Selected.Text" xml:space="preserve">
+    <value>选中的模块</value>
+  </data>
+  <data name="RemoveAllModules" xml:space="preserve">
+    <value>移除所有模块</value>
+  </data>
+  <data name="RemoveModule.Text" xml:space="preserve">
+    <value>移除模块</value>
+  </data>
+  <data name="plSkinWidgestEnabled.Help" xml:space="preserve">
+    <value>选中此项启用皮肤插件。</value>
+  </data>
+  <data name="plSkinWidgestEnabled.Text" xml:space="preserve">
+    <value>启用皮肤插件:</value>
+  </data>
+  <data name="PortalAliases.Text" xml:space="preserve">
+    <value>站点别名</value>
+  </data>
+</root>

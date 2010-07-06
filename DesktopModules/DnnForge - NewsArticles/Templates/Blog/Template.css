@@ -1,0 +1,37 @@
+
+#listing div {
+	margin : 0px 10px;
+}
+
+#listing .post {
+	border-bottom : none;
+}
+
+#listing h3 {
+	font-family : Verdana;
+	background-color : #E5EEF7;
+	padding : 2px;
+	border-top : 1px solid #666;	
+	border-bottom : 1px dashed #666;	
+	padding-left : 10px;	
+	text-align: left;
+}
+
+#listing h3 a {
+	color : #333;
+	text-decoration : none;
+}
+
+#listing h3 {
+	font-family : Georgia;
+	font-size : 16px;
+}
+
+#listing .post {
+	border-bottom : 1px solid #FA0;
+}
+
+#listing .postfoot {
+	font-size : 12px;
+	text-align: left;
+}

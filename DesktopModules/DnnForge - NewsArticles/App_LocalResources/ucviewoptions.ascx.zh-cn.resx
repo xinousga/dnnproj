@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArticleSettings.Text" xml:space="preserve">
+		<value>文章设置</value>
+	</data>
+  <data name="ArticleSettingsHelp.Text" xml:space="preserve">
+		<value>在这部分, 你可以设置模块的设置,控制文章.</value>
+	</data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+		<value>基本设置</value>
+	</data>
+  <data name="EnableImages.Text" xml:space="preserve">
+		<value>允许图像?</value>
+	</data>
+  <data name="EnableImagesHelp.Text" xml:space="preserve">
+		<value>检查允许文章相关图像.</value>
+	</data>
+  <data name="EnableComments.Text" xml:space="preserve">
+		<value>允许评论?</value>
+	</data>
+  <data name="EnableCommentsHelp.Text" xml:space="preserve">
+		<value>检查允许张贴与评论文章.</value>
+	</data>
+  <data name="EnableRatings.Text" xml:space="preserve">
+		<value>允许评等级？</value>
+	</data>
+  <data name="EnableRatingsHelp.Text" xml:space="preserve">
+		<value>选中则允许评文章等级。</value>
+	</data>
+  <data name="EnableAnonymousComments.Text" xml:space="preserve">
+		<value>允许匿名评论？</value>
+	</data>
+  <data name="EnableAnonymousCommentsHelp.Text" xml:space="preserve">
+		<value>检查允许张贴匿名用户评论.</value>
+	</data>
+  <data name="EnableAnonymousRatings.Text" xml:space="preserve">
+		<value>允许匿名评级？</value>
+	</data>
+  <data name="EnableAnonymousRatingsHelp.Text" xml:space="preserve">
+		<value>检查允许匿名用户评级.</value>
+	</data>
+  <data name="EnableCoreSearch.Text" xml:space="preserve">
+		<value>允许集成核心搜索?</value>
+	</data>
+  <data name="EnableCoreSearchHelp.Text" xml:space="preserve">
+		<value>检查允许文章综合搜索.</value>
+	</data>
+  <data name="EnableSyndication.Text" xml:space="preserve">
+		<value>允许供稿？（不能修改）</value>
+	</data>
+  <data name="EnableSyndicationHelp.Text" xml:space="preserve">
+		<value>检查允许文章的供稿。（不能修改）</value>
+	</data>
+  <data name="EnableSyndicationHtml.Text" xml:space="preserve">
+		<value>在供稿中允许的HTML标记？（不能修改）</value>
+	</data>
+  <data name="EnableSyndicationHtmlHelp.Text" xml:space="preserve">
+		<value>检查在供稿中允许的HTML标记。（不能修改）</value>
+	</data>
+  <data name="EnableNotificationPing.Text" xml:space="preserve">
+		<value>启用通知Ping？（不能修改）</value>
+	</data>
+  <data name="EnableNotificationPingHelp.Text" xml:space="preserve">
+		<value>选中则发布到weblogs.com(当创建或者修改).</value>
+	</data>
+  <data name="EnableAutoTrackback.Text" xml:space="preserve">
+		<value>自动跟踪返回？</value>
+	</data>
+  <data name="EnableAutoTrackbackHelp.Text" xml:space="preserve">
+		<value>扫描检查时发表文章,并试图通联系,通知任何站点</value>
+	</data>
+  <data name="EnableIncomingTrackback.Text" xml:space="preserve">
+		<value>启用传入跟踪返回？（不能修改）</value>
+	</data>
+  <data name="EnableIncomingTrackbackHelp.Text" xml:space="preserve">
+		<value>检查允许传入跟踪返回/Ping作为新的评论。</value>
+	</data>
+  <data name="LaunchLinks.Text" xml:space="preserve">
+		<value>打开链接？</value>
+	</data>
+  <data name="LaunchLinksHelp.Text" xml:space="preserve">
+		<value>选中则在本页打开链接。</value>
+	</data>
+  <data name="BubbleFeaturedArticles.Text" xml:space="preserve">
+		<value>典型文章置顶？</value>
+	</data>
+  <data name="BubbleFeaturedArticlesHelp.Text" xml:space="preserve">
+		<value>检查典型文章放到列表顶部。</value>
+	</data>
+  <data name="plDisplayType.Text" xml:space="preserve">
+		<value>用户显示模块</value>
+	</data>
+  <data name="plDisplayType.Help" xml:space="preserve">
+		<value>设置用户的显示模式。</value>
+	</data>
+  <data name="UserName.Text" xml:space="preserve">
+		<value>用户名</value>
+	</data>
+  <data name="FirstName.Text" xml:space="preserve">
+		<value>名称</value>
+	</data>
+  <data name="LastName.Text" xml:space="preserve">
+		<value>姓氏</value>
+	</data>
+  <data name="FullName.Text" xml:space="preserve">
+		<value>显示名称</value>
+	</data>
+  <data name="ArticlePageSize.Text" xml:space="preserve">
+		<value>文章页数</value>
+	</data>
+  <data name="ArticlePageSizeHelp.Text" xml:space="preserve">
+		<value>允许你指定默认页。</value>
+	</data>
+  <data name="EnableSEOTitle.Text" xml:space="preserve">
+		<value>允许SEO标题</value>
+	</data>
+  <data name="EnableSEOTitleHelp.Text" xml:space="preserve">
+		<value>选中则允许SEO标题</value>
+	</data>
+  <data name="SEOTitle.Text" xml:space="preserve">
+		<value>SEO标题</value>
+	</data>
+  <data name="SEOTitleHelp.Text" xml:space="preserve">
+		<value>当查看文章的时候允许你指定一个特定的标题格式。</value>
+	</data>
+  <data name="SEO1.Text" xml:space="preserve">
+		<value>[ARTICLETITLE]</value>
+	</data>
+  <data name="SEO2.Text" xml:space="preserve">
+		<value>[ARTICLETITLE] &gt; [SITETITLE]</value>
+	</data>
+  <data name="SEO3.Text" xml:space="preserve">
+		<value>[ARTICLETITLE] &gt; [SITETITLE] &gt; [PAGETITLE]</value>
+	</data>
+  <data name="SEO4.Text" xml:space="preserve">
+		<value>[SITETITLE] &gt; [ARTICLETITLE]</value>
+	</data>
+  <data name="SEO5.Text" xml:space="preserve">
+		<value>[PAGETITLE] &gt; [ARTICLETITLE]</value>
+	</data>
+  <data name="NoRestriction.Text" xml:space="preserve">
+		<value>无限制</value>
+	</data>
+  <data name="1.Text" xml:space="preserve">
+		<value>1</value>
+	</data>
+  <data name="2.Text" xml:space="preserve">
+		<value>2</value>
+	</data>
+  <data name="3.Text" xml:space="preserve">
+		<value>3</value>
+	</data>
+  <data name="4.Text" xml:space="preserve">
+		<value>4</value>
+	</data>
+  <data name="5.Text" xml:space="preserve">
+		<value>5</value>
+	</data>
+  <data name="10.Text" xml:space="preserve">
+		<value>10</value>
+	</data>
+  <data name="15.Text" xml:space="preserve">
+		<value>15</value>
+	</data>
+  <data name="20.Text" xml:space="preserve">
+		<value>20</value>
+	</data>
+  <data name="50.Text" xml:space="preserve">
+		<value>50</value>
+	</data>
+  <data name="Template.Text" xml:space="preserve">
+		<value>文章模版</value>
+	</data>
+  <data name="TemplateHelp.Text" xml:space="preserve">
+		<value>允许你为文章指定一个显示模版。</value>
+	</data>
+  <data name="TextEditorWidth.Text" xml:space="preserve">
+		<value>文本编辑宽度</value>
+	</data>
+  <data name="TextEditorWidth.Help" xml:space="preserve">
+		<value>输入文本的编辑宽度，例如:100 ％,400。</value>
+	</data>
+  <data name="TimeZone.Text" xml:space="preserve">
+		<value>服务器时区</value>
+	</data>
+  <data name="TimeZone.Help" xml:space="preserve">
+		<value>输入服务的时区</value>
+	</data>
+  <data name="valTextEditorWidth.ErrorMessage" xml:space="preserve">
+		<value>&lt;br&gt;必需的</value>
+	</data>
+  <data name="valTextEditorWidthIsValid.ErrorMessage" xml:space="preserve">
+		<value>&lt;br&gt;必须是一个有效的值，例如:100％,400</value>
+	</data>
+  <data name="TextEditorHeight.Text" xml:space="preserve">
+		<value>正文编辑高度</value>
+	</data>
+  <data name="TextEditorHeight.Help" xml:space="preserve">
+		<value>输入正文的编辑高度，例如:100％,400。</value>
+	</data>
+  <data name="valTextEditorHeight.ErrorMessage" xml:space="preserve">
+		<value>&lt;br&gt;必需的</value>
+	</data>
+  <data name="valTextEditorHeightIsValid.ErrorMessage" xml:space="preserve">
+		<value>&lt;br&gt;必须是一个有效的值，例如:100％,400</value>
+	</data>
+  <data name="AllCategories.Text" xml:space="preserve">
+		<value>所有类别</value>
+	</data>
+  <data name="FilterSettings.Text" xml:space="preserve">
+		<value>筛选设置</value>
+	</data>
+  <data name="MaxArticles.Text" xml:space="preserve">
+		<value>最大文章数目</value>
+	</data>
+  <data name="MaxArticles.Help" xml:space="preserve">
+		<value>输入一个文章回流的最大数目。</value>
+	</data>
+  <data name="valMaxArticles.ErrorMessage" xml:space="preserve">
+		<value>必需的</value>
+	</data>
+  <data name="valMaxArticlesIsValid.ErrorMessage" xml:space="preserve">
+		<value>必须是一个有效的值，例如:100%,20</value>
+	</data>
+  <data name="Categories.Text" xml:space="preserve">
+		<value>种类筛选</value>
+	</data>
+  <data name="CategoriesHelp.Text" xml:space="preserve">
+		<value>从这些种类中指出你要显示的。</value>
+	</data>
+  <data name="MatchAny.Text" xml:space="preserve">
+		<value>匹配任何一个</value>
+	</data>
+  <data name="MatchAll.Text" xml:space="preserve">
+		<value>匹配所有</value>
+	</data>
+  <data name="ShowFeaturedOnly.Text" xml:space="preserve">
+		<value>只显示推荐的？</value>
+	</data>
+  <data name="ShowFeaturedOnlyHelp.Text" xml:space="preserve">
+		<value>只显示标记为“推荐”的文章。</value>
+	</data>
+  <data name="ShowNotFeaturedOnly.Text" xml:space="preserve">
+		<value>只显示不推荐的？</value>
+	</data>
+  <data name="ShowNotFeaturedOnlyHelp.Text" xml:space="preserve">
+		<value>只显示未标记为“推荐”的文章。</value>
+	</data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+		<value>安全设置</value>
+	</data>
+  <data name="SecureUrl.Text" xml:space="preserve">
+		<value>保护路径</value>
+	</data>
+  <data name="SecureUrl.Help" xml:space="preserve">
+		<value>输入一个重定向的路径给无权限用户。</value>
+	</data>
+  <data name="NotificationSettings.Text" xml:space="preserve">
+		<value>通告设置</value>
+	</data>
+  <data name="NotifySubmission.Text" xml:space="preserve">
+		<value>当拒绝时的通告者</value>
+	</data>
+  <data name="NotifySubmissionHelp.Text" xml:space="preserve">
+		<value>通告审批用户文章被拒绝。</value>
+	</data>
+  <data name="NotifySubmissionEmail.Text" xml:space="preserve">
+		<value>当拒绝时的通告邮件地址</value>
+	</data>
+  <data name="NotifySubmissionEmailHelp.Text" xml:space="preserve">
+		<value>当拒绝时发通告到这个邮件地址。</value>
+	</data>
+  <data name="NotifyApproval.Text" xml:space="preserve">
+		<value>当通过通告所有者</value>
+	</data>
+  <data name="NotifyApprovalHelp.Text" xml:space="preserve">
+		<value>当文章通过通告文章的所有者。</value>
+	</data>
+  <data name="NotifyComment.Text" xml:space="preserve">
+		<value>当有回复时通告所有者</value>
+	</data>
+  <data name="NotifyCommentHelp.Text" xml:space="preserve">
+		<value>当有人给文章发表回复时通告文章所有者</value>
+	</data>
+  <data name="ControlTitle_admin.Text" xml:space="preserve">
+		<value>主要选项</value>
+	</data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+		<value>&lt;h1&gt;主要选项&lt;/h1&gt;&lt;p&gt;这个模块允许管理员设置新闻文章模块的一些选项&lt;/p&gt;</value>
+	</data>
+  <data name="Approve.Text">
+    <value>批准</value>
+  </data>
+  <data name="Ascending.Text">
+    <value>升序</value>
+  </data>
+  <data name="Author.Help">
+    <value>可选的作者。</value>
+  </data>
+  <data name="Author.Text">
+    <value>作者</value>
+  </data>
+  <data name="AutoApprove.Text">
+    <value>自动批准</value>
+  </data>
+  <data name="AutoFeature.Text">
+    <value>自动功能</value>
+  </data>
+  <data name="BasicSettings.Help">
+    <value>一套基本的安全设置。</value>
+  </data>
+  <data name="Category.Text">
+    <value>类别</value>
+  </data>
+  <data name="cmdSelectAuthor.Text">
+    <value>选择作者</value>
+  </data>
+  <data name="CommentSettings.Text">
+    <value>评论设置</value>
+  </data>
+  <data name="Descending.Text">
+    <value>降序</value>
+  </data>
+  <data name="EnableCommentModeration.Help">
+    <value>检查对要求管理的评论，然后再发布。</value>
+  </data>
+  <data name="EnableCommentModeration.Text">
+    <value>启用评论审阅？</value>
+  </data>
+  <data name="EnableImagesExternal.Help">
+    <value>检查允许文章相关的外部图像。</value>
+  </data>
+  <data name="EnableImagesExternal.Text">
+    <value>允许外部的图片？</value>
+  </data>
+  <data name="Excerpt.Text">
+    <value>摘录</value>
+  </data>
+  <data name="ExpiryDate.Text">
+    <value>有效日期</value>
+  </data>
+  <data name="Feature.Text">
+    <value>特征</value>
+  </data>
+  <data name="FormSettings.Help">
+    <value>对“创建文章”样式的功能显示/隐藏。</value>
+  </data>
+  <data name="FormSettings.Text">
+    <value>样式设置</value>
+  </data>
+  <data name="FormSettingsHelp.Text">
+    <value>*作用必须有提交权限的，查看上述项目上创建文章的样式。</value>
+  </data>
+  <data name="HighestRated.Text">
+    <value>最高额定</value>
+  </data>
+  <data name="Image.Text">
+    <value>图像</value>
+  </data>
+  <data name="LastUpdate.Text">
+    <value>最后更新</value>
+  </data>
+  <data name="Link.Text">
+    <value>链接</value>
+  </data>
+  <data name="MostCommented.Text">
+    <value>最多评论的</value>
+  </data>
+  <data name="MostViewed.Text">
+    <value>最多浏览的</value>
+  </data>
+  <data name="plNotifyCommentEmail.Help">
+    <value>评论上通知电子邮件地址,单一的;</value>
+  </data>
+  <data name="plNotifyCommentEmail.Text">
+    <value>评论上通知电子邮件地址</value>
+  </data>
+  <data name="PublishDate.Text">
+    <value>发布日期</value>
+  </data>
+  <data name="Random.Text">
+    <value>随机</value>
+  </data>
+  <data name="Secure.Text">
+    <value>安全</value>
+  </data>
+  <data name="SelectAuthor.Text">
+    <value>-- 所有作者 --</value>
+  </data>
+  <data name="SortBy.Text">
+    <value>排序</value>
+  </data>
+  <data name="SortByHelp.Text">
+    <value>选择排序方向的区域。</value>
+  </data>
+  <data name="SortDirection.Help">
+    <value>选择排序的方向。</value>
+  </data>
+  <data name="SortDirection.Text">
+    <value>排序方向</value>
+  </data>
+  <data name="SortTitle.Text">
+    <value>标题</value>
+  </data>
+  <data name="Submit.Text">
+    <value>提交</value>
+  </data>
+  <data name="TextEditorSummaryHeight.Help">
+    <value>输入文本编辑的高度，例如:100％,400。</value>
+  </data>
+  <data name="TextEditorSummaryHeight.Text">
+    <value>文本编辑中摘录的高度</value>
+  </data>
+  <data name="TextEditorSummaryWidth.Help">
+    <value>输入文本编辑的宽度，例如:100％,400。</value>
+  </data>
+  <data name="TextEditorSummaryWidth.Text">
+    <value>文本编辑中摘录的宽度</value>
+  </data>
+  <data name="Turkish.Text">
+    <value>土耳其</value>
+  </data>
+  <data name="UseCaptcha.Help">
+    <value>检查使用captcha的验证显示在评论屏幕上。</value>
+  </data>
+  <data name="UseCaptcha.Text">
+    <value>使用Captcha?</value>
+  </data>
+  <data name="valNotifyCommentEmail.ErrorMessage">
+    <value>&lt;br&gt;必需的</value>
+  </data>
+</root>

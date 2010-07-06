@@ -1,0 +1,39 @@
+/*=======================================================+
+|                                                        |
+|              DotNetNuke Skin - Greytness               |
+|               Developed by Adammer LLC                 |
+|                http://www.adammer.com                  |
+|                                                        |
+|                       July 2009                        |
+|                                                        |
++========================================================+
+
+Version    : 2.1
+Released   : February 2010
+
+*/
+
+
+/*=======================================================+
+|  All Containers                                        |
++=======================================================*/
+.c_icon{float:left;}
+.greytnessUL { border-bottom: #CCC solid 1px; margin-bottom:10px; text-align:left; }
+.greytnessStdContainer { margin-bottom:20px; clear:both; }
+.greytnessStdVertLine { border-left:#CCC 1px solid; padding-left:10px; }
+.greytnessBoxGrey1 {
+	border: thin solid #CCC;
+	padding: 0 10px 10px 10px;
+	background-color: #FAFAFA;
+}
+.greytnessBoxGrey1 h1, .greytnessBoxGrey1 h2, .greytnessBoxGrey1 h3, .greytnessBoxGrey1 h4, .greytnessBoxGrey1 h5, .greytnessBoxGrey1 h6 { border-bottom:#CCC dotted 1px; line-height:110%; padding:5px 0 5px 0; color:#333; }
+#GreytnessMidnight .greytnessBoxGrey1 p, #GreytnessMidnight .greytnessBoxGrey1, #GreytnessMidnight .greytnessBoxGrey1 a { color:#333; }
+.greytnessBoxGrey2 p, .greytnessBoxGrey2 .Normal, .greytnessBoxGrey2 .normal, .greytnessBoxGrey2 a.CommandButton, .greytnessBoxGrey2 .Head, .greytnessBoxGrey2 .SubHead, .greytnessBoxGrey2 .NormalBold, .greytnessBoxGrey2 .NormalTextBox, .greytnessBoxGrey2 label, .greytnessBoxGrey2 .DataGrid_Item, .greytnessBoxGrey2 .DataGrid_Header, .greytnessBoxGrey2 a, .greytnessBoxGrey2 h1, .greytnessBoxGrey2 h2, .greytnessBoxGrey2 h3, .greytnessBoxGrey2 h4, .greytnessBoxGrey2 h5, .greytnessBoxGrey2 h6 { color:#F1F1F1; }
+.greytnessBoxGrey2 { border:#333 1px solid; padding:0 10px 10px 10px; background-color:#222; }
+.greytnessBoxGrey2 .LabelEditTextClass { color:#FFF; }
+.greytnessBoxGrey2 h1, .greytnessBoxGrey2 h2, .greytnessBoxGrey2 h3, .greytnessBoxGrey2 h4, .greytnessBoxGrey2 h5, .greytnessBoxGrey2 h6 { line-height:110%; }
+.greytnessBoxGrey2 h1, .greytnessBoxGrey2 h2, .greytnessBoxGrey2 h3, .greytnessBoxGrey2 h4, .greytnessBoxGrey2 h5, .greytnessBoxGrey2 h6 { border-bottom:#666 dotted 1px; line-height:110%; padding:5px 0 5px 0; }
+#GreytnessMidnight .greytnessBoxGrey1 h1, #GreytnessMidnight .greytnessBoxGrey1 h2, #GreytnessMidnight .greytnessBoxGrey1 h3, #GreytnessMidnight .greytnessBoxGrey1 h4, #GreytnessMidnight .greytnessBoxGrey1 h5, #GreytnessMidnight .greytnessBoxGrey1 h6, #GreytnessMidnight .greytnessBoxGrey1 a, #GreytnessMidnight .greytnessBoxGrey1 .Normal {
+
+color:#000;}
+

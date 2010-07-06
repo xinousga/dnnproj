@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version">
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="cmdPostComment.Text">
+<value>Post Comment</value>
+</data>
+<data name="PostComment.Text">
+<value>Post Comment</value>
+</data>
+<data name="PostCommentDescription.Text">
+<value>In this section, you can post a comment.</value>
+</data>
+<data name="Name.Text">
+<value>Name</value>
+</data>
+<data name="Name.Help">
+<value>Enter your Name for this Comment.</value>
+</data>
+<data name="valName.ErrorMessage">
+<value>&lt;br&gt;You Must Enter a Name.</value>
+</data>
+<data name="Email.Text">
+<value>Email</value>
+</data>
+<data name="Email.Help">
+<value>Enter your Email for this Comment.</value>
+</data>
+<data name="valEmail.ErrorMessage">
+<value>&lt;br&gt;You Must Enter a Email Address.</value>
+</data>
+<data name="Website.Text">
+<value>URL</value>
+</data>
+<data name="Website.Help">
+<value>Enter a URL for this Comment.</value>
+</data>
+<data name="Rating.Text">
+<value>Rating</value>
+</data>
+<data name="Rating.Help">
+<value>Enter a Rating for this Article.</value>
+</data>
+<data name="valRating.ErrorMessage">
+<value>&lt;br&gt;You Must Enter a Rating.</value>
+</data>
+<data name="Comment.Text">
+<value>Comment</value>
+</data>
+<data name="Comment.Help">
+<value>Enter a comment for the article here.</value>
+</data>
+<data name="valComment.ErrorMessage">
+<value>Page Text Is Required</value>
+</data>
+<data name="NotifyMe.Text">
+<value>Notify Me</value>
+</data>
+<data name="NotifyMe.Help">
+<value>Notify me of follow-up comments via email.</value>
+</data>
+<data name="ControlTitle_postcomment.Text">
+<value>Post Comment</value>
+</data>
+<data name="ModuleHelp.Text">
+<value>&lt;h1&gt;About Post Comment&lt;/h1&gt;&lt;p&gt;The module allows you to a user to enter a comment and rating for an article.&lt;/p&gt;</value>
+</data>
+</root>

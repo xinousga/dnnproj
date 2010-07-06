@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LatestArticlesHelp.Text">
+    <value>在本项中,你可以调整最近文章模块的设置</value>
+  </data>
+  <data name="Articles.Text">
+    <value>最近文章设置</value>
+  </data>
+  <data name="BasicSettings.Text">
+    <value>基本设置</value>
+  </data>
+  <data name="Module.Text">
+    <value>文章模块</value>
+  </data>
+  <data name="Module.Help">
+    <value>设置文章模块链接到</value>
+  </data>
+  <data name="Categories.Text">
+    <value>文章分类</value>
+  </data>
+  <data name="Categories.Help">
+    <value>选择显示分类</value>
+  </data>
+  <data name="AllCategories.Text">
+    <value>所有分类</value>
+  </data>
+  <data name="MatchAny.Text">
+    <value>匹配</value>
+  </data>
+  <data name="MatchAll.Text">
+    <value>匹配所有</value>
+  </data>
+  <data name="Count.Text">
+    <value>文章数</value>
+  </data>
+  <data name="Count.Help">
+    <value>显示的文章数</value>
+  </data>
+  <data name="SortBy.Text">
+    <value>排序</value>
+  </data>
+  <data name="SortByHelp.Text">
+    <value>选择字段排序</value>
+  </data>
+  <data name="SortDirection.Text">
+    <value>排序方式</value>
+  </data>
+  <data name="SortDirection.Help">
+    <value>选择排序方式</value>
+  </data>
+  <data name="Ascending.Text">
+    <value>升序</value>
+  </data>
+  <data name="Descending.Text">
+    <value>降序</value>
+  </data>
+  <data name="PublishDate.Text">
+    <value>发布时间</value>
+  </data>
+  <data name="LastUpdate.Text">
+    <value>最近修改时间</value>
+  </data>
+  <data name="HighestRated.Text">
+    <value>最高级别</value>
+  </data>
+  <data name="MostCommented.Text">
+    <value>最多评论</value>
+  </data>
+  <data name="MostViewed.Text">
+    <value>最多查看</value>
+  </data>
+  <data name="SortTitle.Text">
+    <value>标题</value>
+  </data>
+  <data name="LaunchLinks.Text">
+    <value>定向到链接</value>
+  </data>
+  <data name="LaunchLinksHelp.Text">
+    <value>检查到该页面的链接(不加载其他模块).</value>
+  </data>
+  <data name="FeaturedOnly.Text">
+    <value>标识的文章</value>
+  </data>
+  <data name="FeaturedOnlyHelp.Text">
+    <value>只显示有标识的文章</value>
+  </data>
+  <data name="NotFeaturedOnly.Text">
+    <value>没标识的文章</value>
+  </data>
+  <data name="NotFeaturedOnlyHelp.Text">
+    <value>只显示没有标识的文章</value>
+  </data>
+  <data name="plLayoutMode.Text">
+    <value>版面模式</value>
+  </data>
+  <data name="plLayoutMode.Help">
+    <value>选择一种版面模式显示文章</value>
+  </data>
+  <data name="Simple.Text">
+    <value>简单</value>
+  </data>
+  <data name="Advanced.Text">
+    <value>高级</value>
+  </data>
+  <data name="HtmlHeader.Text">
+    <value>HTML 头</value>
+  </data>
+  <data name="HtmlHeader.Help">
+    <value>为最近文章模块输入一段HTML 头</value>
+  </data>
+  <data name="HtmlBody.Text">
+    <value>HTML 页体</value>
+  </data>
+  <data name="HtmlBody.Help">
+    <value>为最近文章模块输入一段HTML 页体</value>
+  </data>
+  <data name="HtmlFooter.Text">
+    <value>HTML 页脚</value>
+  </data>
+  <data name="HtmlFooter.Help">
+    <value>为最近文章模块输入一段HTML 页脚</value>
+  </data>
+  <data name="plItemsPerRow.Text">
+    <value>每行项数</value>
+  </data>
+  <data name="plItemsPerRow.Help">
+    <value>每行显示的的项数</value>
+  </data>
+  <data name="valItemsPerRow.ErrorMessage">
+    <value>&lt;br&gt;每行显示的的项数必填</value>
+  </data>
+  <data name="valItemsPerRowIsNumber.ErrorMessage">
+    <value>&lt;br&gt;每行显示的的项数必须事数值</value>
+  </data>
+  <data name="TemplateHelp.Text">
+    <value>模板帮助</value>
+  </data>
+  <data name="TemplateHelpDescription.Text">
+    <value>在本项中,你可以查看所有的自定义最近文章模板的标记</value>
+  </data>
+  <data name="ArticleID.Text">
+    <value>文章id</value>
+  </data>
+  <data name="ArticleLink.Text">
+    <value>链接到全文</value>
+  </data>
+  <data name="AuthorEmail.Text">
+    <value>作者的邮箱</value>
+  </data>
+  <data name="AuthorUserName.Text">
+    <value>作者用户名</value>
+  </data>
+  <data name="AuthorFirstName.Text">
+    <value>作者的姓</value>
+  </data>
+  <data name="AuthorLastName.Text">
+    <value>作者的名</value>
+  </data>
+  <data name="AuthorFullName.Text">
+    <value>作者的全名</value>
+  </data>
+  <data name="AuthorID.Text">
+    <value>作者id</value>
+  </data>
+  <data name="CategoriesToken.Text">
+    <value>链接的分类列表分隔</value>
+  </data>
+  <data name="CreateDate.Text">
+    <value>文章创建日期</value>
+  </data>
+  <data name="CreateDateXXX.Text">
+    <value>文章创建日期格式</value>
+  </data>
+  <data name="CreateTime.Text">
+    <value>文章创建时间</value>
+  </data>
+  <data name="CommentCount.Text">
+    <value>评论数</value>
+  </data>
+  <data name="EditToken.Text">
+    <value>为用户显示编辑链接</value>
+  </data>
+  <data name="Image.Text">
+    <value>文章图片,没有就不显示</value>
+  </data>
+  <data name="ImageLink.Text">
+    <value>文章图片链接, 没有就不显示</value>
+  </data>
+  <data name="ImageThumb.Text">
+    <value>文章图片缩略图</value>
+  </data>
+  <data name="Link.Text">
+    <value>链接到文章,url,页面</value>
+  </data>
+  <data name="PublishDateTag.Text">
+    <value>文章发布日期</value>
+  </data>
+  <data name="PublishDateXXX.Text">
+    <value>文章发布日期格式</value>
+  </data>
+  <data name="PublishTime.Text">
+    <value>文章发布时间</value>
+  </data>
+  <data name="Rating.Text">
+    <value>文章级别</value>
+  </data>
+  <data name="RssLink.Text">
+    <value>链接到rss</value>
+  </data>
+  <data name="PagesList.Text">
+    <value>链接文章列表</value>
+  </data>
+  <data name="Summary.Text">
+    <value>文章摘要</value>
+  </data>
+  <data name="SummaryXXX.Text">
+    <value>文章摘要字数限制</value>
+  </data>
+  <data name="Title.Text">
+    <value>文章标题</value>
+  </data>
+  <data name="UpdateDate.Text">
+    <value>文章最近更新日期</value>
+  </data>
+  <data name="UpdateDateXXX.Text">
+    <value>文章最近更新日期格式</value>
+  </data>
+  <data name="UpdateTime.Text">
+    <value>文章最近更新时间</value>
+  </data>
+  <data name="ViewCount.Text">
+    <value>文章查看次数</value>
+  </data>
+  <data name="ControlTitle_options.Text">
+    <value>最近文章选项</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;最近文章选项&lt;/h1&gt;&lt;p&gt;这个模块允许你从各种个管理选项中进行选择&lt;/p&gt;</value>
+  </data>
+  <data name="AllAuthors.Text">
+    <value>-- 所有作者 --</value>
+  </data>
+  <data name="Author.Text">
+    <value>作者名必须按结构设置</value>
+  </data>
+  <data name="AuthorFilter.Help">
+    <value>通过作者过滤.</value>
+  </data>
+  <data name="AuthorFilter.Text">
+    <value>作者</value>
+  </data>
+  <data name="cmdSelectAuthor.Text">
+    <value>搜索作者</value>
+  </data>
+  <data name="CommentLink.Text">
+    <value>文章注释部分链接</value>
+  </data>
+  <data name="Details.Text">
+    <value>显示当前页面详细信息</value>
+  </data>
+  <data name="HasCategories.Text">
+    <value>如果一个文章有分类，允许选择展示部分HTML</value>
+  </data>
+  <data name="HasCommentsEnabled.Text">
+    <value>Allows the option to show a section of html if an article has comments enabled.</value>
+  </data>
+  <data name="HasLink.Text">
+    <value>Allows the option to show a section of html if an article has a link.</value>
+  </data>
+  <data name="HasMoreDetail.Text">
+    <value>Allows the option to show a section of html if an article has more detail.</value>
+  </data>
+  <data name="HasMultiplePages.Text">
+    <value>Allows the option to show a section of html if an article has multiple pages.</value>
+  </data>
+  <data name="HasRatingsEnabled.Text">
+    <value>Allows the option to show a section of html if an article has ratings enabled.</value>
+  </data>
+  <data name="ImageThumbLink.Text">
+    <value>The link to the article image (thumbnailed to a width of XXX), displays nothing if no image selected.</value>
+  </data>
+  <data name="LinkTarget.Text">
+    <value>The target of the link based on launch links.</value>
+  </data>
+  <data name="MaxAge.Help">
+    <value>Maximum age of articles (days), leave blank for no filter.</value>
+  </data>
+  <data name="MaxAge.Text">
+    <value>Max Age</value>
+  </data>
+  <data name="MaxAge2.Help">
+    <value>(days), leave blank for no filter.</value>
+  </data>
+  <data name="ModuleID.Text">
+    <value>The module ID of the article module.</value>
+  </data>
+  <data name="PageCount.Text">
+    <value>The number of pages within an article.</value>
+  </data>
+  <data name="PageText.Text">
+    <value>The detail of the article.</value>
+  </data>
+  <data name="Print.Text">
+    <value>The link to print an article.</value>
+  </data>
+  <data name="PublishEndDate.Text">
+    <value>The publish end date of the article</value>
+  </data>
+  <data name="PublishEndTime.Text">
+    <value>The publish end time of the article</value>
+  </data>
+  <data name="Random.Text">
+    <value>Random</value>
+  </data>
+  <data name="RatingCount.Text">
+    <value>The number of the ratings on an article</value>
+  </data>
+  <data name="RatingDetail.Text">
+    <value>The actual rating value of an article</value>
+  </data>
+  <data name="StartDate.Help">
+    <value>Date to begin showing articles from.</value>
+  </data>
+  <data name="StartDate.Text">
+    <value>Start Date</value>
+  </data>
+  <data name="StartDate2.Help">
+    <value>&lt;br&gt;* Leave blank to always start from the current date.</value>
+  </data>
+  <data name="valCount.ErrorMessage">
+    <value>You must specify the number of articles to display.</value>
+  </data>
+  <data name="valCountType.ErrorMessage">
+    <value>数字必须有效.</value>
+  </data>
+  <data name="valMaxAgeType.ErrorMessage">
+    <value>数字必须有效.</value>
+  </data>
+  <data name="valStartDate.ErrorMessage">
+    <value>&lt;br&gt;开始日期无效!</value>
+  </data>
+</root>

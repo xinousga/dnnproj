@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plHostPortal.Text" xml:space="preserve">
+    <value>主机站点:</value>
+  </data>
+  <data name="plHostTitle.Text" xml:space="preserve">
+    <value>主机名:</value>
+  </data>
+  <data name="plHostURL.Text" xml:space="preserve">
+    <value>主机链接:</value>
+  </data>
+  <data name="plHostEmail.Text" xml:space="preserve">
+    <value>主机电子邮件:</value>
+  </data>
+  <data name="plHostSkin.Text" xml:space="preserve">
+    <value>主机皮肤:</value>
+  </data>
+  <data name="plHostContainer.Text" xml:space="preserve">
+    <value>主机容器:</value>
+  </data>
+  <data name="plAdminSkin.Text" xml:space="preserve">
+    <value>编辑模式皮肤:</value>
+  </data>
+  <data name="plAdminContainer.Text" xml:space="preserve">
+    <value>编辑模式容器:</value>
+  </data>
+  <data name="plProcessor.Text" xml:space="preserve">
+    <value>支付接口:</value>
+  </data>
+  <data name="plUserId.Text" xml:space="preserve">
+    <value>支付接口帐号:</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>支付帐号密码:</value>
+  </data>
+  <data name="plHostFee.Text" xml:space="preserve">
+    <value>站点托管服务费</value>
+  </data>
+  <data name="plHostCurrency.Text" xml:space="preserve">
+    <value>支付货币:</value>
+  </data>
+  <data name="plHostSpace.Text" xml:space="preserve">
+    <value>托管站点空间 (MB):</value>
+  </data>
+  <data name="plDemoPeriod.Text" xml:space="preserve">
+    <value>试用天数:</value>
+  </data>
+  <data name="plDemoSignup.Text" xml:space="preserve">
+    <value>匿名用户试用?</value>
+  </data>
+  <data name="plSiteLogBuffer.Text" xml:space="preserve">
+    <value>站点日志缓存条目数:</value>
+  </data>
+  <data name="plSiteLogHistory.Text" xml:space="preserve">
+    <value>站点日志有效天数:</value>
+  </data>
+  <data name="plUsersOnline.Text" xml:space="preserve">
+    <value>关闭用户在线?</value>
+  </data>
+  <data name="plUsersOnlineTime.Text" xml:space="preserve">
+    <value>用户在线时间(分钟):</value>
+  </data>
+  <data name="plProxyServer.Text" xml:space="preserve">
+    <value>代理服务器:</value>
+  </data>
+  <data name="plProxyPort.Text" xml:space="preserve">
+    <value>代理服务器端口:</value>
+  </data>
+  <data name="plProxyUsername.Text" xml:space="preserve">
+    <value>代理服务器用户名:</value>
+  </data>
+  <data name="plProxyPassword.Text" xml:space="preserve">
+    <value>代理服务器密码:</value>
+  </data>
+  <data name="plWebRequestTimeout.Text" xml:space="preserve">
+    <value>WEB请求过期:</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>SMTP服务器和端口</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>SMTP用户名:</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>邮件SMTP密码:</value>
+  </data>
+  <data name="plFileExtensions.Text" xml:space="preserve">
+    <value>可用文件扩展名:</value>
+  </data>
+  <data name="plSkinUpload.Text" xml:space="preserve">
+    <value>皮肤上传权限:</value>
+  </data>
+  <data name="plCache.Text" xml:space="preserve">
+    <value>缓存过期 (秒):</value>
+  </data>
+  <data name="ClearCache.Text" xml:space="preserve">
+    <value>清除缓存</value>
+  </data>
+  <data name="plCopyright.Text" xml:space="preserve">
+    <value>显示版权信息?</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text" xml:space="preserve">
+    <value>用户自定义错误信息?</value>
+  </data>
+  <data name="UpgradeLog.Text" xml:space="preserve">
+    <value>更新日志</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>测试邮件成功发送</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
+    <value>您必须设定主机电子邮件</value>
+  </data>
+  <data name="plPerformance.Text" xml:space="preserve">
+    <value>性能设置:</value>
+  </data>
+  <data name="HeavyCaching.Text" xml:space="preserve">
+    <value>重量级缓存</value>
+  </data>
+  <data name="ModerateCaching.Text" xml:space="preserve">
+    <value>中度缓存</value>
+  </data>
+  <data name="LightCaching.Text" xml:space="preserve">
+    <value>轻量级缓存</value>
+  </data>
+  <data name="NoCaching.Text" xml:space="preserve">
+    <value>无缓存</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行主机基本设置</value>
+  </data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="HostDetails.Text" xml:space="preserve">
+    <value>主机信息</value>
+  </data>
+  <data name="plHostTitle.Help" xml:space="preserve">
+    <value>输入您的主机名</value>
+  </data>
+  <data name="plHostURL.Help" xml:space="preserve">
+    <value>输入主机链接</value>
+  </data>
+  <data name="plHostEmail.Help" xml:space="preserve">
+    <value>为您的主机帐号输入一个技术支持电子邮件</value>
+  </data>
+  <data name="plHostSkin.Help" xml:space="preserve">
+    <value>选择应用于所有站点的默认皮肤</value>
+  </data>
+  <data name="plHostContainer.Help" xml:space="preserve">
+    <value>选择应用于所有站点的默认容器</value>
+  </data>
+  <data name="plAdminSkin.Help" xml:space="preserve">
+    <value>所有模块的编辑模式(ctl=)所在的页面将会默认应用此皮肤</value>
+  </data>
+  <data name="plAdminContainer.Help" xml:space="preserve">
+    <value>所有模块的编辑模式(ctl=)将会默认应用此容器</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="Payment.Text" xml:space="preserve">
+    <value>支付设置</value>
+  </data>
+  <data name="Proxy.Text" xml:space="preserve">
+    <value>代理服务器设置</value>
+  </data>
+  <data name="SMTP.Text" xml:space="preserve">
+    <value>邮件服务器设置</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>在此进行主机高级设置</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>其他设置</value>
+  </data>
+  <data name="plCopyright.Help" xml:space="preserve">
+    <value>选中此项将显示DotNetNuke版权信息</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help" xml:space="preserve">
+    <value>使用用户自定义错误信息代替系统默认错误信息. 当网站上线后可以使用友好的用户自定义错误信息代替沉长的系统错误. (请区分这里的错误信息是指DNN系统错误不是404错误页面)</value>
+  </data>
+  <data name="plProcessor.Help" xml:space="preserve">
+    <value>选择支付接口用以处理用户的付款</value>
+  </data>
+  <data name="plUserId.Help" xml:space="preserve">
+    <value>输入支付接口的用户帐号</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>输入支付接口帐号密码</value>
+  </data>
+  <data name="plHostFee.Help" xml:space="preserve">
+    <value>输入站点托管的基本费用</value>
+  </data>
+  <data name="plHostCurrency.Help" xml:space="preserve">
+    <value>选择支付服务费用的货币种类</value>
+  </data>
+  <data name="plDemoPeriod.Help" xml:space="preserve">
+    <value>输入测试账号的有效天数</value>
+  </data>
+  <data name="plDemoSignup.Help" xml:space="preserve">
+    <value>选择用户是否可以自己建立试用网站</value>
+  </data>
+  <data name="plHostSpace.Help" xml:space="preserve">
+    <value>为每个新建站点输入默认的空间大小</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>输入SMTP服务器地址， 如果要指定特别端口请用冒号后加端口号格式,例如smtp.googlemail.com:587, 如果只输入SMTP服务器将使用默认端口25</value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>输入SMTP服务器用户名</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>输入SMTP服务器访问密码</value>
+  </data>
+  <data name="plControlPanel.Text" xml:space="preserve">
+    <value>控制面板:</value>
+  </data>
+  <data name="plControlPanel.Help" xml:space="preserve">
+    <value>设定不同风格的控制面板来进行页面管理</value>
+  </data>
+  <data name="plFileExtensions.Help" xml:space="preserve">
+    <value>输入有效文件扩展名 (用逗号隔开）, 这将被用于对上传文件的检测.</value>
+  </data>
+  <data name="plSkinUpload.Help" xml:space="preserve">
+    <value>选择是否只有主机管理员可以上传皮肤， 或者网站管理员也可以上传。</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="plCache.Help" xml:space="preserve">
+    <value>设置保持缓存时间</value>
+  </data>
+  <data name="plPerformance.Help" xml:space="preserve">
+    <value>选择如优化性能.</value>
+  </data>
+  <data name="plUpgrade.Help" xml:space="preserve">
+    <value>选中此项如果您希望自动检查是否有可升级的版本。</value>
+  </data>
+  <data name="plProxyServer.Help" xml:space="preserve">
+    <value>输入代理服务器地址</value>
+  </data>
+  <data name="plProxyPort.Help" xml:space="preserve">
+    <value>输入代理服务器端口</value>
+  </data>
+  <data name="plProxyUsername.Help" xml:space="preserve">
+    <value>输入代理服务器用户名</value>
+  </data>
+  <data name="plProxyPassword.Help" xml:space="preserve">
+    <value>输入代理服务器密码</value>
+  </data>
+  <data name="plWebRequestTimeout.Help" xml:space="preserve">
+    <value>输入WEB请求过期时间值</value>
+  </data>
+  <data name="plSiteLogBuffer.Help" xml:space="preserve">
+    <value>输入站点日志缓存条目数</value>
+  </data>
+  <data name="plSiteLogHistory.Help" xml:space="preserve">
+    <value>输入站点日志中所记录网站活动的天数</value>
+  </data>
+  <data name="plUsersOnline.Help" xml:space="preserve">
+    <value>你可以选择是否开启用户在线功能</value>
+  </data>
+  <data name="plUsersOnlineTime.Help" xml:space="preserve">
+    <value>输入用户在线缓存时间, 如果用户在网站空闲时间超过这个设置, 将被视为已下线,系统不再继续追踪.</value>
+  </data>
+  <data name="plUseFriendlyUrls.Text" xml:space="preserve">
+    <value>使用友好链接?</value>
+  </data>
+  <data name="plUseFriendlyUrls.Help" xml:space="preserve">
+    <value>选中此项将开启搜索引擎友好的链接模式, 在web.config中可设置用户友好链接模式, 请参考http://www.dnnmix.com/human-friendly-url/</value>
+  </data>
+  <data name="plHostPortal.Help" xml:space="preserve">
+    <value>选择默认站点</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>主机设置</value>
+  </data>
+  <data name="Configuration.Text" xml:space="preserve">
+    <value>站点设置</value>
+  </data>
+  <data name="plVersion.Text" xml:space="preserve">
+    <value>DotNetNuke版本:</value>
+  </data>
+  <data name="plDataProvider.Text" xml:space="preserve">
+    <value>数据访问 Provider:</value>
+  </data>
+  <data name="plFramework.Text" xml:space="preserve">
+    <value>.NET 版本:</value>
+  </data>
+  <data name="plIdentity.Text" xml:space="preserve">
+    <value>ASP.NET 帐号:</value>
+  </data>
+  <data name="plHostName.Text" xml:space="preserve">
+    <value>主机名:</value>
+  </data>
+  <data name="plVersion.Help" xml:space="preserve">
+    <value>当前运行的DotNetNuke版本</value>
+  </data>
+  <data name="plDataProvider.Help" xml:space="preserve">
+    <value>在web.config中此Provider被指定的默认数据访问 Provider</value>
+  </data>
+  <data name="plFramework.Help" xml:space="preserve">
+    <value>IIS中,Asp.Net应用程序的.NET Framework版本</value>
+  </data>
+  <data name="plIdentity.Help" xml:space="preserve">
+    <value>当前网站所指定的Windows用户账号， 需要在服务器给此账号设置文件夹操作权限</value>
+  </data>
+  <data name="plHostName.Help" xml:space="preserve">
+    <value>托管此网站的主机名.</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>SMTP验证方式:</value>
+  </data>
+  <data name="plSchedulerMode.Text" xml:space="preserve">
+    <value>任务调度模式:</value>
+  </data>
+  <data name="plSchedulerMode.Help" xml:space="preserve">
+    <value>有两种任务调度模式可选， 第一种为当任务进程运行时，计数器方法在不同的线程中执行被调度的任务。另外一种为，当有HTTP请求时则执行任务. 您也可以选择禁止来停止运行任务调度。</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="TimerMethod.Text" xml:space="preserve">
+    <value>计时器模式</value>
+  </data>
+  <data name="RequestMethod.Text" xml:space="preserve">
+    <value>HTTP请求模式</value>
+  </data>
+  <data name="30Seconds.Text" xml:space="preserve">
+    <value>30 秒</value>
+  </data>
+  <data name="45Seconds.Text" xml:space="preserve">
+    <value>45 秒</value>
+  </data>
+  <data name="60Seconds.Text" xml:space="preserve">
+    <value>60 秒</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>输入SMTP服务器访问授权方式( 默认= 匿名)</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>匿名</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM（默认验证方式）</value>
+  </data>
+  <data name="SkinUpload.Text" xml:space="preserve">
+    <value>上传皮肤扩展包</value>
+  </data>
+  <data name="ContainerUpload.Text" xml:space="preserve">
+    <value>上传容器扩展包</value>
+  </data>
+  <data name="plSiteLogStorage.Text" xml:space="preserve">
+    <value>站点日志存储方式:</value>
+  </data>
+  <data name="plSiteLogStorage.Help" xml:space="preserve">
+    <value>选择站点日志存储方式， 内存或文件系统</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="FileSystem.Text" xml:space="preserve">
+    <value>文件系统</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于主机设置&lt;/h1&gt;&lt;p&gt;主机管理员可以在此配置主机设置，并应用于所有站点&lt;/p&gt;</value>
+  </data>
+  <data name="plLogBuffer.Text" xml:space="preserve">
+    <value>启用事件记录缓存?</value>
+  </data>
+  <data name="plLogBuffer.Help" xml:space="preserve">
+    <value>选中此项事件记录将会存入缓存，并定期清除。否则将直接写入</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text" xml:space="preserve">
+    <value>帐号自动解锁时间(分钟):</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help" xml:space="preserve">
+    <value>当用户尝试多次登陆失败时,帐户将自动锁定。设置多长时间(分钟),该帐户自动解锁.当设置为"0"时,将不启用自动解锁功能。</value>
+  </data>
+  <data name="plCacheMethod.Text" xml:space="preserve">
+    <value>模块缓存方式:</value>
+  </data>
+  <data name="plCacheMethod.Help" xml:space="preserve">
+    <value>内存缓存提供最大的弹性, 是执行效率最高的方法,但是它消耗最多的系统资源. 磁盘缓存消耗很少的的系统资源, 但不具有弹性.</value>
+  </data>
+  <data name="Memory.Text" xml:space="preserve">
+    <value>内存</value>
+  </data>
+  <data name="Disk.Text" xml:space="preserve">
+    <value>硬盘</value>
+  </data>
+  <data name="ProcessorWebSite.Text" xml:space="preserve">
+    <value>访问支付接口网站</value>
+  </data>
+  <data name="plHelpUrl.Text" xml:space="preserve">
+    <value>帮助链接:</value>
+  </data>
+  <data name="plHelpUrl.Help" xml:space="preserve">
+    <value>输入在线帮助链接地址,如果输入为空,将不会有在线帮助</value>
+  </data>
+  <data name="plEnableHelp.Text" xml:space="preserve">
+    <value>启用模块在线帮助:</value>
+  </data>
+  <data name="plEnableHelp.Help" xml:space="preserve">
+    <value>在此启用或禁用模块菜单中的在线帮助, 如果启用, 则需要给该模块提供帮助链接,尽管在模块定义时,模块开发者可能已经提供了帮助链接.</value>
+  </data>
+  <data name="NoCache.Text" xml:space="preserve">
+    <value>无缓存</value>
+  </data>
+  <data name="plCacheability.Help" xml:space="preserve">
+    <value>为授权用户设置HTTP Header中Cache-Control 的值, 此值将决定浏览器或代理服务器将如何缓存网页, 详情请查阅MSDN HttpCacheability</value>
+  </data>
+  <data name="plCacheability.Text" xml:space="preserve">
+    <value>客户端缓存</value>
+  </data>
+  <data name="plUpgrade.Text" xml:space="preserve">
+    <value>检测升级版本?</value>
+  </data>
+  <data name="Private.Text" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="Server.Text" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="ServerAndNoCache.Text" xml:space="preserve">
+    <value>ServerAndNoCache</value>
+  </data>
+  <data name="ServerAndPrivate.Text" xml:space="preserve">
+    <value>ServerAndPrivate</value>
+  </data>
+  <data name="cmdRestart.Text" xml:space="preserve">
+    <value>重新启动网站</value>
+  </data>
+  <data name="FriendlyUrl.Text" xml:space="preserve">
+    <value>友好链接设置</value>
+  </data>
+  <data name="plAutoSync.Help" xml:space="preserve">
+    <value>选中此项将自动同步文件系统</value>
+  </data>
+  <data name="plAutoSync.Text" xml:space="preserve">
+    <value>是否自动同步文件?</value>
+  </data>
+  <data name="plAvailable.Help" xml:space="preserve">
+    <value>如果有新版本程序, 显示小图标提示.</value>
+  </data>
+  <data name="plAvailable.Text" xml:space="preserve">
+    <value>是否可升级?</value>
+  </data>
+  <data name="plLog.Help" xml:space="preserve">
+    <value>查看指定版本的数据库升级日志</value>
+  </data>
+  <data name="plLog.Text" xml:space="preserve">
+    <value>查看升级日志:</value>
+  </data>
+  <data name="Compression.Text" xml:space="preserve">
+    <value>压缩设置</value>
+  </data>
+  <data name="Deflate.Text" xml:space="preserve">
+    <value>Deflate方式压缩</value>
+  </data>
+  <data name="GZip.Text" xml:space="preserve">
+    <value>GZip方式压缩</value>
+  </data>
+  <data name="NoCompression.Text" xml:space="preserve">
+    <value>无压缩</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>页面</value>
+  </data>
+  <data name="Performance.Text" xml:space="preserve">
+    <value>性能设置</value>
+  </data>
+  <data name="plCompression.Help" xml:space="preserve">
+    <value>选择要使用的Http压缩类型.</value>
+  </data>
+  <data name="plCompression.Text" xml:space="preserve">
+    <value>压缩设置:</value>
+  </data>
+  <data name="plExcludedPaths.Help" xml:space="preserve">
+    <value>输入不包含的路径列表.</value>
+  </data>
+  <data name="plExcludedPaths.Text" xml:space="preserve">
+    <value>不包含的路径:</value>
+  </data>
+  <data name="plPageQuota.Help" xml:space="preserve">
+    <value>在此设定每个网站的最大可用页面数.</value>
+  </data>
+  <data name="plPageQuota.Text" xml:space="preserve">
+    <value>页面配额:</value>
+  </data>
+  <data name="plPageState.Help" xml:space="preserve">
+    <value>选择页面状态保存的模式，可指定为页面隐藏域（默认）或内存（缓存）模式.</value>
+  </data>
+  <data name="plPageState.Text" xml:space="preserve">
+    <value>网页状态保存方式:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>选中此项当SMTP服务需要安全连接 (通常不需要)</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>SMTP启用SSL:</value>
+  </data>
+  <data name="plUserQuota.Help" xml:space="preserve">
+    <value>在此指定每个站点允许最大用户数.</value>
+  </data>
+  <data name="plUserQuota.Text" xml:space="preserve">
+    <value>用户限额:</value>
+  </data>
+  <data name="plWhitespace.Help" xml:space="preserve">
+    <value>选择此项将滤除页面中的空白字符，使发送到客户端的响应文件下载量减小(10-15%)，但它会使HTML缺少可读性.</value>
+  </data>
+  <data name="plWhitespace.Text" xml:space="preserve">
+    <value>使用空白字符过滤:</value>
+  </data>
+  <data name="plWhitespaceFilter.Help" xml:space="preserve">
+    <value>输入过滤空白字符的正则表达式.</value>
+  </data>
+  <data name="plWhitespaceFilter.Text" xml:space="preserve">
+    <value>过滤空白字符:</value>
+  </data>
+  <data name="LogEmpty.Text" xml:space="preserve">
+    <value>指定版本脚本的日志文件为空. 通常表明脚本运行成功.</value>
+  </data>
+  <data name="NoLog.Text" xml:space="preserve">
+    <value>指定版本脚本的日志文件不存在. 通常表明此脚本从未执行.</value>
+  </data>
+  <data name="plApplicationMapPath.Help" xml:space="preserve">
+    <value>Web服务器上网站根目录的物理路径.</value>
+  </data>
+  <data name="plApplicationMapPath.Text" xml:space="preserve">
+    <value>物理路径:</value>
+  </data>
+  <data name="plApplicationPath.Help" xml:space="preserve">
+    <value>DNN网站(web app)相对于网站根目录的路径.</value>
+  </data>
+  <data name="plApplicationPath.Text" xml:space="preserve">
+    <value>相对路径:</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>用于标识此DNN应用的全局唯一标识符.</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>全局唯一标识符:</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>主机环境中程序访问所拥有的权限</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>权限:</value>
+  </data>
+  <data name="UpgradeNever.Text" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="valHostFee.Error" xml:space="preserve">
+    <value>无效的费用!</value>
+  </data>
+  <data name="Authentication.Text" xml:space="preserve">
+    <value>身份验证设置</value>
+  </data>
+  <data name="EmailErrorMessage.Text" xml:space="preserve">
+    <value>发送测试邮件失败， 错误信息:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="plEnableRequestFilters.Help" xml:space="preserve">
+    <value>选中此项将启用请求过滤功能.</value>
+  </data>
+  <data name="plEnableRequestFilters.Text" xml:space="preserve">
+    <value>启用请求过滤?</value>
+  </data>
+  <data name="RequestFilter.Text" xml:space="preserve">
+    <value>请求过滤设置</value>
+  </data>
+  <data name="plAJAX.Help" xml:space="preserve">
+    <value>选择此项启用AJAX.</value>
+  </data>
+  <data name="plAJAX.Text" xml:space="preserve">
+    <value>启用AJAX?</value>
+  </data>
+  <data name="plebFarm.Text" xml:space="preserve">
+    <value>是否开启 Web Farm？</value>
+  </data>
+  <data name="plServerTime.Help" xml:space="preserve">
+    <value>服务器当前的日期和时间</value>
+  </data>
+  <data name="plServerTime.Text" xml:space="preserve">
+    <value>服务器时间</value>
+  </data>
+  <data name="plWebFarm.Help" xml:space="preserve">
+    <value>显示站点是否运行在web farm配置下，这个配置在您的站点根目录配置文件中更改。
+</value>
+  </data>
+  <data name="HostEmail.Error" xml:space="preserve">
+    <value>电子邮件地址无效</value>
+  </data>
+  <data name="Items.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="JQuery.Text" xml:space="preserve">
+    <value>JQuery 设置</value>
+  </data>
+  <data name="LegacyDoctype.Text" xml:space="preserve">
+    <value>HTML 4 (过时)</value>
+  </data>
+  <data name="NoPermissions.Text" xml:space="preserve">
+    <value>无访问权限</value>
+  </data>
+  <data name="plHostDefaultDocType.Help" xml:space="preserve">
+    <value>请为皮肤选择后备Doctype, 当皮肤未指定DocType时将使用后备DocType</value>
+  </data>
+  <data name="plHostDefaultDocType.Text" xml:space="preserve">
+    <value>皮肤后备 Doctype:</value>
+  </data>
+  <data name="plJQueryDebugVersion.Help" xml:space="preserve">
+    <value>选中此项将使用标准版jQuery, 否则将使用压缩版。压缩版的javascript脚本文件比标准版小很多，但是可读性很差。</value>
+  </data>
+  <data name="plJQueryDebugVersion.Text" xml:space="preserve">
+    <value>使用调试版本jQuery ?</value>
+  </data>
+  <data name="plJQueryHostUrl.Help" xml:space="preserve">
+    <value>在此设置jQuery脚本的链接。默认将使用寄存于Google CDN服务器的压缩版jQuery，这将对文件读取速度有很大优化。</value>
+  </data>
+  <data name="plJQueryHostUrl.Text" xml:space="preserve">
+    <value>jQuery 链接:</value>
+  </data>
+  <data name="plJQueryUseHosted.Help" xml:space="preserve">
+    <value>选中此项将使用链接中的jQuery文件， 否则将使用本地版本的jQuery</value>
+  </data>
+  <data name="plJQueryUseHosted.Text" xml:space="preserve">
+    <value>使用链接版本jQuery?</value>
+  </data>
+  <data name="plJQueryVersion.Help" xml:space="preserve">
+    <value>显示本地jQuery脚本中所嵌入的版本信息</value>
+  </data>
+  <data name="plJQueryVersion.Text" xml:space="preserve">
+    <value>本地 jQuery版本:</value>
+  </data>
+  <data name="plNotifyUpgrade.Help" xml:space="preserve">
+    <value>选中此项将会通过电子邮件通知主机管理员近期更新</value>
+  </data>
+  <data name="plNotifyUpgrade.Text" xml:space="preserve">
+    <value>升级通知?</value>
+  </data>
+  <data name="plRememberMe.Help" xml:space="preserve">
+    <value>在登录界面中显示"记住用户名"， 如果开启此设置，用户可以创建持久化cookie，这样可以下次访问时不用登录直接进入受保护页面。</value>
+  </data>
+  <data name="plRememberMe.Text" xml:space="preserve">
+    <value>记住用户名?</value>
+  </data>
+  <data name="plWebFarm.Text" xml:space="preserve">
+    <value>启用Web Farm?</value>
+  </data>
+  <data name="StrictDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 strict</value>
+  </data>
+  <data name="TransDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 transitional</value>
+  </data>
+  <data name="UpgradeFramework.Text" xml:space="preserve">
+    <value>更新网站使用当前.Net版本</value>
+  </data>
+  <data name="UserRestart.Text" xml:space="preserve">
+    <value>用户触发网站重新启动</value>
+  </data>
+  <data name="valFileExtensions.Error" xml:space="preserve">
+    <value>&lt;br/&gt;文件扩展只能包含字母,数字和下划线, 并以逗号分割.</value>
+  </data>
+  <data name="15Seconds.Text" xml:space="preserve">
+    <value>15 秒</value>
+  </data>
+  <data name="plProduct.Help" xml:space="preserve">
+    <value>您所运行的DotNetNuke产品类型</value>
+  </data>
+  <data name="plProduct.Text" xml:space="preserve">
+    <value>DotNetNuke类型:</value>
+  </data>
+</root>

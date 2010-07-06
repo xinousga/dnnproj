@@ -1,0 +1,85 @@
+@import url("css/menu.css");
+
+/* CSS Document */
+#Body {background:#FFF url(images/body_bg.png) repeat-x top left; height:100%; margin:0; padding:0; }
+
+/* ControlPanel style */
+.ControlPanel{background:transparent url(images/cpanel_center.png) repeat-x bottom left; border:none;padding-bottom:10px;}
+.cpanel_left {background: url(images/cpanel_left.png) no-repeat bottom left;padding-left:21px;}
+.cpanel_right {background: url(images/cpanel_right.png) no-repeat bottom right;padding-right:33px;}
+
+/*-------- Default Style --------*/
+body,th,td,table,h1,h2,h3,h4,h5,h6,.Normal,.NormalDisabled,.Head,.SubHead,.SubSubHead, a:link, a:visited, a:hover, input, .CommandButton{color:#2E3D47; font-family:Verdana, Arial, Helvetica, sans-serif;}
+body,th,td,table,.Normal,.NormalDisabled,.Head,.SubHead,.SubSubHead, a:link, a:visited, a:hover{font-size:12px;}
+h1, h2, h3, h4, h5, h6, h2 input{color:#375162;font-weight:bold;margin:1ex 0;}
+h1{font-size:18px;margin:10px 0;}
+h2, h2 input{font-size:14px;}
+h3{font-size:13px;}
+h4{font-size:12px;}
+h5{font-size:11px;}
+h6{font-size:10px;}
+
+a,a:link,a:visited,a:active{color:#3E81B5; text-decoration:none; font-weight:normal; }
+a:hover{color:#D00; text-decoration:underline;}
+.Head, .SubHead, .SubSubHead, .Normal, .NormalDisabled, .NormalDisabled, .NormalBold, .NormalRed, .NormalTextBox
+{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.Head{color:#2E3D47;font-weight:bold;}
+.SubHead {color:#4C6171;}
+.SubSubHead{color:#6E8AA0;}
+.NormalRed {color:#F00;}
+
+/*Datagrids */
+.DataGrid_Container {margin-top:15px;}
+.DataGrid_Header{font-weight:bold;}
+.DataGrid_Header td, .NormalBold td{font-weight:bold;}
+
+/*-------- design style --------*/
+.m_s_wrap_main{display:table;width:300px; margin:0 auto;}
+.m_s_wrap_sub{display:table-row}
+.m_template_style{display:table-cell}
+
+.m_top_space{height:34px;}
+.m_lang_pad{padding:7px 0 0 25px;float:left;}
+
+.m_logo_top_left{padding:0; margin:0; background:url(images/logo_top_left.png) no-repeat top left; height:23px;}
+.m_logo_top_right{padding:0; margin:0; background:url(images/logo_top_right.png) no-repeat top right;}
+.m_logo_top_bg{padding:0; margin:0 39px 0 27px; background:#FFF url(images/logo_top_bg.png) repeat-x top;height:23px;}
+.m_logo_left{padding:0; background:url(images/logo_left.png) repeat-y top left;}
+.m_logo_right{padding:0; background:url(images/logo_right.png) repeat-y top right;}
+.m_logo_pad{background:#FFF; margin: 0 19px 0 7px; padding:0 0 10px 10px;height:100%;}
+
+.m_s_logo{float:left;}
+.m_s_banner{background:#aaa;width:50%;float:right;}
+
+.m_menu_bg{padding:0 0 0 6px;  margin: 0 21px 0 9px; background:url(images/menu_bg.png) top left;}
+.m_menu_left{padding:0; margin:0; background:url(images/menu_left.png) repeat-y  top left;}
+.m_menu_right{margin:0; background:url(images/menu_right.png) repeat-y top right; }
+
+.search_style{float:right; height:40px;}
+.search_bg{padding:8px 2px 0 0;}
+
+.bread_bg{padding:0; margin: 0 19px 0 7px; background:url(images/bread_bg.png) repeat-x top left; height:34px;}
+.bread_left{padding:0; margin:0; background:url(images/bread_left.png) no-repeat top left; height:34px;}
+.bread_right{padding:0;  background:url(images/bread_right.png) no-repeat top right; height:34px;}
+
+#login_style{ float:right; line-height:34px; padding-right:18px;}
+#bread_style{ float:left; line-height:34px; padding-left:18px;color:#000000;}
+
+.m_center_bg{padding:0; margin:0;clear:both;}
+.m_left_bg{padding:0; margin:0; background:url(images/left_bg.png) repeat-y top left;}
+.m_right_bg{padding:0; margin:0; background:url(images/right_bg.png) repeat-y top right;}
+.m_content_pad{padding:10px 22px 0 22px; margin: 0 19px 0 7px; background:#FFF url(images/center_bg.png) repeat-x bottom left;}
+.m_lm_content_pad{padding:0px 22px 0 0px; margin: 0 19px 0 7px; background:#FFF url(images/center_bg.png) repeat-x bottom left;}
+.m_content_width{padding-top:15px; min-height:200px;}
+.m_lm_content_width{padding-top:0px; min-height:350px;}
+
+.m_bot_left{padding:0; margin:0; background:url(images/bot_left.png) no-repeat top left;}
+.m_bot_right{padding:0; margin:0; background:url(images/bot_right.png) no-repeat top right; padding:0 39px 0 27px;}
+.m_bot_bg{padding:0; margin:0; background:url(images/bot_bg.png) repeat-x top left; height:41px;}
+
+.m_bot_pad{margin-bottom:20px;padding:0 30px 0 20px;}
+#terms_style{float:left;}
+#copy_style{float:right;}
+
+.m_clear_float{clear:both; line-height:0; font-size:0; height:0;}
+

@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plType.Text" xml:space="preserve">
+    <value>站点类型:</value>
+  </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>您可以选择两种站点类型主站点或子站点， 详细信息请查看模块帮助。或查看http://www.dnnmix.com/dotnetnuke-multiple-portals-guide/ 详细介绍</value>
+  </data>
+  <data name="DemoMessage.Text" xml:space="preserve">
+    <value>您可以注册演示站点体验DNN的各种功能{0}，当试用期结束可以转换成正式的注册站点，您只需用站点管理员登录在网站管理点击更新/延长站点有效期。 成功注册的站点可以使用自己的域名(例如，www.yourdomain.com)访问。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;*注意:&lt;/b&gt;站点名必须是一个简单的名字，不能包含空格和标点。站点链接将会使用以下格式 &lt;b&gt; {1}/站点名&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="AdminMissing.Text" xml:space="preserve">
+    <value>找不到admin.template文件，您必须先上传此文件。&lt;br /&gt;</value>
+  </data>
+  <data name="PortalMissing.Text" xml:space="preserve">
+    <value>缺少站点模板文件, 请先上传模板.&lt;br&gt;</value>
+  </data>
+  <data name="plPortalName.Text" xml:space="preserve">
+    <value>站点名:</value>
+  </data>
+  <data name="plPortalName.Help" xml:space="preserve">
+    <value>请输入站点名</value>
+  </data>
+  <data name="valPortalName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;站点名为必添项.</value>
+  </data>
+  <data name="plTitle.Text" xml:space="preserve">
+    <value>标题:</value>
+  </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>请输入站点标题，标题将会显示在浏览器的标题栏。</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>站点描述:</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>请输入站点描述。</value>
+  </data>
+  <data name="plKeyWords.Text" xml:space="preserve">
+    <value>关键字:</value>
+  </data>
+  <data name="plKeyWords.Help" xml:space="preserve">
+    <value>输入用逗号分割的关键字. 关键字将会被添加到html页面中的MetaData这将会帮助您的网站被搜索引擎收录。</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>模板:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>请为新站点选择一个模板.</value>
+  </data>
+  <data name="plFirstName.Text" xml:space="preserve">
+    <value>名字:</value>
+  </data>
+  <data name="plFirstName.Help" xml:space="preserve">
+    <value>请输入名字.</value>
+  </data>
+  <data name="plLastName.Text" xml:space="preserve">
+    <value>姓氏:</value>
+  </data>
+  <data name="plLastName.Help" xml:space="preserve">
+    <value>输入您的姓氏.</value>
+  </data>
+  <data name="valFirstName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;名字为必添项.</value>
+  </data>
+  <data name="valLastName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;姓氏为必添项.</value>
+  </data>
+  <data name="plUsername.Text" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="plUsername.Help" xml:space="preserve">
+    <value>请输入站点管理员用户名.</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>输入站点管理员密码.</value>
+  </data>
+  <data name="plConfirm.Text" xml:space="preserve">
+    <value>密码确认:</value>
+  </data>
+  <data name="plConfirm.Help" xml:space="preserve">
+    <value>请重复上面输入的密码</value>
+  </data>
+  <data name="valUsername.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;用户名为必添项.</value>
+  </data>
+  <data name="valPassword.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;密码为必添项.</value>
+  </data>
+  <data name="valConfirm.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;密码确认为必添项.</value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>电子邮件:</value>
+  </data>
+  <data name="plEmail.Help" xml:space="preserve">
+    <value>输入站点管理员的电子邮件地址.</value>
+  </data>
+  <data name="valEmail.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;电子邮件地址为必添项.</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>创建站点</value>
+  </data>
+  <data name="Note.Text" xml:space="preserve">
+    <value>&lt;b&gt;*注意:&lt;/b&gt; 新站点建成之后，请用新建的管理员帐号登陆站点进行管理设置。</value>
+  </data>
+  <data name="InvalidTemplate.Text" xml:space="preserve">
+    <value>{0} 不是一个有效的站点模板.</value>
+  </data>
+  <data name="InvalidName.Text" xml:space="preserve">
+    <value>站点名不能包含空格和标点.</value>
+  </data>
+  <data name="InvalidPassword.Text" xml:space="preserve">
+    <value>输入的密码不匹配.</value>
+  </data>
+  <data name="ChildExists.Text" xml:space="preserve">
+    <value>您输入的子站点名已经存在，请选择其它的子站点名.</value>
+  </data>
+  <data name="CreateError.Text" xml:space="preserve">
+    <value>创建站点时发生错误， 可能是管理员帐号用户名已存在，请仔细检查设置再提交。</value>
+  </data>
+  <data name="PortalSetup.Text" xml:space="preserve">
+    <value>站点设置</value>
+  </data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+    <value>管理员帐号设置</value>
+  </data>
+  <data name="plPortalAlias.Text" xml:space="preserve">
+    <value>网站别名:</value>
+  </data>
+  <data name="plPortalAlias.Help" xml:space="preserve">
+    <value>请输入站点别名</value>
+  </data>
+  <data name="plHomeDirectory.Text" xml:space="preserve">
+    <value>站点目录:</value>
+  </data>
+  <data name="plHomeDirectory.Help" xml:space="preserve">
+    <value>请输入站点目录, 所有和站点相关的文件将会上传到此目录。例如站点专署的皮肤, favicon.ico，在文件管理器上传的文件... 等等</value>
+  </data>
+  <data name="Customize.Text" xml:space="preserve">
+    <value>定制</value>
+  </data>
+  <data name="valTemplate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;请选择一个模板</value>
+  </data>
+  <data name="Parent.Text" xml:space="preserve">
+    <value>主站点</value>
+  </data>
+  <data name="Child.Text" xml:space="preserve">
+    <value>子站点</value>
+  </data>
+  <data name="AutoGenerate.Text" xml:space="preserve">
+    <value>自动生成</value>
+  </data>
+  <data name="ControlTitle_signup.Text" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>发送确认邮件时发生错误 - {0}.  但是站点已经创建成功 &lt;a href='{1}'&gt;访问新站点&lt;/a&gt;</value>
+  </data>
+  <data name="AddPortal.Text" xml:space="preserve">
+    <value>添加新站点</value>
+  </data>
+  <data name="InvalidHomeFolder.Text" xml:space="preserve">
+    <value>无效的站点目录.</value>
+  </data>
+  <data name="DuplicatePortalAlias.Text" xml:space="preserve">
+    <value>站点别名已存在, 请重新输入.</value>
+  </data>
+  <data name="UnknownSendMail.Error" xml:space="preserve">
+    <value>发送确认邮件时发生错误, 但是站点已经创建成功. &lt;a href='{0}'&gt;访问新站点&lt;/a&gt;</value>
+  </data>
+  <data name="ValidationResults.Text" xml:space="preserve">
+    <value>验证结果</value>
+  </data>
+  <data name="plAnswer.Help" xml:space="preserve">
+    <value>请输入安全问题答案。</value>
+  </data>
+  <data name="plAnswer.Text" xml:space="preserve">
+    <value>安全问题答案:</value>
+  </data>
+  <data name="plQuestion.Help" xml:space="preserve">
+    <value>请输入一个安全问题, 在找回密码时将使用此问题。</value>
+  </data>
+  <data name="plQuestion.Text" xml:space="preserve">
+    <value>安全问题:</value>
+  </data>
+  <data name="valEmail2.ErrorMessage" xml:space="preserve">
+    <value>无效的电子邮件地址</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>您可以创建两种类型的站点:&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;主站点&lt;/b&gt; 拥有独立链接的站点 ( 例如， www.domain.com ) . 这需要从域名服务商购买一个域名, 设置主/副域名服务器指向托管主机的域名服务器, 并且需要主机服务商映射域名到您帐号所在的IP地址。 以下是一个有效的主站点名 &lt;b&gt;www.mydomain.com&lt;/b&gt;. 或者您可以使用IP地址作为主站点名 ( 例如， &lt;b&gt;65.174.86.217&lt;/b&gt; ). 如果您需要多个域名指向统一站点您可以使用逗号分隔输入的站点( 例如， &lt;b&gt;www.domain1.com,www.domain2.com&lt;/b&gt; ). 请当所有域名服务器映射设置好后再创建主站点，否则您将不能访问.&lt;br&gt;
+&lt;br&gt;&lt;li&gt;&lt;b&gt;子站点&lt;/b&gt; 使用虚拟目录形式创建的站点，网站链接是以主域名+虚拟目录形式组成 ( 例如， www.domain.com/directory ). 子站点可以在任何时候转换成主站点，只要在站点管理内修改站点别名就可以了.&lt;br&gt;&lt;br&gt;*请注意: 创建站点时将使用在主机设置中定义的站点设置 ( 托管费用, 站点空间, 测试时间段 ) 或选用一个模板文件. 一旦站点建成,这些设置可以在站点设置里修改.&lt;br&gt;&lt;br&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+﻿.newc1_greytnessCP{font-weight:bold}
+.newc1_BorderBgDiv{width:980px;margin:10px auto 0 auto;padding:0px}
+.newc1_TopDiv{background:url(graphics/BorderedTop_bg.png) top no-repeat;height:15px}
+.newc1_contentWrapper{background:url(graphics/BorderedContent_bg.png) top center repeat-y}
+.newc1_fullWidth{width:962px;padding:0;margin:0 auto;border-bottom:#CCC 1px solid;position:relative}
+.newc1_action-buttons{text-align:right;clear:both}.Search{float:right;padding:2px 3px 0 0}
+.newc1_BottomDiv{background:url(graphics/BorderedBottom_bg.png) bottom no-repeat;height:2.5em;clear:both}
+.newc1_footer{font-size:.8em;line-height:1.8em;text-decoration:none;color:#333;width:934px;padding-top:2px;margin:0 auto 0 auto;text-align:left;font-family:Verdana,Arial,Helvetica,sans-serif}

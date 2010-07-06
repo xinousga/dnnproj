@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogTitle.Text" xml:space="preserve">
+    <value>扩展包安装记录</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="InvalidExt.Text" xml:space="preserve">
+    <value>无效文件类型 - {0}</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;关于安装扩展包&lt;/h1&gt;&lt;p&gt;您可以上传并安装扩展包到站点&lt;/p&gt;</value>
+  </data>
+  <data name="NoFile.Text" xml:space="preserve">
+    <value>您首先需要上传一个文件 - 点击浏览从本地选择要上传的文件。</value>
+  </data>
+  <data name="InstallCustomPackage.Text" xml:space="preserve">
+    <value>安装新 {0} 扩展包</value>
+  </data>
+  <data name="InstallPackage.Text" xml:space="preserve">
+    <value>安装扩展包</value>
+  </data>
+  <data name="UploadPackage.Text" xml:space="preserve">
+    <value>上传扩展包</value>
+  </data>
+  <data name="AcceptLicense.Text" xml:space="preserve">
+    <value>接受许可?</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>DotNetNuke可以通过多种方法来扩展， 安装向导会帮助您上传安装DotNetNuke扩展包。&lt;br/&gt;&lt;br/&gt;请先从本地选择您要安装的扩展包。&lt;br/&gt;&lt;br/&gt;当选择了zip扩展包选择下一步安装。</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>上传扩展包</value>
+  </data>
+  <data name="ZipCriticalError.Text" xml:space="preserve">
+    <value>读取zip扩展包时发生严重错误</value>
+  </data>
+  <data name="ZipError.Text" xml:space="preserve">
+    <value>读取zip扩展包时发生错误</value>
+  </data>
+  <data name="AcceptTerms.Text" xml:space="preserve">
+    <value>安装此扩展前请先接受安装许可内的所有条款。</value>
+  </data>
+  <data name="InstallError.Text" xml:space="preserve">
+    <value>从临时文件夹读取文件出错。</value>
+  </data>
+  <data name="InstallResults.Help" xml:space="preserve">
+    <value>扩展包安装结果</value>
+  </data>
+  <data name="InstallResults.Title" xml:space="preserve">
+    <value>扩展包安装报告</value>
+  </data>
+  <data name="PackageInfo.Help" xml:space="preserve">
+    <value>以下是从.dnn扩展包声明文件中提取出的信息。</value>
+  </data>
+  <data name="PackageInfo.Title" xml:space="preserve">
+    <value>扩展包信息</value>
+  </data>
+  <data name="License.Help" xml:space="preserve">
+    <value>在继续安装前您必须接受此扩展包安装许可内的所有条款。请阅览安装许可并选择"接受许可"</value>
+  </data>
+  <data name="License.Title" xml:space="preserve">
+    <value>安装许可</value>
+  </data>
+  <data name="ReleaseNotes.Help" xml:space="preserve">
+    <value>请阅览此扩展包的发布声明。</value>
+  </data>
+  <data name="ReleaseNotes.Title" xml:space="preserve">
+    <value>发布声明</value>
+  </data>
+  <data name="IgnoreRestrictedFilesWarning.Text" xml:space="preserve">
+    <value>警告: 您选择忽略检查受限制文件类型。这是一个对网站具有潜在危机的行为，请在明确知道文件来源的情况下进行此操作。</value>
+  </data>
+  <data name="RepairInstall.Text" xml:space="preserve">
+    <value>修复安装?</value>
+  </data>
+  <data name="InvalidFiles.Text" xml:space="preserve">
+    <value>此扩展包含无效的文件类型的文件</value>
+  </data>
+  <data name="PackageInstalled.Text" xml:space="preserve">
+    <value>此扩展包已安装.</value>
+  </data>
+  <data name="RepairInstallWarning.Text" xml:space="preserve">
+    <value>警告: 您已经选择修复安装此扩展包，这将会覆盖之前已安装的文件。</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="LegacySkin.Text" xml:space="preserve">
+    <value>老版本 皮肤/容器:</value>
+  </data>
+  <data name="NoManifest.Text" xml:space="preserve">
+    <value>此扩展包没有.dnn声明文件，老版本的皮肤和容器不包含.dnn声明文件。如果是老版本皮肤或容器请选中下面复选框再重新上传扩展包。</value>
+  </data>
+  <data name="Container.Text" xml:space="preserve">
+    <value>容器</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Skin.Text" xml:space="preserve">
+    <value>皮肤</value>
+  </data>
+  <data name="CoreLanguageError.Text" xml:space="preserve">
+    <value>没有找到此语言言包所需的核心语言，在安装任何扩展语言包前请先安装这种语言的核心语言。</value>
+  </data>
+  <data name="DependencyError.Text" xml:space="preserve">
+    <value>扩展语言包安装失败.</value>
+  </data>
+  <data name="BrowseFile.Text" xml:space="preserve">
+    <value>浏览文件:</value>
+  </data>
+  <data name="BrowseFileHelp.Text" xml:space="preserve">
+    <value>使用“浏览”按钮选取要安装的扩展包，然后点击“下一页”继续。</value>
+  </data>
+  <data name="IgnoreWhiteList.Text" xml:space="preserve">
+    <value>忽略文件类型限制?</value>
+  </data>
+  <data name="IgnoreWhiteListHelp.Text" xml:space="preserve">
+    <value>安装器会检查扩展包内的文件是否在可安装的文件类型列表中。如果您确定所安装的扩展包是可以信赖的，则可忽略此列表。</value>
+  </data>
+  <data name="LegacySkinHelp.Text" xml:space="preserve">
+    <value>安装器也可以安装老版本(4.x)的皮肤和容器，但是因为它们没有包含声明文件(.dnn)，您必须标明所安装的扩展包为老版本的皮肤或容器（如果您不确定皮肤和容器是否为老版本，请选择适当的选项）</value>
+  </data>
+  <data name="RepairInstallHelp.Text" xml:space="preserve">
+    <value>安装器默认不会覆盖相同版本的扩展包，如果您需要安装器修复安装当前版本的扩展，请选择此项。</value>
+  </data>
+  <data name="Warnings.Help" xml:space="preserve">
+    <value>如果您进入此页则表明安装器在处理安装前需要获取更多的信息。</value>
+  </data>
+  <data name="Warnings.Title" xml:space="preserve">
+    <value>上传结果</value>
+  </data>
+</root>

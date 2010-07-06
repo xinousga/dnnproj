@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}XH_PageFace] DROP CONSTRAINT [FK_{objectQualifier}XH_PageFace_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}XH_PageFace] DROP CONSTRAINT [PK_{objectQualifier}XH_PageFace]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}XH_PageFace].[IX_{objectQualifier}XH_PageFace]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}XH_PageFace]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}XH_GetPageFaces]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}XH_GetPageFace]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}XH_AddPageFace]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}XH_UpdatePageFace]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}XH_DeletePageFace]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

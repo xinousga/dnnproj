@@ -1,0 +1,116 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>Winter.jpg</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>BorderedBottom_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>BorderedContent_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>BorderedTop_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>btn_search.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>hdr_divide.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>menu_divide.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>search_bg.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>winter_bg.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>winter_footer_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>winter_footer_repeat_bg.png</name>
+    </file>
+    <file>
+      <path />
+      <name>skin.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Standard.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Standard.doctype.xml</name>
+    </file>
+    <file>
+      <path />
+      <name>Standard.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Winter.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Winter.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Winter.doctype.xml</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>bg_control_panel.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>BorderedBottomMidnight_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>BorderedContentMidnight_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>BorderedTopMidnight_bg.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>btn_search_midnight.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>menu_divide_midnight.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>Midnight.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Midnight.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Midnight.doctype.xml</name>
+    </file>
+    <file>
+      <path />
+      <name>Midnight.jpg</name>
+    </file>
+  </files>
+</dotnetnuke>

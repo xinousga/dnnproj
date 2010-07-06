@@ -1,0 +1,264 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>Std_H6_VertLine.jpg</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>printer.gif</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>rss.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>Banner.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Banner.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H1_Grey1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H1_Grey1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H2_Grey1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H2_Grey1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H3_Grey1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H3_Grey1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H4_Grey1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H4_Grey1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H5_Grey1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H5_Grey1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H6_Grey1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H6_Grey1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>container.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H1.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H1.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H1_UL.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H1_UL.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H1_VertLine.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H1_VertLine.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H2.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H2_UL.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H2_UL.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H2_VertLine.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H2_VertLine.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H3.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H3.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H3_UL.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H3_UL.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H3_VertLine.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H3_VertLine.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H4.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H4.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H4_UL.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H4_UL.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H4_VertLine.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H4_VertLine.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H5.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H5.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H5_UL.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H5_UL.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H5_VertLine.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H5_VertLine.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H6.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H6.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H6_UL.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H6_UL.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Std_H6_VertLine.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H1_Grey2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H1_Grey2.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H2_Grey2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H2_Grey2.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H3_Grey2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H3_Grey2.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H4_Grey2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H4_Grey2.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H5_Grey2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H5_Grey2.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H6_Grey2.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Box_H6_Grey2.jpg</name>
+    </file>
+  </files>
+</dotnetnuke>

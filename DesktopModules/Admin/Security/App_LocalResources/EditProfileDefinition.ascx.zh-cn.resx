@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_editprofileproperty.Text" xml:space="preserve">
+    <value>编辑用户档案属性信息</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>添加新用户档案属性</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Text" xml:space="preserve">
+    <value>数据类型:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Help" xml:space="preserve">
+    <value>选择此属性的数据类型</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Text" xml:space="preserve">
+    <value>默认值:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Help" xml:space="preserve">
+    <value>为此属性提供一个默认值。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Text" xml:space="preserve">
+    <value>属性类别:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Help" xml:space="preserve">
+    <value>输入该属性所属类别，显示用户档案时将会根据类别分组显示。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Text" xml:space="preserve">
+    <value>属性名:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Help" xml:space="preserve">
+    <value>给这个属性起个名字</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Text" xml:space="preserve">
+    <value>验证表达式:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Help" xml:space="preserve">
+    <value>可在此提供正则表达式对用户输入的内容进行验证。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Text" xml:space="preserve">
+    <value>显示顺序:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Help" xml:space="preserve">
+    <value>输入这个属性的显示顺序，数字越小显示位置越靠前。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Text" xml:space="preserve">
+    <value>可见:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Help" xml:space="preserve">
+    <value>您可以选择是否让用户看到这个属性。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Text" xml:space="preserve">
+    <value>必填项:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Help" xml:space="preserve">
+    <value>设置此属性是否为必须填写的属性</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Text" xml:space="preserve">
+    <value>长度:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Help" xml:space="preserve">
+    <value>输入此属性的最大长度。只对特定的数据类型有效。</value>
+  </data>
+  <data name="DuplicateName.Text" xml:space="preserve">
+    <value>此属性已经存在, 属性名称必须唯一。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Required" xml:space="preserve">
+    <value>属性类别为必填项。</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Required" xml:space="preserve">
+    <value>属性名为必填项。</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>返回用户档案属性列表</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>创建新属性</value>
+  </data>
+  <data name="cmdSaveKeys.Text" xml:space="preserve">
+    <value>保存地方化语言文本</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>更新属性</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>第一步是更新属性设置，点下一页将会首先保存此页信息然后跳转。</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>编辑属性信息</value>
+  </data>
+  <data name="Introduction_Add.Help" xml:space="preserve">
+    <value>第一步是填写新用户属性详细资料，点下一页将会首先保存此页信息然后跳转。&lt;b&gt;注意:&lt;/b&gt;红色字段必填.</value>
+  </data>
+  <data name="Introduction_Add.Title" xml:space="preserve">
+    <value>添加新用户档案属性</value>
+  </data>
+  <data name="List.Help" xml:space="preserve">
+    <value>属性详细信息已成功更新，该属性是一个列表类型.下一步是创建列表条目。</value>
+  </data>
+  <data name="List.Title" xml:space="preserve">
+    <value>管理列表条目</value>
+  </data>
+  <data name="Localization.Help" xml:space="preserve">
+    <value>在此设置此属性的地方化语言文本, 选择想要更新的语言, 增加或修改此语言内容，并点击“保存地方化语言文本”</value>
+  </data>
+  <data name="Localization.Title" xml:space="preserve">
+    <value>管理地方化语言</value>
+  </data>
+  <data name="plCategoryName.Help" xml:space="preserve">
+    <value>输入指定语言属性类别所对应的文本</value>
+  </data>
+  <data name="plCategoryName.Text" xml:space="preserve">
+    <value>属性类别:</value>
+  </data>
+  <data name="plLocales.Help" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="plLocales.Text" xml:space="preserve">
+    <value>选择语言:</value>
+  </data>
+  <data name="plPropertyHelp.Help" xml:space="preserve">
+    <value>输入选定语言版本的属性帮助。</value>
+  </data>
+  <data name="plPropertyHelp.Text" xml:space="preserve">
+    <value>属性帮助:</value>
+  </data>
+  <data name="plPropertyName.Help" xml:space="preserve">
+    <value>输入指定语言版本的属性名, 例如, 英文属性名 "City" 中文属性名对应 "城市"</value>
+  </data>
+  <data name="plPropertyName.Text" xml:space="preserve">
+    <value>属性名:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Validation" xml:space="preserve">
+    <value>属性名中不能包含空格</value>
+  </data>
+  <data name="plPropertyRequired.Help" xml:space="preserve">
+    <value>当此属性被设为必添项, 如果用户未填时所显示的错误信息。</value>
+  </data>
+  <data name="plPropertyRequired.Text" xml:space="preserve">
+    <value>未填写必添项时的错误信息</value>
+  </data>
+  <data name="plPropertyValidation.Help" xml:space="preserve">
+    <value>当此属性正则表达式规则验证失败时所显示的错误信息。</value>
+  </data>
+  <data name="plPropertyValidation.Text" xml:space="preserve">
+    <value>验证失败错误信息:</value>
+  </data>
+</root>

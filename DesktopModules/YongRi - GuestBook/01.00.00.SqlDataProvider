@@ -1,0 +1,204 @@
+﻿/************************************************************/
+/*****              SQLDataProvider                     *****/
+/*****              YongRi.GuestBook                    *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YongRi_GuestBookAdd]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure {databaseOwner}[{objectQualifier}YongRi_GuestBookAdd]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YongRi_GuestBookDelete]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure {databaseOwner}[{objectQualifier}YongRi_GuestBookDelete]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YongRi_GuestBookGet]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure {databaseOwner}[{objectQualifier}YongRi_GuestBookGet]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YongRi_GuestBookGetByModules]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure {databaseOwner}[{objectQualifier}YongRi_GuestBookGetByModules]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YongRi_GuestBookUpdate]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure {databaseOwner}[{objectQualifier}YongRi_GuestBookUpdate]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YongRi_GuestBook]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table {databaseOwner}[{objectQualifier}YongRi_GuestBook]
+GO
+
+CREATE TABLE {databaseOwner}[{objectQualifier}YongRi_GuestBook] (
+	[ItemID] [int] IDENTITY (1, 1) NOT NULL ,
+	[ModuleId] [int] NOT NULL ,
+	[ReplyId] [int] NOT NULL ,
+	[CreatedByUserId] [int] NOT NULL ,
+	[CreatedByUser] [nvarchar] (100) NOT NULL ,
+	[CreatedDate] [datetime] NOT NULL ,
+	[IP] [varchar] (30) NOT NULL ,
+	[QQ] [varchar] (30) NOT NULL ,
+	[Email] [nvarchar] (255) NOT NULL ,
+	[Body] [nvarchar] (1000) NOT NULL ,
+	[IsApproved] [bit] NOT NULL 
+) ON [PRIMARY]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YongRi_GuestBook] ADD 
+	CONSTRAINT [PK_{objectQualifier}YongRi_GuestBook] PRIMARY KEY  CLUSTERED 
+	(
+		[ItemID]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YongRi_GuestBook] ADD 
+	CONSTRAINT [FK_{objectQualifier}YongRi_GuestBook_{objectQualifier}Modules] FOREIGN KEY 
+	(
+		[ModuleId]
+	) REFERENCES {databaseOwner}[{objectQualifier}Modules] (
+		[ModuleID]
+	) ON DELETE CASCADE  ON UPDATE CASCADE 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}YongRi_GuestBookAdd
+(
+	@ModuleId int,
+	@ReplyId int,
+	@CreatedByUserId int,
+	@CreatedByUser nvarchar(100),
+	@CreatedDate datetime,
+	@IP varchar(30),
+	@QQ varchar(30),
+	@Email nvarchar(255),
+	@Body nvarchar(1000),
+	@IsApproved bit
+)
+AS
+
+INSERT INTO {databaseOwner}{objectQualifier}YongRi_GuestBook (
+	[ModuleId],
+	[ReplyId],
+	[CreatedByUserId],
+	[CreatedByUser],
+	[CreatedDate],
+	[IP],
+	[QQ],
+	[Email],
+	[Body],
+	[IsApproved]
+) VALUES (
+	@ModuleId,
+	@ReplyId,
+	@CreatedByUserId,
+	@CreatedByUser,
+	@CreatedDate,
+	@IP,
+	@QQ,
+	@Email,
+	@Body,
+	@IsApproved
+)
+
+select SCOPE_IDENTITY()
+
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}YongRi_GuestBookDelete
+(
+	@ItemID int
+)
+AS
+
+DELETE FROM {databaseOwner}{objectQualifier}YongRi_GuestBook
+WHERE [ItemID] = @ItemID
+
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}YongRi_GuestBookGet
+(
+	@ItemID int,
+	@moduleId int 
+)
+AS
+
+SELECT
+	[ItemID],
+	[ModuleId],
+	[ReplyId],
+	[CreatedByUserId],
+	[CreatedByUser],
+	[CreatedDate],
+	[IP],
+	[QQ],
+	[Email],
+	[Body],
+	[IsApproved]
+FROM {databaseOwner}{objectQualifier}YongRi_GuestBook
+WHERE [ItemID] = @ItemID AND [moduleid]=@moduleId 
+
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}YongRi_GuestBookGetByModules
+(
+	@ModuleId int,
+	@ReplyId int,
+	@IsApproved bit
+)
+AS
+
+SELECT
+	[ItemID],
+	[ModuleId],
+	[ReplyId],
+	[CreatedByUserId],
+	[CreatedByUser],
+	[CreatedDate],
+	[IP],
+	[QQ],
+	[Email],
+	[Body],
+	[IsApproved]
+FROM {databaseOwner}{objectQualifier}YongRi_GuestBook
+WHERE [ModuleId] = @ModuleId AND ReplyId = @ReplyId AND (IsApproved = @IsApproved OR @IsApproved = 0)
+ORDER BY ItemID DESC
+
+RETURN 
+
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}YongRi_GuestBookUpdate
+(
+	@ItemID int, 
+	@ModuleId int, 
+	@ReplyId int, 
+	@CreatedByUserId int, 
+	@CreatedByUser nvarchar(100), 
+	@CreatedDate datetime, 
+	@IP varchar(30), 
+	@QQ varchar(30), 
+	@Email nvarchar(255), 
+	@Body nvarchar(1000), 
+	@IsApproved bit 
+)
+AS
+
+UPDATE {databaseOwner}{objectQualifier}YongRi_GuestBook SET
+	[ModuleId] = @ModuleId,
+	[ReplyId] = @ReplyId,
+	[CreatedByUserId] = @CreatedByUserId,
+	[CreatedByUser] = @CreatedByUser,
+	[CreatedDate] = @CreatedDate,
+	[IP] = @IP,
+	[QQ] = @QQ,
+	[Email] = @Email,
+	[Body] = @Body,
+	[IsApproved] = @IsApproved
+WHERE
+	[ItemID] = @ItemID
+
+GO
+
+

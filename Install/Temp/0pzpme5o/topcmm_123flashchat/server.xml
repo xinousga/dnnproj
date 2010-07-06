@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<server>
+  <DataPath>C:\Program Files\123FlashChat7.6</DataPath>
+  <URL>http://host71200.123flashchat.com/yeechat/123flashchat.swf?init_host=host71200.123flashchat.com&amp;init_port=21127&amp;init_host_s=host71201.123flashchat.com&amp;init_port_s=443&amp;init_host_h=host71202.123flashchat.com&amp;init_port_h=443&amp;init_group=yeechat&amp;init_root=http://host71200.123flashchat.com/yeechat/</URL>
+</server>

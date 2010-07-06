@@ -1,0 +1,1348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Calendar.Text" xml:space="preserve">
+    <value>日历</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Not_Specified.Text" xml:space="preserve">
+    <value>未指定</value>
+  </data>
+  <data name="None_Specified.Text" xml:space="preserve">
+    <value>没有设定</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="cmdDisplay.Text" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="cmdGo.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="cmdUpload.Text" xml:space="preserve">
+    <value>上传文件</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Upload.Text" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Unauthorized.Text" xml:space="preserve">
+    <value>没有授权的</value>
+  </data>
+  <data name="Today.Text" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="cmdReturn.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="cmdDownLoad.Text" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Seconds.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Minutes.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Hours.Text" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Days.Text" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Unknown.Text" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Weeks.Text" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="Months.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Years.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="New.Text" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="EXCEPTION.Log" xml:space="preserve">
+    <value>异常: {0}</value>
+  </data>
+  <data name="SkinObjects.Text" xml:space="preserve">
+    <value>[皮肤对象]</value>
+  </data>
+  <data name="Help.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="InvalidAnswer.Text" xml:space="preserve">
+    <value>答案无效。请输入问题的有效答案。</value>
+  </data>
+  <data name="InvalidQuestion.Text" xml:space="preserve">
+    <value>设定的问题无效。请输入有效问题。</value>
+  </data>
+  <data name="InvalidUserName.Text" xml:space="preserve">
+    <value>用户名无效。请输入有效用户名。</value>
+  </data>
+  <data name="ContractExpired.Error" xml:space="preserve">
+    <value>主机租用协议 {0} 过期日期 {1}. 请联系 &lt;a href=""mailto:{2}""&gt;{2}&lt;/a&gt; 获取详细信息。</value>
+  </data>
+  <data name="ModuleAccess.Error" xml:space="preserve">
+    <value>您没有访问这个模块的权限。</value>
+  </data>
+  <data name="ContainerLoad.Error" xml:space="preserve">
+    <value>不能加载容器: {0}</value>
+  </data>
+  <data name="BeginZip.Text" xml:space="preserve">
+    <value>开始处理zip文件</value>
+  </data>
+  <data name="CreateDir.Text" xml:space="preserve">
+    <value>创建目录</value>
+  </data>
+  <data name="EndZip.Text" xml:space="preserve">
+    <value>结束处理 zip 文件</value>
+  </data>
+  <data name="Skins.Text" xml:space="preserve">
+    <value>皮肤</value>
+  </data>
+  <data name="Containers.Text" xml:space="preserve">
+    <value>容器</value>
+  </data>
+  <data name="BeginSkinFile.Text" xml:space="preserve">
+    <value>开始处理文件</value>
+  </data>
+  <data name="EndSkinFile.Text" xml:space="preserve">
+    <value>文件处理结束</value>
+  </data>
+  <data name="EndSkinFiles.Text" xml:space="preserve">
+    <value>皮肤/容器文件处理结束</value>
+  </data>
+  <data name="FileFormat.Error" xml:space="preserve">
+    <value>文件格式错误</value>
+  </data>
+  <data name="ControlRegister.Text" xml:space="preserve">
+    <value>正在格式化注册指令</value>
+  </data>
+  <data name="Substituting.Detail" xml:space="preserve">
+    <value>{0}&lt;br&gt;用: {1}</value>
+  </data>
+  <data name="cmdNext.Text" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="cmdBack.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="cmdFinish.Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Left.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Right.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Center.Text" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="Maximized.Text" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="Minimized.Text" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="DNN_Valid.Text" xml:space="preserve">
+    <value>DNN 文件是有效的 {0} 格式。</value>
+  </data>
+  <data name="DNN_ValidSkinObject.Text" xml:space="preserve">
+    <value>DNN 文件是 2.0 皮肤对象格式。</value>
+  </data>
+  <data name="EXCEPTION.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="EXCEPTION_FileRead.Text" xml:space="preserve">
+    <value>不能读所有数据： </value>
+  </data>
+  <data name="FILES_Created.Text" xml:space="preserve">
+    <value>文件已经创建</value>
+  </data>
+  <data name="FILES_CreatedResources.Text" xml:space="preserve">
+    <value>资源文件已经创建</value>
+  </data>
+  <data name="FILES_Creating.Text" xml:space="preserve">
+    <value>正在创建文件</value>
+  </data>
+  <data name="FILES_Expanding.Text" xml:space="preserve">
+    <value>扩展资源文件</value>
+  </data>
+  <data name="FILES_Loading.Text" xml:space="preserve">
+    <value>加载文件信息</value>
+  </data>
+  <data name="FILES_Reading.Text" xml:space="preserve">
+    <value>正在读取文件</value>
+  </data>
+  <data name="FILES_ReadingEnd.Text" xml:space="preserve">
+    <value>读取文件完成</value>
+  </data>
+  <data name="INSTALL_Start.Text" xml:space="preserve">
+    <value>开始安装</value>
+  </data>
+  <data name="INSTALL_Success.Text" xml:space="preserve">
+    <value>成功安装</value>
+  </data>
+  <data name="REGISTER_End.Text" xml:space="preserve">
+    <value>注册完成</value>
+  </data>
+  <data name="SQL_Executing.Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+  <data name="Files.Text" xml:space="preserve">
+    <value>文件:</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>页面:</value>
+  </data>
+  <data name="URL.Text" xml:space="preserve">
+    <value>URL地址:</value>
+  </data>
+  <data name="Home.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="Second.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Minute.Text" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Hour.Text" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Day.Text" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="Week.Text" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="Month.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Year.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Maximize.Text" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="Minimize.Text" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="EXCEPTION_DirectoryExists.Text" xml:space="preserve">
+    <value>目录已经存在</value>
+  </data>
+  <data name="LOG.LangPack.Global" xml:space="preserve">
+    <value>全局</value>
+  </data>
+  <data name="LOG.LangPack.Module" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="LOG.LangPack.Admin" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="LOG.LangPack.SavedFile" xml:space="preserve">
+    <value>语言包文件 {0}保存到了语言包。</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.SavingFile" xml:space="preserve">
+    <value>保存语言包文件发生错误: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.CreatingFile" xml:space="preserve">
+    <value>创建语言包文件发生错误 {0}</value>
+  </data>
+  <data name="LOG.LangPack.Job.CreateLocale" xml:space="preserve">
+    <value>创建/更新 语言包</value>
+  </data>
+  <data name="LOG.LangPackReader.LoadFiles" xml:space="preserve">
+    <value>解压语言文件: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.CreateLocale" xml:space="preserve">
+    <value>创建语言包: {0}</value>
+  </data>
+  <data name="ModuleVisibleAdministrator.Text" xml:space="preserve">
+    <value>仅管理员可见</value>
+  </data>
+  <data name="LOG.PALogger.Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="LOG.PALogger.Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="LOG.PALogger.Failure" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="LOG.PALogger.StartJob" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="LOG.PALogger.EndJob" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="AllUsers.Text" xml:space="preserve">
+    <value>所有用户</value>
+  </data>
+  <data name="Superuser.Text" xml:space="preserve">
+    <value>超级管理员</value>
+  </data>
+  <data name="UnauthenticatedUsers.Text" xml:space="preserve">
+    <value>未授权用户</value>
+  </data>
+  <data name="First.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="Last.Text" xml:space="preserve">
+    <value>末页</value>
+  </data>
+  <data name="Recordsperpage.Text" xml:space="preserve">
+    <value>每页记录数</value>
+  </data>
+  <data name="LOG.LangPack.Provider" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="AdminTemplate.Error" xml:space="preserve">
+    <value>错误解析管理模板</value>
+  </data>
+  <data name="AllRoles.Text" xml:space="preserve">
+    <value>&lt; 所有角色 &gt;</value>
+  </data>
+  <data name="Cancel.Action" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ChildPortal.Error" xml:space="preserve">
+    <value>错误配置子站点</value>
+  </data>
+  <data name="CreateAdminUser.Error" xml:space="preserve">
+    <value>错误创建网站管理员账号</value>
+  </data>
+  <data name="GlobalRoles.Text" xml:space="preserve">
+    <value>&lt; 全局角色 &gt;</value>
+  </data>
+  <data name="InsertSmileyButton.Text" xml:space="preserve">
+    <value>插入表情</value>
+  </data>
+  <data name="ModuleLoadWarning.Error" xml:space="preserve">
+    <value>模块加载警告</value>
+  </data>
+  <data name="OnLine.Text" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>开放</value>
+  </data>
+  <data name="RoleGroupFilter.Text" xml:space="preserve">
+    <value>按祖过滤:</value>
+  </data>
+  <data name="InvalidPasswordAnswer.Text" xml:space="preserve">
+    <value>请提供密码答案</value>
+  </data>
+  <data name="InvalidPasswordQuestion.Text" xml:space="preserve">
+    <value>请提供密码问题</value>
+  </data>
+  <data name="PasswordMismatch.Text" xml:space="preserve">
+    <value>密码不一致。</value>
+  </data>
+  <data name="PasswordNotDifferent.Text" xml:space="preserve">
+    <value>新提供的密码与旧密码相同，请提供一个不同的密码</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="ASSEMBLY_Added.Text" xml:space="preserve">
+    <value>程序集注册成功</value>
+  </data>
+  <data name="ASSEMBLY_InUse.Text" xml:space="preserve">
+    <value>另外一个扩展包已使用此程序集</value>
+  </data>
+  <data name="ASSEMBLY_Registered.Text" xml:space="preserve">
+    <value>程序集已注册</value>
+  </data>
+  <data name="ASSEMBLY_UnRegistered.Text" xml:space="preserve">
+    <value>程序集未注册</value>
+  </data>
+  <data name="ASSEMBLY_Updated.Text" xml:space="preserve">
+    <value>程序集更新成功</value>
+  </data>
+  <data name="AUTHENTICATION_LoginSrcMissing.Text" xml:space="preserve">
+    <value>声明文件中缺少LoginControlSrc</value>
+  </data>
+  <data name="AUTHENTICATION_ReadSuccess.Text" xml:space="preserve">
+    <value>成功解析身份验证声明文件(.dnn)</value>
+  </data>
+  <data name="AUTHENTICATION_SettingsSrcMissing.Text" xml:space="preserve">
+    <value>声明文件中缺少SettingsControlSrc </value>
+  </data>
+  <data name="AUTHENTICATION_TypeMissing.Text" xml:space="preserve">
+    <value>声明文件中缺少控件类型
+</value>
+  </data>
+  <data name="Captcha.Help" xml:space="preserve">
+    <value>请输入验证码</value>
+  </data>
+  <data name="Captcha.Text" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="CONFIG_Committed.Text" xml:space="preserve">
+    <value>成功修改配置文件</value>
+  </data>
+  <data name="EXCEPTION_VersionMissing.Text" xml:space="preserve">
+    <value>必须包含版本</value>
+  </data>
+  <data name="FILE_CreateBackup.Text" xml:space="preserve">
+    <value>创建前一版本的备份</value>
+  </data>
+  <data name="INSTALL_Committed.Text" xml:space="preserve">
+    <value>安装操作已执行</value>
+  </data>
+  <data name="INSTALL_Failed.Text" xml:space="preserve">
+    <value>安装失败</value>
+  </data>
+  <data name="INSTALL_Namespace.Text" xml:space="preserve">
+    <value>一个依赖的组件没有安装</value>
+  </data>
+  <data name="INSTALL_Package.Text" xml:space="preserve">
+    <value>一个依赖的软件包没有被安装</value>
+  </data>
+  <data name="Password.Help" xml:space="preserve">
+    <value>请输入密码</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="Required.Text" xml:space="preserve">
+    <value>所有用红色箭头标记的为必填.</value>
+  </data>
+  <data name="SECURITY_NotRegistered.Text" xml:space="preserve">
+    <value>这个包的类型没有注册</value>
+  </data>
+  <data name="UNINSTALL_SuccessComp.Text" xml:space="preserve">
+    <value>组件卸载成功</value>
+  </data>
+  <data name="Username.Help" xml:space="preserve">
+    <value>请输入您的用户名</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="UserDeleteError.Text" xml:space="preserve">
+    <value>错误删除用户</value>
+  </data>
+  <data name="AdminOnly.Text" xml:space="preserve">
+    <value>仅限管理员</value>
+  </data>
+  <data name="AUTHENTICATION_Registered.Text" xml:space="preserve">
+    <value>成功注册身份验证 - {0}</value>
+  </data>
+  <data name="AUTHENTICATION_UnRegistered.Text" xml:space="preserve">
+    <value>成功卸载身份验证 - {0}
+
+</value>
+  </data>
+  <data name="CaptchaText.Text" xml:space="preserve">
+    <value>请输入下面方框显示的验证码</value>
+  </data>
+  <data name="CLEANUP_ProcessComplete.Text" xml:space="preserve">
+    <value>成功清除文件 - {0}</value>
+  </data>
+  <data name="CLEANUP_Processing.Text" xml:space="preserve">
+    <value>正在清除文件 - {0}</value>
+  </data>
+  <data name="cmdBack.Help" xml:space="preserve">
+    <value>点击回到先前页面</value>
+  </data>
+  <data name="cmdHelp.Help" xml:space="preserve">
+    <value>点击显示帮助</value>
+  </data>
+  <data name="cmdNext.Help" xml:space="preserve">
+    <value>点击到下一页面</value>
+  </data>
+  <data name="COMPONENT_Installed.Text" xml:space="preserve">
+    <value>成功安装组件</value>
+  </data>
+  <data name="COMPONENT_RolledBack.Text" xml:space="preserve">
+    <value>成功还原组件</value>
+  </data>
+  <data name="COMPONENT_RollingBack.Text" xml:space="preserve">
+    <value>正在还原组件</value>
+  </data>
+  <data name="COMPONENT_UnInstalled.Text" xml:space="preserve">
+    <value>成功卸载组件</value>
+  </data>
+  <data name="CONFIG_RolledBack.Text" xml:space="preserve">
+    <value>成功还原配置文件修改</value>
+  </data>
+  <data name="CONFIG_Updated.Text" xml:space="preserve">
+    <value>成功更新配置文件</value>
+  </data>
+  <data name="ControlDirective.Text" xml:space="preserve">
+    <value>正在格式化控件指令</value>
+  </data>
+  <data name="ControlFormat.Text" xml:space="preserve">
+    <value>正在格式化控件声明</value>
+  </data>
+  <data name="CreatePortal.Error" xml:space="preserve">
+    <value>站点创建错误</value>
+  </data>
+  <data name="CreateProfileDefinitions.Error" xml:space="preserve">
+    <value>个人档案条目创建错误</value>
+  </data>
+  <data name="CriticalError.Error" xml:space="preserve">
+    <value>发生重要错误</value>
+  </data>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>确定要删除？</value>
+  </data>
+  <data name="DeleteItems.Confirm" xml:space="preserve">
+    <value>确定要删除？</value>
+  </data>
+  <data name="DeleteItems.Text" xml:space="preserve">
+    <value>确定要删除？</value>
+  </data>
+  <data name="DeleteModule.Confirm" xml:space="preserve">
+    <value>确定要删除这个模块？</value>
+  </data>
+  <data name="DeleteUploadFolder.Error" xml:space="preserve">
+    <value>删除早先上传的文件夹发生错误</value>
+  </data>
+  <data name="DiskSpaceExceeded.Text" xml:space="preserve">
+    <value>文件 {0} 超出网站空间容量，请联系主机管理员增加网站空间容量.</value>
+  </data>
+  <data name="DisplayEnglish.Text" xml:space="preserve">
+    <value>显示英文名</value>
+  </data>
+  <data name="DisplayNative.Text" xml:space="preserve">
+    <value>显示原名</value>
+  </data>
+  <data name="DNN_Reading.Text" xml:space="preserve">
+    <value>正在读取安装声明文件</value>
+  </data>
+  <data name="DNN_ReadingComponent.Text" xml:space="preserve">
+    <value>读取组件声明文件</value>
+  </data>
+  <data name="DNN_ReadingPackage.Text" xml:space="preserve">
+    <value>读取软件包声明文件</value>
+  </data>
+  <data name="DNN_Success.Text" xml:space="preserve">
+    <value>成功加载声明文件</value>
+  </data>
+  <data name="DuplicateSkinObject.Detail" xml:space="preserve">
+    <value>任何引用这个[皮肤对象]的皮肤都会首先调用已经注册的皮肤控件{0}， 而不是调用重复注册的皮肤控件{1}，否则皮肤会显示不正常</value>
+  </data>
+  <data name="DuplicateSkinObject.Error" xml:space="preserve">
+    <value>删除重复定义的皮肤控件 {0}</value>
+  </data>
+  <data name="ErrorOccurred.Text" xml:space="preserve">
+    <value>有错误发生</value>
+  </data>
+  <data name="EXCEPTION.DuplicateLocale.Text" xml:space="preserve">
+    <value>这个语言已经定义过</value>
+  </data>
+  <data name="EXCEPTION.LangPack.FileMissing" xml:space="preserve">
+    <value>语言包声明文件内缺少{0}文件</value>
+  </data>
+  <data name="EXCEPTION.LangPack.Install" xml:space="preserve">
+    <value>加载语言包文件资源文件出错: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestLoad" xml:space="preserve">
+    <value>加载语言包声明文件发生错误 。错误信息: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestZip" xml:space="preserve">
+    <value>从zip文件读取语言包声明文件发生错误: {0}</value>
+  </data>
+  <data name="EXCEPTION.SaveLocale.Text" xml:space="preserve">
+    <value>文件操作失败，请检查资源文件编辑权限。</value>
+  </data>
+  <data name="EXCEPTION_DesktopSrc.Text" xml:space="preserve">
+    <value>模块控件必须有Desktopsrc值, 操作中止</value>
+  </data>
+  <data name="EXCEPTION_FileLoad.Text" xml:space="preserve">
+    <value>文件加载失败，操作中止</value>
+  </data>
+  <data name="EXCEPTION_FileName.Text" xml:space="preserve">
+    <value>文件必须有名称值，操作中止</value>
+  </data>
+  <data name="EXCEPTION_FolderDesc.Text" xml:space="preserve">
+    <value>文件夹必须有描述，操作中止</value>
+  </data>
+  <data name="EXCEPTION_FolderName.Text" xml:space="preserve">
+    <value>文件夹必须有名称值，操作中止</value>
+  </data>
+  <data name="EXCEPTION_FolderProvider.Text" xml:space="preserve">
+    <value>文件夹必须有提供provider类型值，操作中止</value>
+  </data>
+  <data name="EXCEPTION_FolderVersion.Text" xml:space="preserve">
+    <value>文件夹必须有版本值，操作中止</value>
+  </data>
+  <data name="EXCEPTION_Format.Text" xml:space="preserve">
+    <value>无效的Dnn格式，操作中止</value>
+  </data>
+  <data name="EXCEPTION_InstallerCreate.Text" xml:space="preserve">
+    <value>安装组件时发生错误</value>
+  </data>
+  <data name="EXCEPTION_LoadFailed.Text" xml:space="preserve">
+    <value>Dnn声明文件加载失败，操作中止</value>
+  </data>
+  <data name="EXCEPTION_MissingDnn.Text" xml:space="preserve">
+    <value>没有发现任何 .dnn 声明文件?</value>
+  </data>
+  <data name="EXCEPTION_MissingResource.Text" xml:space="preserve">
+    <value>zip扩展包中找不到声明文件.dnn中定义的文件: </value>
+  </data>
+  <data name="EXCEPTION_MultipleDnn.Text" xml:space="preserve">
+    <value>在zip扩展包中发现多个 .dnn 声明文件 : </value>
+  </data>
+  <data name="EXCEPTION_NameMissing.Text" xml:space="preserve">
+    <value>必须包含名称</value>
+  </data>
+  <data name="EXCEPTION_Src.Text" xml:space="preserve">
+    <value>模块控件必须有一个 src 值, 操作中止</value>
+  </data>
+  <data name="EXCEPTION_Type.Text" xml:space="preserve">
+    <value>模块控件必须有一个类型值，操作中止</value>
+  </data>
+  <data name="EXCEPTION_TypeMissing.Text" xml:space="preserve">
+    <value>必须包含类型</value>
+  </data>
+  <data name="FailedRecipient.Text" xml:space="preserve">
+    <value>消息没有发送到以下地址 - {0}</value>
+  </data>
+  <data name="FileError.Text" xml:space="preserve">
+    <value>处理文件发生错误</value>
+  </data>
+  <data name="FileFormat.Detail" xml:space="preserve">
+    <value>{0} 没有定义默认编辑区ContentPane</value>
+  </data>
+  <data name="FileInUse.Text" xml:space="preserve">
+    <value>文件 - {0} - 正在使用中无法删除, 请等几分钟再试</value>
+  </data>
+  <data name="FilePermission.Error" xml:space="preserve">
+    <value>您没有权限察看所请求文档</value>
+  </data>
+  <data name="FileRestricted.Text" xml:space="preserve">
+    <value>{0} 是受限制的文件类型。有效的文件类型包括 ( *.{1}). 请联系您的主机服务商，提供对需要文件类型的支持。</value>
+  </data>
+  <data name="FileWrite.Text" xml:space="preserve">
+    <value>正在写入文件</value>
+  </data>
+  <data name="FILE_Created.Text" xml:space="preserve">
+    <value>已创建 - {0}</value>
+  </data>
+  <data name="FILE_Deleted.Text" xml:space="preserve">
+    <value>已删除 - {0}</value>
+  </data>
+  <data name="FILE_Found.Text" xml:space="preserve">
+    <value>发现{1}文件的有效路经 ({0})</value>
+  </data>
+  <data name="FILE_Loading.Text" xml:space="preserve">
+    <value>加载中</value>
+  </data>
+  <data name="FILE_NotAllowed.Text" xml:space="preserve">
+    <value>不允许以下文件类型 - {0}</value>
+  </data>
+  <data name="FILE_NotFound.Text" xml:space="preserve">
+    <value>在zip扩展包中没有发现.dnn声明文件中定义的文件</value>
+  </data>
+  <data name="FILE_ReadSuccess.Text" xml:space="preserve">
+    <value>文件{0}成功读取</value>
+  </data>
+  <data name="FILE_RestoreBackup.Text" xml:space="preserve">
+    <value>成功恢复备份从{0}版本</value>
+  </data>
+  <data name="Folders.Text" xml:space="preserve">
+    <value>文件夹:</value>
+  </data>
+  <data name="FOLDER_Created.Text" xml:space="preserve">
+    <value>已创建文件夹 - {0}</value>
+  </data>
+  <data name="FOLDER_Deleted.Text" xml:space="preserve">
+    <value>已删除文件夹 - {0}</value>
+  </data>
+  <data name="FOLDER_DeletedBackup.Text" xml:space="preserve">
+    <value>已删除临时文件夹</value>
+  </data>
+  <data name="FTB_FolderCreate.Error" xml:space="preserve">
+    <value>创建文件夹发生未知错误。</value>
+  </data>
+  <data name="FTB_FolderCreate.Permission" xml:space="preserve">
+    <value>没有权限创建文件夹。</value>
+  </data>
+  <data name="FTB_FolderCreated.Text" xml:space="preserve">
+    <value>成功创建文件夹{0}。</value>
+  </data>
+  <data name="FTB_FolderDelete.Error" xml:space="preserve">
+    <value>删除文件夹发生未知错误。</value>
+  </data>
+  <data name="FTB_FolderDelete.Permission" xml:space="preserve">
+    <value>没有权限删除文件夹。</value>
+  </data>
+  <data name="FTB_FolderDeleted.Text" xml:space="preserve">
+    <value>成功删除文件夹{0}。</value>
+  </data>
+  <data name="FTB_ImageDelete.Error" xml:space="preserve">
+    <value>删除图片发生未知错误。</value>
+  </data>
+  <data name="FTB_ImageDelete.Permission" xml:space="preserve">
+    <value>没有权限删除图片。</value>
+  </data>
+  <data name="FTB_ImageDeleted.Text" xml:space="preserve">
+    <value>成功删除图片{0}。</value>
+  </data>
+  <data name="FTB_ImageUpload.Error" xml:space="preserve">
+    <value>上传图片发生未知错误。</value>
+  </data>
+  <data name="FTB_ImageUpload.Permission" xml:space="preserve">
+    <value>没有权限上传图片。</value>
+  </data>
+  <data name="FTB_ImageUploaded.Text" xml:space="preserve">
+    <value>图片{0}上传成功。</value>
+  </data>
+  <data name="FTB_ImageUploadNoFile.Text" xml:space="preserve">
+    <value>没有文件上传。</value>
+  </data>
+  <data name="GreenSuccess.Text" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="InsecureAdmin.Text" xml:space="preserve">
+    <value>你的管理员账户仍然在使用默认密码，使用Admin账户登录，进入网站管理\用户账户，更新Admin账户密码。同时，确保使用正确的邮件地址。</value>
+  </data>
+  <data name="InsecureDefaults.Text" xml:space="preserve">
+    <value>默认账户(host和admin) 都使用了默认密码。 使用Host账户登录，进入主机设置\主机账户，更新Host账户密码。同时，确保邮件地址正确。</value>
+  </data>
+  <data name="InsecureDefaults.Title" xml:space="preserve">
+    <value>帐户信息不安全</value>
+  </data>
+  <data name="InsecureHost.Text" xml:space="preserve">
+    <value>主机帐户(Host)使用了默认密码. 使用Host账户登录，进入主机设置\主机账户，更新Host账户密码。同时，确保邮件地址正确。</value>
+  </data>
+  <data name="INSTALL_Aborted.Text" xml:space="preserve">
+    <value>安装中止</value>
+  </data>
+  <data name="INSTALL_Compatibility.Text" xml:space="preserve">
+    <value>安装中止 - 安装的模块与DotNetNuke版本不兼容(请升级后再试)</value>
+  </data>
+  <data name="INSTALL_Dependencies.Text" xml:space="preserve">
+    <value>安装中止 - 安装的模块需要额外的组件支持.</value>
+  </data>
+  <data name="INSTALL_OlderVersion.Text" xml:space="preserve">
+    <value>安装中止 - 当前安装的模块比系统中已经安装版本低</value>
+  </data>
+  <data name="INSTALL_Permissions.Text" xml:space="preserve">
+    <value>安装中止 - 安装的模块需要额外的权限支持。</value>
+  </data>
+  <data name="INSTALL_Version.Text" xml:space="preserve">
+    <value>您已经安装了此软件包的新版本</value>
+  </data>
+  <data name="InsufficientFolderPermission.Text" xml:space="preserve">
+    <value>您没有的权限写入文件到{0}文件夹， 请联系主机服务商获得适当的权限。</value>
+  </data>
+  <data name="InvalidCaptcha.Text" xml:space="preserve">
+    <value>验证码错误</value>
+  </data>
+  <data name="InvalidEmail.Text" xml:space="preserve">
+    <value>Email地址无效。请输入有效的Email地址。</value>
+  </data>
+  <data name="InvalidFileName.Text" xml:space="preserve">
+    <value>文件名无效 - 文件名不能包括  '</value>
+  </data>
+  <data name="InvalidPassword.Text" xml:space="preserve">
+    <value>密码无效。请输入有效密码。密码必须至少[PasswordLength]位，并且包含至少[NoneAlphabet]非字母和数字的字符</value>
+  </data>
+  <data name="jQuery.NotInstalled.Text" xml:space="preserve">
+    <value>没有安装jQuery。</value>
+  </data>
+  <data name="jQuery.UnknownVersion.Text" xml:space="preserve">
+    <value>无法确定jQuery版本。</value>
+  </data>
+  <data name="LANGUAGE_PortalsEnabled.Text" xml:space="preserve">
+    <value>应用此语言的站点 - {0}</value>
+  </data>
+  <data name="LANGUAGE_Registered.Text" xml:space="preserve">
+    <value>成功注册语言包 - {0}</value>
+  </data>
+  <data name="LANGUAGE_UnRegistered.Text" xml:space="preserve">
+    <value>成功卸载语言包 - {0}</value>
+  </data>
+  <data name="LastPortal.Text" xml:space="preserve">
+    <value>不能删除数据库中最后一个站点</value>
+  </data>
+  <data name="LoadingSkinToken.Text" xml:space="preserve">
+    <value>正在为[{0}]加载皮肤对象标签 </value>
+  </data>
+  <data name="LOG.LangPack.ArchiveFiles" xml:space="preserve">
+    <value>创建资源文件包</value>
+  </data>
+  <data name="LOG.LangPack.Control" xml:space="preserve">
+    <value>控件</value>
+  </data>
+  <data name="LOG.LangPack.CreateArchive" xml:space="preserve">
+    <value>添加文件到资源包: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.ManifestFile" xml:space="preserve">
+    <value>创建语言包.dnn声明文件发生错误: {0}</value>
+  </data>
+  <data name="LOG.LangPack.Job.DeserializeManifest" xml:space="preserve">
+    <value>解析语言包声明文件。</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadFiles" xml:space="preserve">
+    <value>解压语言包</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadManifest" xml:space="preserve">
+    <value>加载声明文件。</value>
+  </data>
+  <data name="LOG.LangPack.Job.SaveFiles" xml:space="preserve">
+    <value>导出语言包。</value>
+  </data>
+  <data name="LOG.LangPack.LoadFileName" xml:space="preserve">
+    <value>加载资源文件: {0}</value>
+  </data>
+  <data name="LOG.LangPack.LoadFiles" xml:space="preserve">
+    <value>加载 {0} 资源文件，</value>
+  </data>
+  <data name="LOG.LangPack.LoadFromFolder" xml:space="preserve">
+    <value>从 {0} 目录加载资源文件。</value>
+  </data>
+  <data name="LOG.LangPack.SerializeManifest" xml:space="preserve">
+    <value>声明文件创建成功。</value>
+  </data>
+  <data name="LOG.LangPackReader.ModuleWarning" xml:space="preserve">
+    <value>资源文件{0}没有保存，因为{1}该模块没有安装。</value>
+  </data>
+  <data name="LOG.LangPackReader.UnzipFiles" xml:space="preserve">
+    <value>导入文件: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateArchive" xml:space="preserve">
+    <value>添加文件到模块扩展包: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateManifest" xml:space="preserve">
+    <value>创建.dnn声明文件。 {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateZipFile" xml:space="preserve">
+    <value>创建模块扩展包: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.ERROR.SavingFile" xml:space="preserve">
+    <value>保存文件到模块扩展包时发生错误: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.SavedFile" xml:space="preserve">
+    <value>保存文件到扩展包{0}时发生错误。</value>
+  </data>
+  <data name="MemberOnly.Text" xml:space="preserve">
+    <value>仅限注册用户</value>
+  </data>
+  <data name="ModuleAdd.Error" xml:space="preserve">
+    <value>增加模块到{0}时发生错误。</value>
+  </data>
+  <data name="ModuleLoad.Error" xml:space="preserve">
+    <value>加载模块时发生错误。</value>
+  </data>
+  <data name="ModuleLoadWarning.Text" xml:space="preserve">
+    <value>本页的一个或多个模块无法加载。这可能是暂时的错误。请按F5刷新本页，如果问题仍然存在，请通知 &lt;a href="mailto:{0}"&gt;网站管理员&lt;/a&gt; 。</value>
+  </data>
+  <data name="ModuleUnavailable.Text" xml:space="preserve">
+    <value>错误: {0} 当前不可用.</value>
+  </data>
+  <data name="MODULE_ControlKeyMissing.Text" xml:space="preserve">
+    <value>缺少模块控件key</value>
+  </data>
+  <data name="MODULE_ControlTypeMissing.Text" xml:space="preserve">
+    <value>缺少模块控件类型</value>
+  </data>
+  <data name="MODULE_FriendlyNameMissing.Text" xml:space="preserve">
+    <value>缺少模块别名</value>
+  </data>
+  <data name="MODULE_ReadSuccess.Text" xml:space="preserve">
+    <value>成功读取模块声明文件</value>
+  </data>
+  <data name="MODULE_Registered.Text" xml:space="preserve">
+    <value>成功注册模块 - {0}</value>
+  </data>
+  <data name="MODULE_UnRegistered.Text" xml:space="preserve">
+    <value>成功卸载模块 - {0}</value>
+  </data>
+  <data name="ObjectNotFound.Text" xml:space="preserve">
+    <value>找不到嵌入的对象</value>
+  </data>
+  <data name="PackageLoad.Error" xml:space="preserve">
+    <value>加载扩展包错误: ({0})</value>
+  </data>
+  <data name="PackageLoad.Text" xml:space="preserve">
+    <value>加载扩展包文件</value>
+  </data>
+  <data name="PACKAGE_NoLicense.Text" xml:space="preserve">
+    <value>这个扩展包没有包含许可文件</value>
+  </data>
+  <data name="PACKAGE_NoReleaseNotes" xml:space="preserve">
+    <value>这个扩展包没有包含发布声明文件</value>
+  </data>
+  <data name="PACKAGE_UnRecognizable.Text" xml:space="preserve">
+    <value>不可识别的扩展包声明.dnn文件</value>
+  </data>
+  <data name="PageDisabled.Header" xml:space="preserve">
+    <value>页面已禁止</value>
+  </data>
+  <data name="PageDisabled.Text" xml:space="preserve">
+    <value>当前页已被禁止，只有拥有此页面编辑权限的帐户可以查看。</value>
+  </data>
+  <data name="Pages.Text" xml:space="preserve">
+    <value>第{0}页 总共{1}页</value>
+  </data>
+  <data name="PaneNotFound.Error" xml:space="preserve">
+    <value>找不到默认的编辑区ContentPane</value>
+  </data>
+  <data name="PaneObject.Text" xml:space="preserve">
+    <value>嵌入的对象是content pane</value>
+  </data>
+  <data name="PaneToken.Text" xml:space="preserve">
+    <value>皮肤对象标记是content pane</value>
+  </data>
+  <data name="PasswordChanged.Text" xml:space="preserve">
+    <value>密码已重新设定。</value>
+  </data>
+  <data name="PasswordInvalid.Text" xml:space="preserve">
+    <value>密码无效，如果不知道密码要求的格式，请联系网站管理员。</value>
+  </data>
+  <data name="PasswordMailError.Text" xml:space="preserve">
+    <value>密码已重设，但在发送邮件提醒的时候发生错误。</value>
+  </data>
+  <data name="PasswordMissing.Text" xml:space="preserve">
+    <value>如果要修改密码，请提供当前使用的密码。</value>
+  </data>
+  <data name="PasswordResetFailed.Text" xml:space="preserve">
+    <value>重置密码时发生错误，更改密码不成功。</value>
+  </data>
+  <data name="PermissionTypeDeny.Text" xml:space="preserve">
+    <value>无访问权限</value>
+  </data>
+  <data name="PermissionTypeGrant.Text" xml:space="preserve">
+    <value>获得权限</value>
+  </data>
+  <data name="PermissionTypeNull.Text" xml:space="preserve">
+    <value>没有设定</value>
+  </data>
+  <data name="PortalTemplate.Error" xml:space="preserve">
+    <value>解析站点模板出现错误</value>
+  </data>
+  <data name="PrivateConfirmationMessage.Text" xml:space="preserve">
+    <value>&lt;b&gt;您的详细信息将会发送给站点管理者验证，一旦您的注册被批准，您的邮箱将收到一封通知: {0}.&lt;/b&gt;</value>
+  </data>
+  <data name="PrivateMembership.Text" xml:space="preserve">
+    <value>&lt;b&gt;*注意:&lt;/b&gt; 此站点是非开放会员模式，一旦您提交了注册申请，申请将会进入预审状态，如果申请被批准您将会收到邮件通知。</value>
+  </data>
+  <data name="ProcessObject.Text" xml:space="preserve">
+    <value>正在处理内嵌的对象</value>
+  </data>
+  <data name="ProcessToken.Text" xml:space="preserve">
+    <value>正在处理皮肤对象标记</value>
+  </data>
+  <data name="PublicMembership.Text" xml:space="preserve">
+    <value>&lt;b&gt;*注意:&lt;/b&gt; 此站点是开放会员模式，一旦您提交了注册申请，将会即刻获得会员许可。</value>
+  </data>
+  <data name="PURGE.Log" xml:space="preserve">
+    <value>成功清除站记录</value>
+  </data>
+  <data name="PURGEDSCHEDULE.Log" xml:space="preserve">
+    <value>成功清除调度历史记录</value>
+  </data>
+  <data name="PURGEUSERS.Log" xml:space="preserve">
+    <value>成功清除在线用户记录。</value>
+  </data>
+  <data name="ReadError.Text" xml:space="preserve">
+    <value>不能读取所有数据: {0}/{1}</value>
+  </data>
+  <data name="Recordsperpage.Help" xml:space="preserve">
+    <value>选取每页显示最大记录数。</value>
+  </data>
+  <data name="RedError.Text" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="RegError.Text" xml:space="preserve">
+    <value>注册中发生错误，请联系网站管理员。</value>
+  </data>
+  <data name="Register.Text" xml:space="preserve">
+    <value>用户注册</value>
+  </data>
+  <data name="REGISTER_Controls.Text" xml:space="preserve">
+    <value>正在注册控件</value>
+  </data>
+  <data name="REGISTER_Definition.Text" xml:space="preserve">
+    <value>正在注册模块定义</value>
+  </data>
+  <data name="REGISTER_Module.Text" xml:space="preserve">
+    <value>正在注册模块</value>
+  </data>
+  <data name="RestrictedFileType.Text" xml:space="preserve">
+    <value>{0} 是受限制的文件类型。有效的文件类型包括 ( *.{1}). 请联系您的主机服务商，提供对需要文件类型的支持。</value>
+  </data>
+  <data name="SaveFileError.Text" xml:space="preserve">
+    <value>保存文件{0}发生错误. 请联系您的主机服务商。</value>
+  </data>
+  <data name="SECURITY_Installer.Text" xml:space="preserve">
+    <value>您没有权限安装这个组件</value>
+  </data>
+  <data name="SelectedRole.Text" xml:space="preserve">
+    <value>选取的角色</value>
+  </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>发送确认信时发生错误 - {0}，但是您的用户帐号已经成功创建。</value>
+  </data>
+  <data name="SkinFileLoad.Error" xml:space="preserve">
+    <value>加载文件发生错误</value>
+  </data>
+  <data name="SkinFileLoad.Text" xml:space="preserve">
+    <value>正在加载文件</value>
+  </data>
+  <data name="SkinObject.Text" xml:space="preserve">
+    <value>内嵌对象为皮肤对象</value>
+  </data>
+  <data name="SkinObjectsDescription.Text" xml:space="preserve">
+    <value>皮肤对象是由用户控件编写，它可以为您的皮肤模板提供定制的功能。</value>
+  </data>
+  <data name="SkinToken.Text" xml:space="preserve">
+    <value>皮肤对象标签[Token]代表皮肤对象</value>
+  </data>
+  <data name="SKIN_BeginProcessing.Text" xml:space="preserve">
+    <value>开始处理皮肤文件</value>
+  </data>
+  <data name="SKIN_EndProcessing.Text" xml:space="preserve">
+    <value>皮肤文件处理结束</value>
+  </data>
+  <data name="SKIN_Registered.Text" xml:space="preserve">
+    <value>成功注册皮肤包 - {0}</value>
+  </data>
+  <data name="SKIN_UnRegistered.Text" xml:space="preserve">
+    <value>成功卸载皮肤包 - {0}</value>
+  </data>
+  <data name="SMTPConfigurationProblem.Text" xml:space="preserve">
+    <value>由于SMTP服务器设置问题，无法发送邮件。</value>
+  </data>
+  <data name="SQL_Begin.Text" xml:space="preserve">
+    <value>开始SQL操作</value>
+  </data>
+  <data name="SQL_BeginFile.Text" xml:space="preserve">
+    <value>开始SQL操作 {0} 文件</value>
+  </data>
+  <data name="SQL_BeginUnInstall.Text" xml:space="preserve">
+    <value>开始卸载SQL</value>
+  </data>
+  <data name="SQL_Committed.Text" xml:space="preserve">
+    <value>已执行SQL脚本修改</value>
+  </data>
+  <data name="SQL_End.Text" xml:space="preserve">
+    <value>SQL操作结束</value>
+  </data>
+  <data name="SQL_EndFile.Text" xml:space="preserve">
+    <value>SQL操作结束: {0} 文件</value>
+  </data>
+  <data name="SQL_EndUnInstall.Text" xml:space="preserve">
+    <value>SQL卸载完毕</value>
+  </data>
+  <data name="SQL_Exceptions.Text" xml:space="preserve">
+    <value>SQL操作异常: {0}{1}</value>
+  </data>
+  <data name="SQL_RolledBack.Text" xml:space="preserve">
+    <value>还原运行SQL脚本所造成的变动</value>
+  </data>
+  <data name="SQL_UnknownFile.Text" xml:space="preserve">
+    <value>未知的文件编码 {0}, 操作中止</value>
+  </data>
+  <data name="StartProcessor.Text" xml:space="preserve">
+    <value>初始化处理皮肤/容器文件</value>
+  </data>
+  <data name="Substituting.Text" xml:space="preserve">
+    <value>代替</value>
+  </data>
+  <data name="TabAccess.Error" xml:space="preserve">
+    <value>您没有访问这个页面的权限。</value>
+  </data>
+  <data name="TESTCOMPLETE.Log" xml:space="preserve">
+    <value>测试完毕. 用了 {0} 毫秒。</value>
+  </data>
+  <data name="TokenFormat.Text" xml:space="preserve">
+    <value>格式化皮肤对象标签的属性</value>
+  </data>
+  <data name="TokenFound.Text" xml:space="preserve">
+    <value>文件中发现皮肤对象标签</value>
+  </data>
+  <data name="TokenNotFound.Text" xml:space="preserve">
+    <value>没有发现皮肤对象标签</value>
+  </data>
+  <data name="TokenNotFoundInFile.Text" xml:space="preserve">
+    <value>文件中没有发现皮肤对象标签</value>
+  </data>
+  <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
+    <value>访问错误 [{0}:{1}], {0} 是未知的数据源。</value>
+  </data>
+  <data name="TokenReplaceUnknownProperty.Text" xml:space="preserve">
+    <value>未知属性</value>
+  </data>
+  <data name="UNINSTALL_Failure.Text" xml:space="preserve">
+    <value>组建卸载失败</value>
+  </data>
+  <data name="UNINSTALL_Start.Text" xml:space="preserve">
+    <value>开始卸载扩展包</value>
+  </data>
+  <data name="UNINSTALL_StartComp.Text" xml:space="preserve">
+    <value>开始卸载组件</value>
+  </data>
+  <data name="UNINSTALL_Success.Text" xml:space="preserve">
+    <value>扩展包卸载成功</value>
+  </data>
+  <data name="UNINSTALL_Warnings.Text" xml:space="preserve">
+    <value>卸载成功，但是有警告信息</value>
+  </data>
+  <data name="UNINSTALL_WarningsComp.Text" xml:space="preserve">
+    <value>组建卸载成功，但是有警告信息</value>
+  </data>
+  <data name="UserEmailExists.Text" xml:space="preserve">
+    <value>这个Email已被注册。请用这个Email注册的帐号登陆。</value>
+  </data>
+  <data name="UserNameExists.Text" xml:space="preserve">
+    <value>这个用户名已经存在，请用另外的用户名注册。</value>
+  </data>
+  <data name="UserRejected.Text" xml:space="preserve">
+    <value>这个用户注册申请已被拒绝，请联系管理员。</value>
+  </data>
+  <data name="VerifiedConfirmationMessage.Text" xml:space="preserve">
+    <value>&lt;b&gt;一封包含验证参码的邮件已发送到您的邮箱: {0}&lt;br&gt;请打开您的邮箱提取验证码，在第一次登录时会使用到。&lt;/b&gt;</value>
+  </data>
+  <data name="VerifiedMembership.Text" xml:space="preserve">
+    <value>&lt;b&gt;*注意:&lt;/b&gt; 此站点是验证会员模式，一旦您提交了注册申请，您将会收到含有验证码的邮件通知，在第一次登陆网站时需要此验证码激活帐号。</value>
+  </data>
+  <data name="Visibility.Text" xml:space="preserve">
+    <value>可视性:</value>
+  </data>
+  <data name="Wizard.Success.FailureDetail" xml:space="preserve">
+    <value>&lt;p&gt;向导发生错误，请查看下面的错误信息并联系服务提供商。&lt;/p&gt;
+</value>
+  </data>
+  <data name="Wizard.Success.FailureTitle" xml:space="preserve">
+    <value>向导失败:</value>
+  </data>
+  <data name="Wizard.Success.SuccessDetail" xml:space="preserve">
+    <value>&lt;p&gt;祝贺你，站点向导成功完成。&lt;/p&gt;</value>
+  </data>
+  <data name="Wizard.Success.SuccessTitle" xml:space="preserve">
+    <value>祝贺你:</value>
+  </data>
+  <data name="WordCleanButton.Text" xml:space="preserve">
+    <value>清除微软Word HTML</value>
+  </data>
+  <data name="WriteFile.Text" xml:space="preserve">
+    <value>正在写入文件</value>
+  </data>
+  <data name="WRITER_AddFileToManifest.Text" xml:space="preserve">
+    <value>文件加入.dnn声明文件 - {0}</value>
+  </data>
+  <data name="WRITER_CreateArchive.Text" xml:space="preserve">
+    <value>创建zip包 - {0}</value>
+  </data>
+  <data name="WRITER_CreatedManifest.Text" xml:space="preserve">
+    <value>已创建.dnn声明文件</value>
+  </data>
+  <data name="WRITER_CreatedPackage.Text" xml:space="preserve">
+    <value>已创建扩展包</value>
+  </data>
+  <data name="WRITER_CreatingManifest.Text" xml:space="preserve">
+    <value>创建.dnn声明文件</value>
+  </data>
+  <data name="WRITER_CreatingPackage.Text" xml:space="preserve">
+    <value>创建扩展包</value>
+  </data>
+  <data name="WRITER_SavedFile.Text" xml:space="preserve">
+    <value>已保存文件到存档包 - {0}</value>
+  </data>
+  <data name="WRITER_SaveFileError.Text" xml:space="preserve">
+    <value>保存文件到存档包发生错误 - {0}</value>
+  </data>
+  <data name="XMLMERGE_Upgrade.Text" xml:space="preserve">
+    <value>由{1}升级到版本 {2} - 日期: {3}</value>
+  </data>
+  <data name="XML_Loaded.Text" xml:space="preserve">
+    <value>已加载XML。</value>
+  </data>
+  <data name="YellowWarning.Text" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="PasswordMismatch.Text1" xml:space="preserve">
+    <value>输入的密码不匹配</value>
+  </data>
+  <data name="DASHBOARD_KeyMissing.Text" xml:space="preserve">
+    <value>声明文件中缺少'Key '定义</value>
+  </data>
+  <data name="DASHBOARD_LocalResourcesMissing.Text" xml:space="preserve">
+    <value>声明文件中缺少'LocalResources '定义</value>
+  </data>
+  <data name="DASHBOARD_ReadSuccess.Text" xml:space="preserve">
+    <value>系统信息控件声明文件解析成功</value>
+  </data>
+  <data name="DASHBOARD_Registered.Text" xml:space="preserve">
+    <value>系统信息控件安装成功</value>
+  </data>
+  <data name="DASHBOARD_SrcMissing.Text" xml:space="preserve">
+    <value>声明文件中缺少'Src'定义</value>
+  </data>
+  <data name="DASHBOARD_UnRegistered.Text" xml:space="preserve">
+    <value>系统信息控件卸载成功</value>
+  </data>
+  <data name="SKIN_Installed.Text" xml:space="preserve">
+    <value>Skin already installed with a different Package Name</value>
+  </data>
+</root>

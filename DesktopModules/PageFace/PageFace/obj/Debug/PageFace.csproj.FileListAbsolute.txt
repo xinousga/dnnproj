@@ -1,0 +1,7 @@
+C:\Inetpub\wwwroot\dnn5\DesktopModules\PageFace\PageFace\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\dnn5\DesktopModules\Bin\PageFace.dll
+C:\Inetpub\wwwroot\dnn5\DesktopModules\Bin\PageFace.pdb
+C:\Inetpub\wwwroot\dnn5\DesktopModules\PageFace\PageFace\obj\Debug\PageFace.dll
+C:\Inetpub\wwwroot\dnn5\DesktopModules\PageFace\PageFace\obj\Debug\PageFace.pdb
+C:\Inetpub\wwwroot\dnn5\bin\PageFace.dll
+C:\Inetpub\wwwroot\dnn5\bin\PageFace.pdb

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainOptions.Text">
+    <value>主选项</value>
+  </data>
+  <data name="MainOptionsDescription.Text">
+    <value>为您新的文章安装保持设置。</value>
+  </data>
+  <data name="Categories.Text">
+    <value>类别</value>
+  </data>
+  <data name="CategoriesDescription.Text">
+    <value>添加，修改和删除类别..</value>
+  </data>
+  <data name="EmailTemplates.Text">
+    <value>邮件模版</value>
+  </data>
+  <data name="EmailTemplatesDescription.Text">
+    <value>定制这个模块发送的邮件..</value>
+  </data>
+  <data name="SiteTemplates.Text">
+    <value>站点模版</value>
+  </data>
+  <data name="SiteTemplatesDescription.Text">
+    <value>定制这个站点所用的模版..</value>
+  </data>
+  <data name="ControlTitle_adminoptions.Text">
+    <value>管理选项</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;管理选项&lt;/h1&gt;&lt;p&gt;这个模块允许你选择多种管理选项。&lt;/p&gt;</value>
+  </data>
+</root>

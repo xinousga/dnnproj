@@ -1,0 +1,151 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="topcmm_123flashchat" type="Module" version="5.0.4">
+  <friendlyName>123flashchat</friendlyName>
+  <description>A 123flashchat module</description>
+  <owner>
+    <name>topcmm</name>
+    <organization>topcmm</organization>
+    <url>www.123flashchat.com</url>
+    <email />
+  </owner>
+  <license>The license for this package is not currently included within the installation file, please check with the vendor for full license details.</license>
+  <releaseNotes>For 123flashchat 7.5</releaseNotes>
+  <components>
+    <component type="Script">
+      <scripts>
+        <basePath>DesktopModules\topcmm_123flashchat</basePath>
+        <script type="Install">
+          <name>01.00.00.SqlDataProvider</name>
+          <version>01.00.00</version>
+        </script>
+        <script type="UnInstall">
+          <name>Uninstall.SqlDataProvider</name>
+          <version>5.0.4</version>
+        </script>
+      </scripts>
+    </component>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>topcmm_123flashchat</moduleName>
+        <foldername>topcmm_123flashchat</foldername>
+        <businessControllerClass>YourCompany.Modules.topcmm_123flashchat.topcmm_123flashchatController</businessControllerClass>
+        <supportedFeatures>
+          <supportedFeature type="Portable" />
+          <supportedFeature type="Searchable" />
+        </supportedFeatures>
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>123flashchat</friendlyName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/topcmm_123flashchat/Viewtopcmm_123flashchat.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+              <moduleControl>
+                <controlKey>Edit</controlKey>
+                <controlSrc>DesktopModules/topcmm_123flashchat/Edittopcmm_123flashchat.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle>Edit Content</controlTitle>
+                <controlType>Edit</controlType>
+                <iconFile />
+                <helpUrl />
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+              <moduleControl>
+                <controlKey>Settings</controlKey>
+                <controlSrc>DesktopModules/topcmm_123flashchat/Settings.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle>topcmm_123flashchat Settings</controlTitle>
+                <controlType>Edit</controlType>
+                <iconFile />
+                <helpUrl />
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+      <eventMessage>
+        <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
+        <processorCommand>UpgradeModule</processorCommand>
+        <attributes>
+          <businessControllerClass>YourCompany.Modules.topcmm_123flashchat.topcmm_123flashchatController</businessControllerClass>
+          <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
+          <upgradeVersionsList>01.00.00</upgradeVersionsList>
+        </attributes>
+      </eventMessage>
+    </component>
+    <component type="Assembly">
+      <assemblies>
+        <basePath>bin</basePath>
+        <assembly>
+          <name>topcmm_123flashchat.dll</name>
+        </assembly>
+      </assemblies>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\topcmm_123flashchat</basePath>
+        <file>
+          <path>App_LocalResources</path>
+          <name>Edittopcmm_123flashchat.ascx.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>Settings.ascx.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>Viewtopcmm_123flashchat.ascx.resx</name>
+        </file>
+        <file>
+          <name>123FlashChatHostAndFree.aspx</name>
+        </file>
+        <file>
+          <name>123FlashChatPanel.aspx</name>
+        </file>
+        <file>
+          <path>Documentation</path>
+          <name>Documentation.css</name>
+        </file>
+        <file>
+          <path>Documentation</path>
+          <name>Documentation.html</name>
+        </file>
+        <file>
+          <path>Documentation</path>
+          <name>logo.gif</name>
+        </file>
+        <file>
+          <name>Edittopcmm_123flashchat.ascx</name>
+        </file>
+        <file>
+          <name>login_chat.aspx</name>
+        </file>
+        <file>
+          <name>Offline123.jpg</name>
+        </file>
+        <file>
+          <name>Online123.jpg</name>
+        </file>
+        <file>
+          <name>server.xml</name>
+        </file>
+        <file>
+          <name>Settings.ascx</name>
+        </file>
+        <file>
+          <name>Viewtopcmm_123flashchat.ascx</name>
+        </file>
+      </files>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>

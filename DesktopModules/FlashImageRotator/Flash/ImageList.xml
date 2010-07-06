@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title>精品茶艺</title>
+			<creator></creator>
+			<location>http://localhost/dnn5/DesktopModules/images/2.jpg</location>
+			<info>http://localhost/dnn5/%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/tabid/58/articleType/ArticleView/articleId/11/.aspx</info>
+		</track>
+
+		<track>
+			<title>茶文化</title>
+			<creator></creator>
+			<location>http://localhost/dnn5/DesktopModules/images/3.jpg</location>
+			<info>http://localhost/dnn5/%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/tabid/58/articleType/ArticleView/articleId/11/.aspx</info>
+		</track>
+
+		<track>
+			<title>茶品</title>
+			<creator>Nicholas Lu</creator>
+			<location>http://localhost/dnn5/DesktopModules/images/4.jpg</location>
+			<info>http://localhost/dnn5/%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/tabid/58/articleType/ArticleView/articleId/11/.aspx</info>
+		</track>
+
+		<track>
+			<title>自然</title>
+			<creator>Nicholas Lu</creator>
+			<location>http://localhost/dnn5/DesktopModules/images/5.jpg</location>
+			<info>http://localhost/dnn5/%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/tabid/58/articleType/ArticleView/articleId/11/.aspx</info>
+		</track>
+
+	</trackList>
+</playlist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

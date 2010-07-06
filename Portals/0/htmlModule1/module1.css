@@ -1,0 +1,9 @@
+﻿.c_head_red h1, h2, h3, .c_head_red h1 input,.c_head_red head_title {color:#1E68B0; text-align:center; width:290px; margin-top:10px;}
+.c_head_red .head_title {background: url(Title_Center_BG.gif) no-repeat left top; height:39px; width:300px;}
+.c_head_red .c_content{background: url(Content_Center_BG.gif) no-repeat left top; margin-top:0px;}
+.c_head_red .c_contentpane img{ padding-left:10px; padding-bottom:3px;}
+.c_head_red .c_contentpane .imgStylePad{ padding:10px;}
+.c_head_red .c_contentpane { padding-bottom:11;}
+.c_head_red{padding-top:10px;}
+.c_footer {margin-bottom:0;padding:0;text-align:right;}
+.c_contentpane {padding:8px 0 11px;text-align:left;}

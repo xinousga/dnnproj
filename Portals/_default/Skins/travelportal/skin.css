@@ -1,0 +1,320 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #E5E5E5;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+a {
+	color: #135293;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.title1 {
+	margin: 0;
+	padding: 10px 0;
+	background: url(images/img07.gif) repeat-x left bottom;
+	font-weight: normal;
+	font-size: 129%;
+	color: #FFFFFF;
+}
+
+.title2 {
+	margin: 0;
+	padding: 10px 0;
+	background: url(images/img09.gif) repeat-x left bottom;
+	font-size: 227%;
+	font-weight: normal;
+	color: #135293;
+}
+
+.title3 {
+	margin: 0;
+	padding: 10px 0;
+	background: url(images/img11.gif) repeat-x left bottom;
+	font-size: 129%;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.boxed {
+	padding: 5px 30px 20px 30px;
+}
+
+.boxed p, .boxed ul, .boxed ol {
+	line-height: 180%;
+}
+
+.orange {
+	margin: 20px 30px;
+	background: #FF9523 url(images/img10.gif) repeat-x;
+	color: #FFFFFF;
+}
+
+.orange a {
+	color: #FFFFFF;
+}
+
+.col-one {
+	float: left;
+	width: 300px;
+}
+
+.col-two {
+	float: right;
+	width: 300px;
+}
+
+/* Page */
+
+#page {
+	width: 980px;
+	margin: 0 auto;
+	background: #FFFFFF url(images/img01.gif) repeat-y;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 240px;
+}
+
+/* Logo */
+
+#logo {
+	height: 220px;
+	background: #FFFFFF url(images/img02.gif) repeat-y right top;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	text-transform: lowercase;
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	color: #9C9C9C;
+}
+
+#logo h1 {
+	padding: 100px 0 0 0;
+	background: url(images/img03.gif) no-repeat center center;
+	font-size: 36px;
+}
+
+#logo h2 {
+	font-size: 14px;
+}
+
+#logo a {
+	color: #9C9C9C;
+	text-decoration: none;
+}
+
+/* Menu */
+/*
+#menu {
+	padding: 20px;
+	background: #85C329 url(images/img04.gif) repeat-x;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	padding: 10px 0;
+	background: url(images/img05.gif) repeat-x;
+}
+
+#menu ul ul li{	padding: 5px 0px 5px 10px;
+	background: url(images/img05.gif) repeat-x;
+}
+
+#menu li.first {
+	background: none;
+}
+
+#menu a {
+	text-decoration: none;
+	font-size: 129%;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+*/
+/* menu classes */
+.main_dnnmenu_container {
+	background-color: transparent; 
+}
+.main_dnnmenu_bar {
+	cursor: pointer; 
+	cursor: hand;
+	height:16px;
+	background-color: Transparent;
+}
+
+
+.main_dnnmenu_rootitem,.main_dnnmenu_rootitem .main_dnnmenu_submenu td { /*TD if menu option for using tables is on*/
+	cursor: pointer; 
+	cursor: hand; 
+
+	margin-bottom: 4px;
+	font-weight: bold;
+	height: 20px;
+	text-decoration: none;
+	color: #fffff1;
+	display: block;
+	padding: 6px 0 0 10px;
+	background: #67522c;
+	border-left: 1px #846837 solid;
+
+}
+.main_dnnmenu_itemhover,.main_dnnmenu_itemhover td {  
+	background: #67522c;
+	color: #fffff1;
+	border-left: 4px #47381e solid;
+
+}
+
+.main_dnnmenu_icon {
+	cursor: pointer; 
+	cursor: hand; 
+	text-align: center; 
+	width: 15px; 
+	height: 100%;
+}
+
+.main_dnnmenu_break {
+	height: 1px;
+	font-size: 1px;
+}
+
+.main_dnnmenu_arrow {
+	border-right: #cad5ea 1px solid; 
+	border-bottom: #cad5ea 1px solid; 
+	border-top: #cad5ea 0px solid;
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand; 
+}
+.main_dnnmenu_rootmenuarrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand;
+}
+
+/* Login */
+
+#login {
+	padding: 20px;
+	background: url(images/img06.gif) repeat-x;
+}
+
+#login form {
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+#login fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#login label {
+	color: #FFFFFF;
+}
+
+#inputtext1, #inputtext2 {
+	width: 194px;
+	margin-bottom: .5em;
+	font: bold 100% Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+}
+
+#inputsubmit1 {
+	margin-bottom: .5em;
+	font: bold 100% Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+}
+
+#login a {
+	color: #FFFFFF;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 740px;
+}
+
+/* Footer */
+
+#footer {
+	width: 980px;
+	height: 120px;
+	margin: 0 auto;
+	background: url(images/img12.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 85%;
+}
+
+#links {
+	float: left;
+	width: 220px;
+	height: 45px;
+	padding: 35px 0 0 20px;
+	background: url(images/img13.gif) repeat-x;
+}
+
+#links a {
+	color: #FFFFFF;
+}
+
+#legal {
+	float: right;
+	width: 720px;
+	height: 45px;
+	padding: 35px 0 0 20px;
+}
+
+/* DNN Mods */
+ul li, ul, ul ul li, ul ul ul li{list-style:none}
+.SkinObject{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #003366;
+	font-weight:400;}
+.Normal{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #666666;}
+.Head{font-family: Georgia, "Times New Roman", Times, serif;}	
+.orange .Head, .orange .Normal,#sidebar .Head, #sidebar .Normal{color: #FFFFFF;}
+	
+	

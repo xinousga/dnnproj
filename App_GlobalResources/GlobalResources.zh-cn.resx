@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyndicateModule.Action" xml:space="preserve">
+    <value>聚合</value>
+  </data>
+  <data name="ExportModule.Action" xml:space="preserve">
+    <value>导出内容</value>
+  </data>
+  <data name="ImportModule.Action" xml:space="preserve">
+    <value>导入内容</value>
+  </data>
+  <data name="OnlineHelp.Action" xml:space="preserve">
+    <value>在线帮助</value>
+  </data>
+  <data name="ModuleHelp.Action" xml:space="preserve">
+    <value>模块帮助</value>
+  </data>
+  <data name="ModuleSettings.Action" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="DeleteModule.Action" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="PrintModule.Action" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ClearCache.Action" xml:space="preserve">
+    <value>清除缓存</value>
+  </data>
+  <data name="MoveTop.Action" xml:space="preserve">
+    <value>置顶</value>
+  </data>
+  <data name="MoveUp.Action" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="MoveDown.Action" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="MoveBottom.Action" xml:space="preserve">
+    <value>置底</value>
+  </data>
+  <data name="MovePane.Action" xml:space="preserve">
+    <value>移动到</value>
+  </data>
+  <data name="BannerType.MicroButton.String" xml:space="preserve">
+    <value>小按钮</value>
+  </data>
+  <data name="BannerType.Button.String" xml:space="preserve">
+    <value>按钮</value>
+  </data>
+  <data name="BannerType.Block.String" xml:space="preserve">
+    <value>邮件群发</value>
+  </data>
+  <data name="BannerType.Skyscraper.String" xml:space="preserve">
+    <value>竖直型</value>
+  </data>
+  <data name="BannerType.Text.String" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="BannerType.Script.String" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="View.Permission" xml:space="preserve">
+    <value>查看模块</value>
+  </data>
+  <data name="Edit.Permission" xml:space="preserve">
+    <value>编辑模块</value>
+  </data>
+  <data name="View Tab.Permission" xml:space="preserve">
+    <value>浏览页面</value>
+  </data>
+  <data name="Edit Tab.Permission" xml:space="preserve">
+    <value>编辑页面</value>
+  </data>
+  <data name="View Folder.Permission" xml:space="preserve">
+    <value>浏览文件夹</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 新用户注册</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 新用户注册</value>
+  </data>
+  <data name="MESSAGE_REGISTRATION_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>欢迎成为本站注册用户</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 用户帐号信息更新</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 用户帐号信息更新</value>
+  </data>
+  <data name="MESSAGE_LOGIN_INSTRUCTIONS.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName]新用户注册		</value>
+  </data>
+  <data name="Authentication.String" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="EMAIL_PROFILE_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 个人档案信息更新通知</value>
+  </data>
+  <data name="EMAIL_USER_LOCKOUT_BODY.Text" xml:space="preserve">
+    <value>有人尝试使用锁定的账号( 用户名: [Custom:0] ) 时间 [Date:Current]. 希望您进一步调查此事...
+
+谢谢！
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="EMAIL_USER_LOCKOUT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 用户帐号停用警告</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 新用户注册</value>
+  </data>
+  <data name="403_3.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width:90%;"&gt;&lt;h1&gt;DotNetNuke配置错误&lt;/h1&gt;{0}&lt;br/&gt;&lt;br/&gt;		DotNetNuke有强大的内容，模块，皮肤文件管理能力. 需要自定义安全设置，以使应用程序可以创建或移除网站内文件.
+		&lt;br/&gt;
+		&lt;br/&gt;
+		使用Windows资源管理器，打开网站根目录( 默认位置是C:\DotNetNuke).右键点击文件夹，选择“共享和安全”( 如果使用Windows XP系统，请按照这里&lt;a href="http://whoozoo.co.uk/winxpFilePerms.htm" target="_blank"&gt;设置简单文件共享&lt;/a&gt;). 在安全栏中，增加用户和对应的权限.
+		&lt;br/&gt;
+		&lt;br/&gt;
+		&lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;
+		  &lt;li&gt;
+		    &lt;strong&gt;如果使用Windows 2000 - IIS5&lt;/strong&gt;
+		    &lt;br/&gt;
+		    &lt;ol style="list-style-type: circle;"&gt;
+		      &lt;li&gt;增加 AspNet用户账户的读，写和修改权限.&lt;/li&gt;
+		    &lt;/ol&gt;
+		    &lt;br/&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;
+		    &lt;strong&gt;如果使用Windows 2003 - IIS6&lt;/strong&gt;
+		    &lt;br/&gt;
+		    &lt;ol style="list-style-type: circle;"&gt;
+		      &lt;li&gt;增加 NETWORK SERVICE用户账户的读，写和修改权限.&lt;/li&gt;
+		    &lt;/ol&gt;
+		  &lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;br/&gt;
+		&lt;br/&gt;
+		&lt;img alt="图片显示设置ASPNET 或者NETWORK SERVICE用户账户对网站文件根目录的读，写和修改权限." src="images/403-3.gif"&gt;
+  &lt;/div&gt;</value>
+  </data>
+  <data name="500.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error.Text" xml:space="preserve">
+    <value>发生异常.</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>返回到网站</value>
+  </data>
+  <data name="UnhandledError.Text" xml:space="preserve">
+    <value>发生未知异常.</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Html_Body.Text" xml:space="preserve">
+    <value>&lt;h1&gt;群发邮件报告&lt;/h1&gt;
+           操作起始时间: [Custom:0]&lt;br&gt;
+           收件人: [Custom:1]&lt;br&gt;
+           信件内容: [Custom:2]&lt;br&gt;
+           操作结束时间: [Custom:3]&lt;br&gt;
+           [Custom:4|错误数:{0}&lt;br&gt;]
+           &lt;br&gt;
+           状态报告: &lt;br&gt;
+           &lt;pre&gt;[Custom:5]&lt;/pre&gt;
+           [Custom:6|&lt;hr&gt;&lt;b&gt;收件人:&lt;/B&gt;&lt;br&gt;{0}]
+    </value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Subject.Text" xml:space="preserve">
+    <value> '{0}' 的群发邮件报告.</value>
+  </data>
+  <data name="NoErrorsSending.Text" xml:space="preserve">
+    <value>发送过程中没有发生错误.</value>
+  </data>
+  <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
+    <value>访问[{0}:{1}]发生错误, {0} 是未知的对象标记.</value>
+  </data>
+  <data name="//Admin.String" xml:space="preserve">
+    <value>站点管理</value>
+  </data>
+  <data name="//Admin//Extensions.String" xml:space="preserve">
+    <value>功能扩展</value>
+  </data>
+  <data name="//Admin//FileManager.String" xml:space="preserve">
+    <value>文件管理</value>
+  </data>
+  <data name="//Admin//Languages.String" xml:space="preserve">
+    <value>语言设置</value>
+  </data>
+  <data name="//Admin//LogViewer.String" xml:space="preserve">
+    <value>事件记录</value>
+  </data>
+  <data name="//Admin//Newsletters.String" xml:space="preserve">
+    <value>邮件群发</value>
+  </data>
+  <data name="//Admin//RecycleBin.String" xml:space="preserve">
+    <value>垃圾回收</value>
+  </data>
+  <data name="//Admin//SecurityRoles.String" xml:space="preserve">
+    <value>安全角色</value>
+  </data>
+  <data name="//Admin//SiteLog.String" xml:space="preserve">
+    <value>站点日志</value>
+  </data>
+  <data name="//Admin//SiteSettings.String" xml:space="preserve">
+    <value>站点设置</value>
+  </data>
+  <data name="//Admin//SiteWizard.String" xml:space="preserve">
+    <value>站点配置向导</value>
+  </data>
+  <data name="//Admin//Skins.String" xml:space="preserve">
+    <value>皮肤设置</value>
+  </data>
+  <data name="//Admin//Solutions.String" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="//Admin//Tabs.String" xml:space="preserve">
+    <value>页面管理</value>
+  </data>
+  <data name="//Admin//UserAccounts.String" xml:space="preserve">
+    <value>用户管理</value>
+  </data>
+  <data name="//Admin//Vendors.String" xml:space="preserve">
+    <value>广告管理</value>
+  </data>
+  <data name="//Host.String" xml:space="preserve">
+    <value>主机管理</value>
+  </data>
+  <data name="//Host//Extensions.String" xml:space="preserve">
+    <value>功能扩展</value>
+  </data>
+  <data name="//Host//File Manager.String" xml:space="preserve">
+    <value>文件管理</value>
+  </data>
+  <data name="//Host//Host Settings.String" xml:space="preserve">
+    <value>主机设置</value>
+  </data>
+  <data name="//Host//Languages.String" xml:space="preserve">
+    <value>语言设置</value>
+  </data>
+  <data name="//Host//Lists.String" xml:space="preserve">
+    <value>列表管理</value>
+  </data>
+  <data name="//Host//Module Definitions.String" xml:space="preserve">
+    <value>模块定义</value>
+  </data>
+  <data name="//Host//Portals.String" xml:space="preserve">
+    <value>多站点管理</value>
+  </data>
+  <data name="//Host//Schedule.String" xml:space="preserve">
+    <value>调度管理</value>
+  </data>
+  <data name="//Host//Search Admin.String" xml:space="preserve">
+    <value>搜索管理</value>
+  </data>
+  <data name="//Host//Skins.String" xml:space="preserve">
+    <value>皮肤管理</value>
+  </data>
+  <data name="//Host//SQL.String" xml:space="preserve">
+    <value>SQL查询</value>
+  </data>
+  <data name="//Host//Superuser Accounts.String" xml:space="preserve">
+    <value>主机管理员</value>
+  </data>
+  <data name="//Host//Vendors.String" xml:space="preserve">
+    <value>广告管理</value>
+  </data>
+  <data name="404.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;
+    &lt;font color="red"&gt;&lt;b&gt;数据库中不存在域名 {0} &lt;/b&gt;&lt;/font&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    DotNetNuke支持在一个安装实例的数据库中建立多个站点。浏览者在浏览器里输入URL所发送的请求会被DNN系统转换为相应的站点编号(PortalID)并映射到数据库中相应的站点， 下面的步骤描述了这个处理过程：
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
+        &lt;li&gt;&lt;strong&gt;Web服务器处理流程&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;当Web服务器接收到来自用户浏览器的访问请求，服务器会获取所访问url的扩展名并与IIS中定义的程序扩展映射比较。&lt;/li&gt;
+                &lt;li&gt;如果相匹配，IIS将会发送请求到指定的可执行路径(如果是asp.net请求将会用到aspnet_asapi.dll处理)。&lt;/li&gt;
+                &lt;li&gt;aspnet_isapi.dll 引擎将会从Application_BeginRequest开始有序的执行一系列的事件。&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest ( UrlRewriteModule.vb )&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;所请求的URL会被解析，基于"/"字符&lt;/li&gt;
+                &lt;li&gt;一个域名是由解析后相关的URL元素组成。&lt;br /&gt;
+                    &lt;br /&gt;
+                    例如:
+                    &lt;br /&gt;
+                    &lt;br /&gt;
+                    URL: http://www.domain.com/default.aspx = 对应域名: www.domain.com&lt;br /&gt;
+                    URL: http://209.75.24.131/default.aspx = 对应域名: 209.75.24.131&lt;br /&gt;
+                    URL: http://localhost/DotNetNuke/default.aspx = 对应域名: localhost/DotNetNuke&lt;br /&gt;
+                    URL: http://www.domain.com/virtualdirectory/default.aspx = 对应域名: www.domain.com/virtualdirectory&lt;br /&gt;
+                    URL: http://www.domain.com/directory/default.aspx = 对应域名: www.domain.com/directory&lt;br /&gt;
+                    &lt;br /&gt;
+              &lt;/li&gt;
+                &lt;li&gt;当使用域名时，DNN请求数据库PortalAlias表 - HTTPAlias字段) 找到匹配的记录。&lt;br&gt;
+                  &lt;br /&gt;
+                    注意：如果在远程服务器上安装DotNetNuke程序，必须修改PortalAlias表中对应的HTTPAlias记录。
+                   &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="BannerType.Banner.String" xml:space="preserve">
+    <value>广告横幅</value>
+  </data>
+  <data name="Can Deploy.Permission" xml:space="preserve">
+    <value>配置模块</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [Custom:0],
+
+您在[Portal:PortalName]的营销帐号已经开通。开始赚取酬金请使用下面的连接访问我们的网站:
+
+[Custom:1]
+
+
+此致！
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 营销加盟通知</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_BODY.Text" xml:space="preserve">
+    <value>广告横幅: [Custom:0]
+描述: [Custom:1]
+图片: [Custom:2]
+每千人次访问收费: [Custom:3]
+投放次数: [Custom:4]
+开始日期: [Custom:5]
+截止日期: [Custom:6]
+浏览量: [Custom:7]
+点击量: [Custom:8]</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Custom:0]</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Text_Body.Text" xml:space="preserve">
+    <value>&lt;h1&gt;群发邮件报告&lt;/h1&gt;
+           操作起始时间: [Custom:0]&lt;br&gt;
+           收件人: [Custom:1]&lt;br&gt;
+           信件内容: [Custom:2]&lt;br&gt;
+           操作结束: [Custom:3]&lt;br&gt;
+           [Custom:4|错误数:{0}&lt;br&gt;]
+           &lt;br&gt;
+           状态报告: &lt;br&gt;
+           &lt;pre&gt;[Custom:5]&lt;/pre&gt;
+           [Custom:6|&lt;hr&gt;&lt;b&gt;收件人:&lt;/B&gt;&lt;br&gt;{0}]</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_BODY.Text" xml:space="preserve">
+    <value>亲爱的[User:DisplayName],
+
+您申请了[Portal:PortalName]的密码提示服务，请用下列信息重新登录：
+
+站点地址: [Portal:URL]
+用户名:   [Membership:Username]
+密码: [Membership:Password]
+
+
+祝一切顺利！
+[Portal:PortalName]
+
+*如果您没有请求密码提示服务请忽略这封信。</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 密码提示</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [User:DisplayName],
+
+您的站点已经创建，请妥善保存下列信息。
+
+站点地址: [Portal:URL]
+用户名: [Membership:UserName]
+校验码: [User:VerificationCode]
+
+
+祝一切顺利！
+[Host:HostTitle]
+
+</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_SUBJECT.Text" xml:space="preserve">
+    <value>[Host:HostTitle] 站点注册成功</value>
+  </data>
+  <data name="EMAIL_PROFILE_UPDATED_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [User:DisplayName],
+
+您在 [Portal:PortalName] 个人档案信息已更新。
+
+
+此致！
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [User:DisplayName],
+
+您在[Portal:PortalName]的帐号访问权限已经升级，下面是您所拥有的新安全角色:
+
+角色: [Custom:0]
+说明: [Custom:1]
+生效日期: [Custom:2]
+截止日期: [Custom:3]
+
+
+感谢您对本站的支持！
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [User:DisplayName],
+
+您在[Portal:PortalName]的帐号访问权限已经更新，您将不再具有下列安全角色:
+
+角色: [Custom:0]
+说明: [Custom:1]
+
+
+感谢你对本站的支持！
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="EMAIL_SMTP_TEST_SUBJECT.Text" xml:space="preserve">
+    <value>[Host:HostTitle] SMTP配置测试</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>日期: [Date:Current]
+名字: [Profile:FirstName]
+姓氏: [Profile:LastName]
+单元: [Profile:Unit]
+街道: [Profile:Street]
+城市: [Profile:City]
+地区: [Profile:Region]
+国家: [Profile:Country]
+邮编: [Profile:PostalCode]
+电话: [Profile:Telephone]
+电子邮件: [User:Email]
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_BODY.Text" xml:space="preserve">
+    <value>亲爱的[User:DisplayName],
+
+感谢您注册[Portal:PortalName]，请仔细阅读并妥善保存下列信息：
+
+站点地址: [Portal:URL]
+用户名: [Membership:UserName]
+密码: [Membership:Password]
+
+您的帐号将会进入预审状态，经管理员审核之后会通知您。
+
+欢迎访问本站，获取您感兴趣的最新内容。
+感谢您对本站的支持...
+
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_BODY.Text" xml:space="preserve">
+    <value>亲爱的[User:DisplayName],
+
+您已经成为[Portal:PortalName]的注册用户，请阅读下列注册信息并妥善保存。
+
+站点地址: [Portal:URL]
+用户名: [Membership:UserName]
+密码: [Membership:Password]
+
+
+欢迎访问本站，获取您感兴趣的最新内容。
+感谢您对本站的支持...
+
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [User:DisplayName],
+
+您已经成为[Portal:PortalName]的注册用户。 请仔细阅读下列信息并且妥善保存，以便以后查用。
+
+站点地址: [Portal:URL]
+用户名: [Membership:UserName]
+密码: [Membership:Password]
+校验码: [User:VerificationCode]
+请使用下面的连接完成注册的最后一步-校验。
+
+http://[Portal:URL]/default.aspx?ctl=Login&amp;username=[Membership:UserName]&amp;verificationcode=[User:VerificationCode]
+
+欢迎访问本站，获取您感兴趣的最新内容。
+感谢您对本站的支持...
+
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_BODY.Text" xml:space="preserve">
+    <value>日期: [Date:Current]
+名字: [Profile:FirstName]
+姓氏: [Profile:LastName]
+单元: [Profile:Unit]
+街道: [Profile:Street]
+城市: [Profile:City]
+地区: [Profile:Region]
+国家: [Profile:Country]
+邮编: [Profile:PostalCode]
+电话: [Profile:Telephone]
+电子邮件: [User:Email]
+		</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_SUBJECT.Text" xml:space="preserve">
+    <value>			[Portal:PortalName] 用户删除帐号
+		</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>日期: [Custom:0]
+广告供应商: [Custom:1]
+名字: [Custom:2]
+姓氏: [Custom:3]
+单元: [Custom:4]
+街道: [Custom:5]
+城市: [Custom:6]
+地区: [Custom:7]
+国家: [Custom:8]
+邮编: [Custom:9]
+电话: [Custom:10]
+传真: [Custom:11]
+手机: [Custom:12]
+电子邮件: [Custom:13]
+网站: [Custom:14]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName]  广告供应商申请</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_BODY.Text" xml:space="preserve">
+    <value>亲爱的[Custom:0] [Custom:1],
+ 
+您的公司已经在 [Portal:PortalName] 网站注册成功.
+ 
+谢谢,
+ 
+[Portal.PortalName]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 广告供应商申请</value>
+  </data>
+  <data name="MESSAGE_PORTAL_PRIVACY.Text" xml:space="preserve">
+    <value>&lt;H1 align="left"&gt;隐私和安全性&lt;/H1&gt;
+&lt;p align="left"&gt;[Portal:PortalName]（以下简称"本网站"）隐私权保护申明，系本网站保护个人隐私的承诺。鉴于Internet网络的特性，本网站会与您直接或间接地形成互动关系，故特此说明本网站对您个人信息所采取的收集、使用和保护政策，请您务必仔细阅读：&lt;/p&gt;
+&lt;p align="left"&gt;一、搜集、分拣信息&lt;/p&gt;
+&lt;p align="left"&gt;当您浏览、阅读或下载本网站的信息时，网站会自动搜集和分拣到您的信息（互联网域名、用户使用的浏览器和操作系统类型、访问时间、访问页面），这些信息不会被用来确定您的身份。 &lt;/p&gt;
+&lt;p align="left"&gt;二、个人资料&lt;/p&gt;
+&lt;p align="left"&gt;当  您在本网站进行用户注册登记、参加有关活动时，在您的同意并确认下，本网站会通过注册表格、订单等形式要求您提供一些个人资料。这些个人资料包括：个  人识别资料，如姓名、用户名、电子邮件地址等。在未经您同意和确认之前，除国家法律、地方法规和政府规章规定之外，本网站保证不会把这些个人信息提供给任  何私人公司使用。&lt;/p&gt;
+&lt;p align="left"&gt;三、信息安全 &lt;/p&gt;
+&lt;p align="left"&gt;本网站将使用相应的技术，对您所提供的个人资料进行严格的  管理和保护，防止个人资料丢失、被盗用或遭窜改。为保护个人信息，必要时本网站会委托专业技术人员对所述资料进行相应处理，并将处理安排及时通知您，若您  未在通知规定的时间内主动明示反对，本网站将推定您已同意。但处理过后，您仍然有权请求停止电脑处理。&lt;/p&gt;
+&lt;p align="left"&gt;四、信息的有效性&lt;/p&gt;
+&lt;p align="left"&gt;本网站不能控制或保证与之相链接的各个网站信息的准确性、及时性和完整性。&lt;/p&gt;
+&lt;p align="left"&gt;五、用户权利 &lt;/p&gt;
+&lt;p align="left"&gt;在本网站上，您对自己拥有的个人资料享有以下权利： &lt;/p&gt;
+&lt;p align="left"&gt;(一)随时查询和请求阅览；&lt;/p&gt;
+&lt;p align="left"&gt;(二)随时请求补充或更正；&lt;/p&gt;
+&lt;p align="left"&gt;(三)随时请求删除；&lt;/p&gt;
+&lt;p align="left"&gt;(四)请求停止电脑处理及利用。&lt;/p&gt;
+&lt;p align="left"&gt;根据上述权利，您可通过电子邮件提出请求，本网站会为您提供相关服务。&lt;/p&gt;
+&lt;p align="left"&gt;六、限制利用原则 &lt;/p&gt;
+&lt;p align="left"&gt;本网站只有在下列条件下，方对收集的个人资料进行必要范围以外的使用：&lt;/p&gt;
+&lt;p align="left"&gt;(一)已取得您的书面同意；&lt;/p&gt;
+&lt;p align="left"&gt;(二)为免除您在生命、身体或财产方面遇到的急迫危险；&lt;/p&gt;
+&lt;p align="left"&gt;(三)为防止他人权益遭受重大危害；&lt;/p&gt;
+&lt;p align="left"&gt;(四)为增进公共利益，且无损于您的重大利益。&lt;/p&gt;
+&lt;p align="left"&gt;七、披露个人资料 &lt;/p&gt;
+&lt;p align="left"&gt;当政府机关依照法定程序要求本网站披露个人资料时，本网站将根据其要求或为了公共安全的目的提供个人资料；这种情况下的任何披露，本网站均得免责。&lt;/p&gt;
+&lt;p align="left"&gt;八、未成年人隐私权的保护 &lt;/p&gt;
+&lt;p align="left"&gt;(一) 本网站通过计算机技术对未成年人的个人资料给予保护，在此郑重声明：任何16岁以下的成年人参加网上活动都应事先得到家长或其法定监护人（以下简称"监护人"）的可经查证的同意。&lt;/p&gt;
+&lt;p align="left"&gt;(二) 监护人应承担保护未成年人在网络环境下的隐私权的首要责任。&lt;/p&gt;
+&lt;p align="left"&gt;(三) 本网站认为有必要收集未成年人的个人资料时，仅为回复未成人特定要求的目的，一但回复完毕即从记录中删除，不保留或使用这些资料，并保证不会要求未成年人提供额外的个人资料，作为允许其参与 网上活动的条件。&lt;/p&gt;
+&lt;p align="left"&gt;(四) 未经监护人的同意，本网站不会使用未成年人的个人资料，亦不会向任何第三方披露或传送。本网站若收集监护人或未成年人的姓名或其它网络通讯资料，仅是为满足监护人的要求；若监护人在一定时间 放弃这一要求时，本网站会主动从记录中删除此类资料。&lt;/p&gt;
+&lt;p align="left"&gt;(五) 若经监护人的同意，本网站可对未成年人的个人资料进行收集，并向监护人提供：&lt;/p&gt;
+&lt;p align="left"&gt;1、审视其子女或被监护人收集资料的机会；&lt;/p&gt;
+&lt;p align="left"&gt;2、拒绝其子女或被监护人的个人资料被进一步收集或利用的机会；&lt;/p&gt;
+&lt;p align="left"&gt;3、变更或删除其子女或被监护人个人资料的方式。&lt;/p&gt;
+&lt;p align="left"&gt;(六) 监护人有权拒绝本网站与其子女或被监护人做进一步的联络。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;br&gt;
+  九、免责&lt;/p&gt;
+&lt;p align="left"&gt;除上述第七条规定属免责外，发生下列情况时本网站也不承担任何责任：&lt;/p&gt;
+&lt;p align="left"&gt;(一)由于您将用户密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露。&lt;/p&gt;
+&lt;p align="left"&gt;(二)任何黑客政击、计算机病毒侵入或发作、政府部门管制和其他不可抗力等造成的个人资料泄露、丢失被盗用或被窜改等。&lt;/p&gt;
+&lt;p align="left"&gt;(三)因与本网站链接的其它网站造成个人资料泄露及由此而导致的任何法律争议和后果。&lt;/p&gt;
+&lt;p align="left"&gt;本网站保护隐私申明的修改及更新权均属于[Portal:PortalName]&lt;/p&gt;
+</value>
+  </data>
+  <data name="MESSAGE_PORTAL_TERMS.Text" xml:space="preserve">
+    <value>&lt;H1 align="left"&gt;服务条款&lt;/H1&gt;
+&lt;p align="left"&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;用户（未成年人审阅时应得到法定监护人的陪同）欲访问和使用本网站，必须事先认真阅读本服务条款中各条款，  包括免除或者限制[Portal:PortalName]的免责条款及对用户的权利限制。如您不同意本服务条款及/或随时对其的修改，请您及时主动取消或者不再使用[Portal:PortalName]提供的服务。您的使用行为将被视为对本服务条款全部的完全接受，包括接受[Portal:PortalName]对服务条款随时所做的任何修改。&lt;br /&gt;
+  如果您选择接受本条款，即表示您同意接受协议各项条件的约束。如果您不同意本服务条款，则不能获得使用本服务的权利。您若有违反本条款规定，[Portal:PortalName]有权终止您的服务使用资格并保留追究相关法律责任的权利。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;禁止行为 &lt;/strong&gt;&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在使用本服务时，您不得：&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;对本服务任何部分或本服务之使用或获得，进行复制、拷贝、出售、或利用本服务进行调查、广告、或用于其它商业目的，其中，您不得将任何广告信函与信息、促销数据、垃圾邮件与信息、滥发邮件与信息、直销及传销邮件与信息以短信、实时通信或以其它方式传送，但[Portal:PortalName]对特定服务另有适用指引或规则的除外； &lt;br /&gt;
+  1、反对宪法所确定的基本原则的； &lt;br /&gt;
+  2、危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一； &lt;br /&gt;
+  3、损害国家荣誉和利益； &lt;br /&gt;
+  4、煽动民族仇恨、民族歧视、破坏民族团结； &lt;br /&gt;
+  5、破坏国家宗教政策，宣扬邪教和封建迷信； &lt;br /&gt;
+  6、散布谣言，扰乱社会秩序，破坏社会稳定； &lt;br /&gt;
+  7、散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪； &lt;br /&gt;
+  8、侮辱或者诽谤他人，侵害他人合法权利； &lt;br /&gt;
+  9、含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容； &lt;br /&gt;
+  10、含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的； &lt;br /&gt;
+  11、将设计目的在于干扰、破坏或限制任何计算机软件、硬件或通讯设备功能之计算机病毒（包括但不限于木马程序(trojan horses)、蠕虫(worms)、定时炸弹、删除蝇(cancelbots)（以下简称“病毒”））或其它计算机代码、档案和程序之任何数据，加以上载、张贴、发送电子邮件或以其它方式传送； &lt;br /&gt;
+  12、破坏正常的对话流程、造成荧屏快速移动，或使本服务其它用户无法输入，或对其他用户参加实时交流的能力产生负面影响； &lt;br /&gt;
+  13、干扰或破坏本服务或与本服务相联机之服务器和网络，或违反任何关于本服务联机网络之规定、程序、政策或规范;&lt;br /&gt;
+  14、故意或非故意地违反任何适用的当地、国家和国际法律，以及任何具有法律效力的规则； &lt;br /&gt;
+  15、未经合法授权而截获、篡改、收集、储存或删除他人个人信息、电子邮件或其它数据数据，或将获知的此类数据用于任何非法或不正当目的； &lt;br /&gt;
+  16、操控识别数据，以伪造经由本服务传送之任何内容之来源； &lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在任何情况下，如果[Portal:PortalName]有理由认为您的任何行为，包括但不限于您的任何言论或其它行为违反或可能违反上述第3款，第4款任何规定，[Portal:PortalName]可在任何时候不经任何事先通知终止向您提供服务。 &lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;担保与保证&lt;/strong&gt; &lt;br/&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;您明确了解并同意∶&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;未经合法授权而截获、篡本服务合同的任何规定不会免除[Portal:PortalName]对造成您人身伤害的、或因故意或重大过失造成您财产损失的任何责任； &lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;您使用本服务之风险由您个人负担。本服务系依“现状”及“现有”基础提供。[Portal:PortalName]对本服务不提供任何明示或默示的担保或保证，包含但不限于商业适售性、特定目的之适用性及未侵害他人权利等担保或保证； &lt;br /&gt;
+  [Portal:PortalName]不保证以下事项∶&lt;br /&gt;
+  (i)本服务将符合您的要求；&lt;br /&gt;
+  (ii)本服务将不受干扰、及时提供、安全可靠或不会出错；&lt;br /&gt;
+  (iii)使用本服务取得之结果正确可靠；&lt;br /&gt;
+  (iv)您经由本服务购买或取得之任何产品、服务、信息或其它信息将符合您的期望；&lt;br /&gt;
+  (v)软件中任何错误都将得到更正； &lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;是否使用本服务下载或取得任何数据应由您自行考虑且自负风险，因任何数据之下载而导致的您计算机系统之任何损坏或数据流失等后果，由您自行承担； &lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;信息使用限制 &lt;/strong&gt;&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;网站上的所有材料均受版权保护，归[Portal:PortalName]及其子公司、所属公司和/或第三方许可者所有。所有商标、服务标志和商标名称均归[Portal:PortalName]及其子公司、所属公司和/或第三方许可者专有。&lt;br /&gt;
+  除非另有说明，本网站上的材料和服务仅用于个人和非商业用途，未经[Portal:PortalName]书面许可，不得修改、复制、分发、传递、显示、执行、重新制作、出版、许可、创建衍生作品、转让或出售从本网站获得的任何信息、产品或服务。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;用户使用规则： &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;用户必须自行配备上网和使用电信增值业务所需的设备，自行负担个人上网或第三方（包括但不限于电信或移动通信提供商）收取的通讯费、信息费等有关费用。如涉及电信增值服务的，我们建议您与您的电信增值服务提供商确认相关的费用问题。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;除您与[Portal:PortalName]另有约定外，您同意本服务仅供个人使用且非商业性质的使用，您不可对本服务任何部分或本服务之使用或获得，进行复制、拷贝、出售、或利用本服务进行调查、广告、或用于其他商业目的，其中，您不得将任何广告信函与信息、促销资料、垃圾邮件与信息、滥发邮件与信息、直销及传销邮件与信息以短信、即时通信或以其他方式传送，但[Portal:PortalName]对特定服务另有适用指引或规则的除外。&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;不得发送任何妨碍社会治安或非法、虚假、骚扰性、侮辱性、恐吓性、伤害性、破坏性、挑衅性、淫秽色情性等内容的信息。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;保证自己在使用各服务时用户身份的真实性和正确性及完整性，如果资料发生变化，　您应及时更改。　在安全完成本服务的登记程序并收到一个密码及帐号后，您应维持密码及帐号的机密安全。您应对任何人利用您的密码及帐号所进行的活动负完全的责任，[Portal:PortalName]无法对非法或未经您授权使用您帐号及密码的行为作出甄别，因此[Portal:PortalName]不承担任何责任。在此，您同意并承诺做到∶ &lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;当您的密码或帐号遭到未获授权的使用，或者发生其他任何安全问题时，您会立即有效通知到[Portal:PortalName],否则概不负责；&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;用户同意接受[Portal:PortalName]通过电子邮件、即时通信的客户端、网页或其他合法方式向用户发送商品促销或其他相关商业信息。在使用电信增值服务的情况下，　用户同意接受本公司及合作公司通过增值服务系统或其他方式向用户发送的相关服务信息或其他信息，其他信息包括但不限于通知信息、宣传信息、广告信息等。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;关于收费服务 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]的某些服务是以收费方式提供的。一旦凭个人账户密码通过个人帐户订阅收费服务，将视为是您本人订阅收费服务，您应按有关的收费标准、付款方式支付相关服务费及其他费用。资费说明标明在[Portal:PortalName]相应服务的相应页面上。您可以通过我们的客户服务中心选择取消相关付费服务。在您正式取消相关服务并经[Portal:PortalName]批准前，我们将按相关服务的收费标准与方式继续收费。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;逾期付费：服务费之逾期交纳应按[Portal:PortalName]或合作公司关于迟延付费的相应规定办理。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;依本服务条款所取得的服务权利不可转让。 &lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;遵守国家的有关法律、法规和行政规章制度。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;如用户违反国家法律法规或本服务条款，[Portal:PortalName]和合作公司将有权停止向用户提供服务而不需承担任何责任，如导致[Portal:PortalName]或合作公司遭受任何损害或遭受任何来自第三方的纠纷、诉讼、索赔要求等，用户须向[Portal:PortalName]或合作公司赔偿相应的损失，用户并需对其违反服务条款所产生的一切后果负全部法律责任。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;服务风险及免责声明 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;用户须明白，本服务仅依其当前所呈现的状况提供，本服务涉及到互联网及移动通讯等服务，可能会受到各个环节不稳定因素的影响。因此服务存在因上述不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、GSM网络、互联网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。开通服务的用户须承担以上风险，[Portal:PortalName]和合作公司对服务之及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;如[Portal:PortalName]的系统发生故障影响到本服务的正常运行，[Portal:PortalName]承诺在第一时间内与相关单位配合，及时处理进行修复。但用户因此而产生的经济损失，[Portal:PortalName]和合作公司不承担责任。此外，[Portal:PortalName]保留不经事先通知为维修保养、升级或其他目的暂停本服务任何部分的权利。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]在此郑重提请您注意，任何经由本服务以上载、张贴、发送即时信息、电子邮件或任何其他方式传送的资讯、资料、文字、软件、音乐、音讯、照片、图形、视讯、信息、用户的登记资料或其他资料（以下简称“内容”），无论系公开还是私下传送，均由内容提供者承担责任。[Portal:PortalName]无法控制经由本服务传送之内容，也无法对用户的使用行为进行全面控制，因此不保证内容的合法性、正确性、完整性、真实性或品质；您已预知使用本服务时，可能会接触到令人不快、不适当或令人厌恶之内容，并同意将自行加以判断并承担所有风险，而不依赖于[Portal:PortalName]。但在任何情况下，[Portal:PortalName]有权依法停止传输任何前述内容并采取相应行动，包括但不限于暂停用户使用本服务的全部或部分，保存有关记录，并向有关机关报告。但[Portal:PortalName]有权(但无义务)依其自行之考量，拒绝和删除可经由本服务提供之违反本条款的或其他引起[Portal:PortalName]或其他用户反感的任何内容。&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;与广告商进行之交易 : &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;您通过本服务与广告商进行任何形式的通讯或商业往来，或参与促销活动，包含相关商品或服务之付款及交付，以及达成的其他任何相关条款、条件、保证或声明，完全为您与广告商之间之行为。除有关法律有明文规定要求[Portal:PortalName]承担责任以外，您因前述任何交易或前述广告商而遭受的任何性质的损失或损害，[Portal:PortalName]均不予负责。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;服务变更、中断或终止及服务条款的修改 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;本服务的所有权和运作权、一切解释权归[Portal:PortalName]。[Portal:PortalName]提供的服务将按照其发布的章程、服务条款和操作规则严格执行。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]有权在必要时修改服务条款，服务条款一旦发生变动，将会在相关页面上公布修改后的服务条款。如果不同意所改动的内容，用户应主动取消此项服务。如果用户继续使用服务，则视为接受服务条款的变动。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]和合作公司有权按需要修改或变更所提供的收费服务、收费标准、收费方式、服务费、及服务条款。在提供服务时，可能现在或日后对部分服务的用户开始收取一定的费用如用户拒绝支付该等费用，则不能在收费开始后继续使用相关的服务。但[Portal:PortalName]和合作公司将尽最大努力通过电邮或其他有效方式通知用户有关的修改或变更。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]特别提请用户注意，[Portal:PortalName]为了保障公司业务发展和调整的自主权，[Portal:PortalName]拥有经或未经事先通知而修改服务内容、中断或中止部分或全部服务的权利，修改会公布于[Portal:PortalName]网站相关页面上，一经公布视为通知。[Portal:PortalName]行使修改或中断服务的权利而造成损失的，[Portal:PortalName]不需对用户或任何第三方负责。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]认为是符合整体服务需求的特殊情形,[Portal:PortalName]有权随时中断或终止向用户提供服务而无需通知用户：&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;[Portal:PortalName]商标信息 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]logo以及其他[Portal:PortalName]标志及产品、服务名称，均为[Portal:PortalName]之商标（以下简称“[Portal:PortalName]标识”）。未经[Portal:PortalName]事先同意，您不得将[Portal:PortalName]标记以任何方式展示或使用或作其他处理，也不得向他人表明您有权展示、使用、或其他有权处理[Portal:PortalName]标识的行为。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;信息内容的所有权 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]定义的信息内容包括：文字、软件、声音、相片、录像、图表；网页；广告中全部内容；本公司为用户提供的商业信息。所有这些内容受版权、商标权、和其它知识产权和所有权法律的保护。所以，用户只能在[Portal:PortalName]和相关权利人授权下才能使用这些内容，而不能擅自使用、抄袭、复制、修改、编撰这些内容、或创造与内容有关的衍生产品。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;关于[Portal:PortalName]提供的软件：您了解并同意，本服务及本服务所使用或提供之相关软件（以下简称“软件”）是由[Portal:PortalName]拥有所有相关知识产权及其他法律保护之专有之知识产权（包括但不限于版权、商标权、专利权、及商业秘密）资料。若就某一具体软件存在单独的最终用户软件授权协议，您除应遵守本协议有关规定外，亦应遵守该软件授权协议。　除非您亦同意该软件授权协议，否则您不得安装或使用该软件。对于未提供单独的软件授权协议的软件，　除您应遵守本服务协议外，[Portal:PortalName]或所有权人仅将为您个人提供可取消、不可转让、非专属的软件授权许可，　并仅为访问或使用本服务之目的而使用该软件。此外，在任何情况下，未经[Portal:PortalName]明示授权，您均不得修改、出租、出借、出售、散布本软件之任何部份或全部，或据以制作衍生著作，或使用擅自修改后的软件，或进行还原工程、反向编译，或以其他方式发现原始编码，包括但不限於为了未经授权而使用本服务之目的。您同意将通过由[Portal:PortalName]所提供的界面而非任何其他途径使用本服务。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;法律 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;本服务条款要与国家相关法律、法规一致，如发生服务条款与相关法律、法规条款有相抵触的内容，抵触部分以法律、法规条款为准。&lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;保障 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;用户同意保障和维护[Portal:PortalName]全体成员的利益，负责支付由用户使用超出服务范围引起的一切费用（包括但不限于：律师费用、违反服务条款的损害补偿费用以及其它第三人使用用户的电脑、帐号和其它知识产权的追索费）。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;用户须对违反国家法律规定及本服务条款所产生的一切后果承担法律责任。 &lt;/p&gt;
+&lt;p align="left"&gt;&lt;strong&gt;其它 &lt;/strong&gt;&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;如本服务条款中的任何条款无论因何种原因完全或部分无效或不具有执行力，本服务条款的其余条款仍应有效且具有约束力，并且努力使该规定反映之意向具备效力。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;本服务条款构成您与[Portal:PortalName]之全部协议，规范您对本服务之使用，并取代您先前与[Portal:PortalName]达成的全部协议。但在您使用相关服务、或使用第三方提供的内容或软件时，亦应遵从所适用之附加条款及权利。　&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;每项服务的内容、收费标准、收费方式、服务费及服务条款应以最后发布的通知为准。&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[Portal:PortalName]保留本服务条款之解释权。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="middle"&gt;[Portal:PortalName]&lt;/p&gt;
+</value>
+  </data>
+  <data name="MESSAGE_RETRIEVEPASSWORD_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>为了重新获得密码，您需要提供用户名和密码问题的答案。</value>
+  </data>
+  <data name="MoveRoot.Action" xml:space="preserve">
+    <value>移动模块</value>
+  </data>
+  <data name="SkinLoadError.Text" xml:space="preserve">
+    <value>无法加载皮肤: {0},  错误: {1}&lt;br/&gt;</value>
+  </data>
+  <data name="TokenReplaceRestrictedProperty.Text" xml:space="preserve">
+    <value>访问[{0}:{1}]时发生错误, 数据源{0}中对{1}的访问是受限的。</value>
+  </data>
+  <data name="TokenReplaceUnknownProperty.Text" xml:space="preserve">
+    <value>访问[{0}:{1}]发生错误, 数据源{0}中未知{1}标记。</value>
+  </data>
+  <data name="Write to Folder.Permission" xml:space="preserve">
+    <value>写入文件夹</value>
+  </data>
+  <data name="License.Text" xml:space="preserve">
+    <value>DotNetNuke® - http://www.dotnetnuke.com&lt;br/&gt;
+Copyright (c) 2002-2008&lt;br/&gt;
+by DotNetNuke Corporation
+&lt;br/&gt;&lt;br/&gt;
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+&lt;br/&gt;&lt;br/&gt;
+The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+&lt;br/&gt;&lt;br/&gt;
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.</value>
+  </data>
+  <data name="EMAIL_ROLE_UPDATE_BODY.Text" xml:space="preserve">
+    <value>亲爱的 [User:DisplayName],
+
+您在[Portal:PortalName]的帐号近期已升级， 您拥有新安全角色是：
+
+角色: [Custom:0]
+描述: [Custom:1]
+授权日期: [Custom:2]
+截止日期: [Custom:3]
+
+
+感谢您的支持。
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_ROLE_UPDATE_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] 帐号更新通知</value>
+  </data>
+  <data name="//Host//WhatsNew.String" xml:space="preserve">
+    <value>What's New</value>
+  </data>
+  <data name="EMAIL_USER_UPDATED_OWN_PASSWOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Password Updated</value>
+  </data>
+  <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_BODY.Text" xml:space="preserve">
+    <value>Dear [User:DisplayName],
+
+You have changed your Password on [Portal:PortalName].
+
+Please login using the following information:
+
+Portal Website Address: [Portal:URL]
+Username:   [User:Username]
+Password: [Membership:Password]
+
+Sincerely,
+[Portal:PortalName]</value>
+  </data>
+  <data name="NoLoginControl.Text" xml:space="preserve">
+    <value>You have been redirected to this default Login Page because the Login Page set for this website does not contain a valid DotNetNuke Account Login module, or the permissions have not been set correctly.</value>
+  </data>
+  <data name="PurgeCacheUnsupported.Text" xml:space="preserve">
+    <value>This Caching Provider does not require the PurgeCache feature.</value>
+  </data>
+  <data name="ViewSource.Action" xml:space="preserve">
+    <value>查看资源</value>
+  </data>
+  <data name="//Home.String" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="//News.String" xml:space="preserve">
+    <value>新闻</value>
+  </data>
+  <data name="//Store.String" xml:space="preserve">
+    <value>店铺</value>
+  </data>
+  <data name="//Article.String" xml:space="preserve">
+    <value>文章</value>
+  </data>
+</root>

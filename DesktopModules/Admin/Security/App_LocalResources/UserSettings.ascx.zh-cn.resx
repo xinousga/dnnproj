@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_usersettings.Text" xml:space="preserve">
+    <value>用户设置</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordFormat.Text" xml:space="preserve">
+    <value>密码格式:</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresQuestionAndAnswer.Text" xml:space="preserve">
+    <value>需要安全问题和答案:</value>
+  </data>
+  <data name="MembershipProviderConfig_MinPasswordLength.Text" xml:space="preserve">
+    <value>密码长度最小值:</value>
+  </data>
+  <data name="MembershipProviderConfig_MinNonAlphanumericCharacters.Text" xml:space="preserve">
+    <value>密码最少包含特殊字符数:</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordStrengthRegularExpression.Text" xml:space="preserve">
+    <value>密码验证表达式：</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordFormat.Help" xml:space="preserve">
+    <value>密码格式</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresQuestionAndAnswer.Help" xml:space="preserve">
+    <value>要求用户密码问题和答案来重新获得密码</value>
+  </data>
+  <data name="MembershipProviderConfig_MinPasswordLength.Help" xml:space="preserve">
+    <value>密码长度所需最少字符数</value>
+  </data>
+  <data name="MembershipProviderConfig_MinNonAlphanumericCharacters.Help" xml:space="preserve">
+    <value>密码至少要包含几个不是数字和字母的特殊字符，例如!＠#%^&amp;*()_+.</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordStrengthRegularExpression.Help" xml:space="preserve">
+    <value>用来验证密码有效性的正则表达式</value>
+  </data>
+  <data name="ProviderSettings.Text" xml:space="preserve">
+    <value>Membership Provider 设置</value>
+  </data>
+  <data name="UserAccounts.Text" xml:space="preserve">
+    <value>用户帐户设置</value>
+  </data>
+  <data name="Column_Address.Text" xml:space="preserve">
+    <value>显示地址栏:</value>
+  </data>
+  <data name="Column_Address.Help" xml:space="preserve">
+    <value>显示地址栏</value>
+  </data>
+  <data name="Column_Authorized.Text" xml:space="preserve">
+    <value>显示授权栏:</value>
+  </data>
+  <data name="Column_Authorized.Help" xml:space="preserve">
+    <value>显示授权栏</value>
+  </data>
+  <data name="Column_CreatedDate.Text" xml:space="preserve">
+    <value>显示创建日期栏:</value>
+  </data>
+  <data name="Column_CreatedDate.Help" xml:space="preserve">
+    <value>显示创建日期栏</value>
+  </data>
+  <data name="Column_DisplayName.Text" xml:space="preserve">
+    <value>显示姓名栏:</value>
+  </data>
+  <data name="Column_DisplayName.Help" xml:space="preserve">
+    <value>显示姓名栏</value>
+  </data>
+  <data name="Column_Email.Text" xml:space="preserve">
+    <value>显示电子邮件栏:</value>
+  </data>
+  <data name="Column_Email.Help" xml:space="preserve">
+    <value>显示电子邮件栏</value>
+  </data>
+  <data name="Column_FirstName.Text" xml:space="preserve">
+    <value>显示名字栏:</value>
+  </data>
+  <data name="Column_FirstName.Help" xml:space="preserve">
+    <value>显示名字栏</value>
+  </data>
+  <data name="Column_LastLogin.Text" xml:space="preserve">
+    <value>显示最后登录栏</value>
+  </data>
+  <data name="Column_LastLogin.Help" xml:space="preserve">
+    <value>显示最后登录栏</value>
+  </data>
+  <data name="Column_LastName.Text" xml:space="preserve">
+    <value>显示姓氏栏:</value>
+  </data>
+  <data name="Column_LastName.Help" xml:space="preserve">
+    <value>显示姓氏栏</value>
+  </data>
+  <data name="Column_Telephone.Text" xml:space="preserve">
+    <value>显示电话栏:</value>
+  </data>
+  <data name="Column_Telephone.Help" xml:space="preserve">
+    <value>显示电话栏</value>
+  </data>
+  <data name="Records_PerPage.Text" xml:space="preserve">
+    <value>每页用户数:</value>
+  </data>
+  <data name="Records_PerPage.Help" xml:space="preserve">
+    <value>输入每页显示的用户的个数</value>
+  </data>
+  <data name="MembershipProviderConfig_MaxInvalidPasswordAttempts.Text" xml:space="preserve">
+    <value>最多无效登录尝试次数:</value>
+  </data>
+  <data name="MembershipProviderConfig_MaxInvalidPasswordAttempts.Help" xml:space="preserve">
+    <value>在指定时间内最多允许登录失败尝试次数</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordAttemptWindow.Text" xml:space="preserve">
+    <value>无效尝试时限 (分钟):</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordAttemptWindow.Help" xml:space="preserve">
+    <value>在此时限内如果多次无效登录达到最多允许尝试次数时用户将被锁定，经过此时限后可再次登陆。</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordResetEnabled.Text" xml:space="preserve">
+    <value>可否重置密码:</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordResetEnabled.Help" xml:space="preserve">
+    <value>管理员是否可重置用户密码</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordRetrievalEnabled.Text" xml:space="preserve">
+    <value>启用找回密码:</value>
+  </data>
+  <data name="MembershipProviderConfig_PasswordRetrievalEnabled.Help" xml:space="preserve">
+    <value>用户是否可以找回密码</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>密码过期 （天）:</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>用户必须在指定天数内更改密码。填0表示永不过期。</value>
+  </data>
+  <data name="ProviderSettingsHelp.Text" xml:space="preserve">
+    <value>您可在此配置Membership Provider, 其中一些provider的设置是可以更改的， 默认的provider是基于ASP.NET用户角色系统，在web.config里修改才能更新。</value>
+  </data>
+  <data name="PasswordSettings.Text" xml:space="preserve">
+    <value>密码时效设置</value>
+  </data>
+  <data name="PasswordSettingsHelp.Text" xml:space="preserve">
+    <value>在这里设置密码时效性</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>密码过期提醒（天）:</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>提前多少天提醒用户密码马上要过期。</value>
+  </data>
+  <data name="Display_Mode.Text" xml:space="preserve">
+    <value>默认显示模式</value>
+  </data>
+  <data name="Display_Mode.Help" xml:space="preserve">
+    <value>选择用户列表默认的显示模式</value>
+  </data>
+  <data name="Security_CaptchaLogin.Text" xml:space="preserve">
+    <value>登陆时使用安全码:</value>
+  </data>
+  <data name="Security_CaptchaLogin.Help" xml:space="preserve">
+    <value>选择登录时是否使用安全码，用户输入图片内显示的安全码并核对后才能登录。</value>
+  </data>
+  <data name="Security_CaptchaRegister.Text" xml:space="preserve">
+    <value>注册时使用安全码:</value>
+  </data>
+  <data name="Security_CaptchaRegister.Help" xml:space="preserve">
+    <value>选择注册时是否使用安全码，用户输入图片内显示的安全码并核对后才能注册。</value>
+  </data>
+  <data name="Redirect_AfterLogin.Text" xml:space="preserve">
+    <value>登录后重定向到:</value>
+  </data>
+  <data name="Redirect_AfterLogin.Help" xml:space="preserve">
+    <value>可在此选择一个用户成功登陆后跳转到的页面。</value>
+  </data>
+  <data name="Redirect_AfterLogout.Text" xml:space="preserve">
+    <value>退出后重定向到：</value>
+  </data>
+  <data name="Redirect_AfterLogout.Help" xml:space="preserve">
+    <value>可在此选择一个用户退出系统后跳转到的页面。</value>
+  </data>
+  <data name="Security_UsersControl.Text" xml:space="preserve">
+    <value>在管理角色中显示用户的模式</value>
+  </data>
+  <data name="Security_UsersControl.Help" xml:space="preserve">
+    <value>角选择色管理中的用户控制</value>
+  </data>
+  <data name="FirstLetter.Text" xml:space="preserve">
+    <value>首字母</value>
+  </data>
+  <data name="Combo.Text" xml:space="preserve">
+    <value>组合框</value>
+  </data>
+  <data name="TextBox.Text" xml:space="preserve">
+    <value>文本框</value>
+  </data>
+  <data name="Redirect_AfterRegistration.Text" xml:space="preserve">
+    <value>注册成功后重定向到:</value>
+  </data>
+  <data name="Redirect_AfterRegistration.Help" xml:space="preserve">
+    <value>可在此选择一个用户注册成功后跳转到的页面。</value>
+  </data>
+  <data name="Security_RequireValidProfile.Text" xml:space="preserve">
+    <value>注册中要求填写有效的个人档案信息</value>
+  </data>
+  <data name="Security_RequireValidProfile.Help" xml:space="preserve">
+    <value>你可以选择是否要求用户填写有效的用户档案信息。</value>
+  </data>
+  <data name="Display_SuppressPager.Help" xml:space="preserve">
+    <value>如果用户列表只有一页,选中以隐藏翻页.</value>
+  </data>
+  <data name="Display_SuppressPager.Text" xml:space="preserve">
+    <value>隐藏翻页?</value>
+  </data>
+  <data name="MembersOnly.Text" xml:space="preserve">
+    <value>仅限会员</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Help" xml:space="preserve">
+    <value>选择用户档案默认的显示模式</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Text" xml:space="preserve">
+    <value>默认用户档案显示模式</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Help" xml:space="preserve">
+    <value>选中以显示用户档案可视性设置控件</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Text" xml:space="preserve">
+    <value>显示用户档案可视性设置</value>
+  </data>
+  <data name="Profile_ManageServices.Help" xml:space="preserve">
+    <value>是否在用户管理中显示服务管理，　在服务管理中用户可选择是否加入或退出站内公开的角色以获取相应的服务。</value>
+  </data>
+  <data name="Profile_ManageServices.Text" xml:space="preserve">
+    <value>显示服务管理</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
+    <value>如果用户档案信息不全,可以选择要求用户在登陆更新个人档案信息.</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Text" xml:space="preserve">
+    <value>要求填写有效的个人档案信息:</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Help" xml:space="preserve">
+    <value>您可以选择性的指定用户显示名的格式，显示格式可以使用动态标签，例如使用[FIRSTNAME] [LASTNAME]。 指定显示名称格式后，用户将不可更改显示名。</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Text" xml:space="preserve">
+    <value>显示名格式:</value>
+  </data>
+  <data name="Security_EmailValidation.Help" xml:space="preserve">
+    <value>在此修改默认验证电子邮件的正则表达式，用来验证注册时输入的电子邮件地址。</value>
+  </data>
+  <data name="Security_EmailValidation.Text" xml:space="preserve">
+    <value>电子邮件验证:</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresUniqueEmail.Help" xml:space="preserve">
+    <value>电子邮件是否必须为唯一的</value>
+  </data>
+  <data name="MembershipProviderConfig_RequiresUniqueEmail.Text" xml:space="preserve">
+    <value>电子邮件不能重复:</value>
+  </data>
+</root>

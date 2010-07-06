@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version">
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="CurrentArticles.Text">
+<value>Current Articles</value>
+</data>
+<data name="Categories.Text">
+<value>Categories</value>
+</data>
+<data name="Search.Text">
+<value>Search</value>
+</data>
+<data name="Syndication.Text">
+<value>Syndication</value>
+</data>
+<data name="CreateArticle.Text">
+<value>Create Article</value>
+</data>
+<data name="MyArticles.Text">
+<value>My Articles</value>
+</data>
+<data name="ApproveArticles.Text">
+<value>Approve Articles</value>
+</data>
+<data name="AdminOptions.Text">
+<value>Admin Options</value>
+</data>
+<data name="PreviousPage.Text">
+<value>Previous Page</value>
+</data>
+<data name="NextPage.Text">
+<value>Next Page</value>
+</data>
+<data name="NoComments.Text">
+<value>Currently, there are no comments. Be the first to post one!&lt;br&gt;</value>
+</data>
+<data name="ShowHiddenAndExpired.Text">
+<value>Show Hidden &amp; Expired Articles</value>
+</data>
+<data name="NoArticles.Text">
+<value>&lt;br&gt;No Articles Found.</value>
+</data>
+<data name="CommentLoggedIn.Text">
+<value>You must be logged in to post a comment. You can login &lt;a href="{0}" class="CommandButton"&gt;here&lt;/a&gt;</value>
+</data>
+<data name="PostComment.Text">
+<value>Click &lt;a href="{0}" class="CommandButton"&gt;here&lt;/a&gt; to post a comment</value>
+</data>
+</root>

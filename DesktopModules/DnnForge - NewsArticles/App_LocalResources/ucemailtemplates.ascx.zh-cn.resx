@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailTemplates.Text">
+    <value>邮件模版</value>
+  </data>
+  <data name="EmailTemplatesDescription.Text">
+    <value>在这里，你可以定制这个模块发送的邮件。</value>
+  </data>
+  <data name="Name.Text">
+    <value>名称</value>
+  </data>
+  <data name="Name.Help">
+    <value>选择要编辑的模版。</value>
+  </data>
+  <data name="Subject.Text">
+    <value>主题</value>
+  </data>
+  <data name="Subject.Help">
+    <value>邮件的主题。</value>
+  </data>
+  <data name="valSubject.Text">
+    <value>&lt;br&gt;你必须输入一个有效的主题</value>
+  </data>
+  <data name="Template.Text">
+    <value>模版</value>
+  </data>
+  <data name="TemplateHelp.Text">
+    <value>在这里输入邮件的模版。</value>
+  </data>
+  <data name="valTemplate.ErrorMessage">
+    <value>模版正文是必需的</value>
+  </data>
+  <data name="EmailTemplateHelp.Text">
+    <value>邮件模版帮助</value>
+  </data>
+  <data name="TemplateArticleHelpDescription.Text">
+    <value>在这里，你可以查看定制文章邮件的标签(文章不通过, 文章通过)。</value>
+  </data>
+  <data name="TemplateCommentHelpDescription.Text">
+    <value>在这里, 你可以查看定制评论邮件的标签(评论发布)。</value>
+  </data>
+  <data name="UserName.Text">
+    <value>显示文章作者的用户名</value>
+  </data>
+  <data name="FirstName.Text">
+    <value>显示文章作者的名称</value>
+  </data>
+  <data name="LastName.Text">
+    <value>显示文章作者的姓氏</value>
+  </data>
+  <data name="FullName.Text">
+    <value>显示文章作者的全名</value>
+  </data>
+  <data name="PortalName.Text">
+    <value>显示门户网站的名称</value>
+  </data>
+  <data name="PostDate.Text">
+    <value>显示文章发布的日期和时间</value>
+  </data>
+  <data name="Title.Text">
+    <value>显示文章的标题</value>
+  </data>
+  <data name="Summary.Text">
+    <value>显示文章的概要</value>
+  </data>
+  <data name="Link.Text">
+    <value>显示文章的存取链接</value>
+  </data>
+  <data name="CommentUserName.Text">
+    <value>显示评论者的用户名</value>
+  </data>
+  <data name="CommentFirstName.Text">
+    <value>显示评论者的名称</value>
+  </data>
+  <data name="CommentLastName.Text">
+    <value>显示评论者的姓氏</value>
+  </data>
+  <data name="CommentFullName.Text">
+    <value>显示评论者的全名</value>
+  </data>
+  <data name="CommentPostDate.Text">
+    <value>显示评论的发布日期和时间</value>
+  </data>
+  <data name="Comment.Text">
+    <value>显示详细评论</value>
+  </data>
+  <data name="CommentLink.Text">
+    <value>显示评论的存取链接</value>
+  </data>
+  <data name="ControlTitle_emailtemplates.Text">
+    <value>编辑邮件模版</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;关于邮件模版&lt;/h1&gt;&lt;p&gt;这个模块允许你定制由这个模块发出的邮件。&lt;/p&gt;</value>
+  </data>
+</root>

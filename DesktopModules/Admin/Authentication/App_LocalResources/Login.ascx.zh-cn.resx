@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssociateHelp.Text" xml:space="preserve">
+    <value>您可以通过输入一个现有用户的用户名和密码 来关联此帐号到一个现有用户帐号</value>
+  </data>
+  <data name="AssociateTitle.Text" xml:space="preserve">
+    <value>与已有账户关联</value>
+  </data>
+  <data name="AuthenticatedHelp.Text" xml:space="preserve">
+    <value>您已经成功通过验证。但是通过验证的帐号不是这个站点的用户，您可通过以下方法来关联此账号,  输入一个已有用户名和密码将，或者注册一个新用户。</value>
+  </data>
+  <data name="AuthenticatedTitle.Text" xml:space="preserve">
+    <value>通过验证</value>
+  </data>
+  <data name="cmdAssociate.Text" xml:space="preserve">
+    <value>和用户帐号关联</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>创建新帐号</value>
+  </data>
+  <data name="cmdForgotPassword.Text" xml:space="preserve">
+    <value>找回密码?</value>
+  </data>
+  <data name="cmdPassword.Text" xml:space="preserve">
+    <value>获取密码</value>
+  </data>
+  <data name="cmdProceed.Text" xml:space="preserve">
+    <value>继续 (稍后更新密码)</value>
+  </data>
+  <data name="cmdRegister.Text" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>用户登录</value>
+  </data>
+  <data name="ControlTitle_login.Text" xml:space="preserve">
+    <value>用户登录</value>
+  </data>
+  <data name="ControlTitle_signin.Text" xml:space="preserve">
+    <value>用户登录</value>
+  </data>
+  <data name="CreateTitle.Text" xml:space="preserve">
+    <value>创建新用户</value>
+  </data>
+  <data name="EnterCode.Text" xml:space="preserve">
+    <value>输入验证码</value>
+  </data>
+  <data name="InvalidCode.Text" xml:space="preserve">
+    <value>验证码错误</value>
+  </data>
+  <data name="LoginFailed.Text" xml:space="preserve">
+    <value>登录失败，注意区分密码大小写</value>
+  </data>
+  <data name="PasswordExpired.Text" xml:space="preserve">
+    <value>您的密码已于 {0} 过期，继续操作前请更新密码。</value>
+  </data>
+  <data name="PasswordExpiring.Text" xml:space="preserve">
+    <value>您的密码将于 {0} 过期，继续操作前请更新密码。</value>
+  </data>
+  <data name="PasswordInvalid.Text" xml:space="preserve">
+    <value>您必须输入正确的密码。如果您不知道密码格式请与站点管理员联系。</value>
+  </data>
+  <data name="PasswordMismatch.Text" xml:space="preserve">
+    <value>密码不一致</value>
+  </data>
+  <data name="PasswordMissing.Text" xml:space="preserve">
+    <value>要更改密码必须提供当前密码</value>
+  </data>
+  <data name="PasswordNotDifferent.Text" xml:space="preserve">
+    <value>新密码和原有密码相同，请输入不同的密码</value>
+  </data>
+  <data name="PasswordSent.Text" xml:space="preserve">
+    <value>密码已经发送到&lt;br&gt;您的电子邮件地址.</value>
+  </data>
+  <data name="PasswordUpdate.Text" xml:space="preserve">
+    <value>请先更新您的密码，然后继续。</value>
+  </data>
+  <data name="plToken.Help" xml:space="preserve">
+    <value>用于确定用户身份的唯一标记。</value>
+  </data>
+  <data name="plToken.Text" xml:space="preserve">
+    <value>用户标记：</value>
+  </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>身份验证类型</value>
+  </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="ProfileUpdate.Text" xml:space="preserve">
+    <value>请先更新您的个人信息，然后继续。</value>
+  </data>
+  <data name="RegisterTitle.Text" xml:space="preserve">
+    <value>注册一个新帐户</value>
+  </data>
+  <data name="Remember.Text" xml:space="preserve">
+    <value>保存登录信息</value>
+  </data>
+  <data name="UserLockedOut.Text" xml:space="preserve">
+    <value>此帐户因为多次登录错误已经被锁定。请等待10分钟然后登录。如果忘记密码，请尝试使用密码找回功能，或者联系站点管理员。</value>
+  </data>
+  <data name="UsernameError.Text" xml:space="preserve">
+    <value>用户名不存在</value>
+  </data>
+  <data name="UserNotAuthorized.Text" xml:space="preserve">
+    <value>您还没有获得访问此站点的授权。</value>
+  </data>
+  <data name="AssociationFailed.Text" xml:space="preserve">
+    <value>关联用户时发生错误，请注意区分现有用户用户名和密码大小写.</value>
+  </data>
+</root>

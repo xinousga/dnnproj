@@ -1,0 +1,107 @@
+﻿/* YRTablePlane */
+.YRTablePlane
+{
+	background-color:#6699CC;
+	font-family:宋体;
+}
+
+.YRTablePlane td
+{
+	font-size:12px;	
+	line-height:18px;
+	background-color:#ffffff;
+	padding:3px;
+	color:#336699;
+	font-family:宋体;
+}
+
+.YRTablePlane th
+{
+	color:black;
+	text-align:left;
+	font-size:12px;	
+	line-height:18px;
+	padding:3px;
+	background-color:#99CCFF;
+	font-family:宋体;
+}
+
+.YRTablePlane th a  {color: Black;font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+.YRTablePlane th a:link {color: Black;font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+.YRTablePlane th a:visited {color: Black;font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+.YRTablePlane th a:hover {color: red; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px;  text-decoration: none; }
+.YRTablePlane th a:active { color: Black;font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+
+.YRRePlane
+{
+	border:1px #eeeeee solid;
+}
+
+.YRRePlane th
+{
+	background-color:#EFEFEF;
+	font-weight:normal;
+	text-align:right;
+}
+
+.YRTextBox
+{
+	font-size:12px;	
+	font-family:宋体;
+}
+
+.YRButton
+{
+	font-size:12px;	
+	font-family:宋体;
+	padding:2px;
+}
+
+.YRBoldInfo
+{
+	font-size:12px;	
+	line-height:18px;
+	color:#336699;
+	font-family:宋体;
+	font-weight:bold;
+}
+
+.YRInfo
+{
+	font-size:12px;	
+	line-height:18px;
+	color:#336699;
+	font-family:宋体;
+}
+
+.YRInfoRed
+{
+	font-size:12px;	
+	line-height:18px;
+	color:red;
+	font-family:宋体;
+}
+
+.YRBoldInfo a { font-weight:bold; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+.YRBoldInfo a:link { font-weight:bold; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+.YRBoldInfo a:visited { font-weight:bold; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+.YRBoldInfo a:hover { font-weight:bold; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px;  text-decoration: none; }
+.YRBoldInfo a:active { font-weight:bold; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+
+
+.YRLinkBtn
+{
+	color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; 
+}
+
+a.YRLinkBtn  { font-weight:normal; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+a.YRLinkBtn:link { font-weight:normal; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+a.YRLinkBtn:visited { font-weight:normal; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+a.YRLinkBtn:hover { font-weight:normal; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px;  text-decoration: none; }
+a.YRLinkBtn:active { font-weight:normal; color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+
+a.YRlink  {color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+a.YRlink:link {color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+a.YRlink:visited {color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
+a.YRlink:hover { color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px;  text-decoration: none; }
+a.YRlink:active {color: #333399; font-size: 12px; font-family: "宋体", "新宋体",Tahoma, Verdana, Helvetica, sans-serif; line-height: 17px; text-decoration: none; }
